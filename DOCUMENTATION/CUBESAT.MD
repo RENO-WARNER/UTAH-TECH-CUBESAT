@@ -1,0 +1,169 @@
+
+NEED A GOOD NAME:
+
+Skim over the CubeSat Design specification (CDS)
+
+MISSION
+- Launch
+
+
+- Photograph
+	- Wait for time near photograph zone
+	- Detumble
+	- Magnetorquers
+	- Begin Reaction wheel
+	- Take photos
+
+- Transmit
+	- Wait for time near 
+	- Detumble
+	- Magnetorquers
+	- Begin reaction wheel to point
+	- Transmit data
+	- End transmission
+
+EXAMPLES
+
+
+# QUETZAL-1
+
+# ORESAT
+
+
+# SUBSYSTEM(ORDER BY IMPORTANCE)
+
+- POWER
+- CONTROL
+- COMMUNICATION
+- ADCS(ATTITUDE DETERMINATION AND CONTROL)
+- PAYLOAD
+- TEST/DEBUG
+
+
+INTERSYSTEM COMMUNICATION
+	BUS
+	BACKPLANE
+
+MODULAR VS CENTRAL
+
+
+
+# POWER
+- SOLAR
+- BATTERY
+- MANAGEMENT
+
+I LIKE USING H BRIDGES FOR CONTROL OF POWER
+
+# CONTROL
+- CHIPS
+	- STM32U5
+- ISOLATION
+	- OCTOCOUPLERS?
+- REDUDANT
+	CAN <-> SPI/I2C
+
+	FRAM LOOKS TO BE RADIATION RESISTANT
+
+# COMMUNICATION
+	LORA?
+	SSDV FOR SERIALIZATION?
+	FREQUENCY
+		915/433 MHZ
+	
+	ANTENNTA
+		ISOTROPIC?
+		GAIN?
+
+	REDUDANT
+		RF LOG DETECTORS?
+
+# ADCS
+- WHAT HAPPENS IF WE SPIN THE REACTION WHEEL OFF AXIS?
+
+## DETERMINATION
+
+- STAR-TRACKER
+	- [COTS](https://github.com/oresat/COTS-Star-Tracker)
+	- [CROSS](https://github.com/cross-space-open/star-tracker-core)
+	- [HOKU](https://github.com/glennga/hoku)
+	- [LOST(UNIVERSITY OF WASHINGTON)](https://github.com/UWCubeSat/lost/tree/master)
+	- [OPEN STAR TRACKER](https://github.com/UBNanosatLab/openstartracker)
+	- [SPEL](https://github.com/spel-uchile/Star_Tracker)
+	- [TETRA3](https://github.com/esa/tetra3)
+
+	ERRORS
+		POSSIBLE 
+
+		NEED TO CONFIRM THAT IMAGES WON'T BE SHAKY SO LOOK AT IMU FIRST
+
+		SUN-TRACKER?
+			REQUIRES ON RTC
+			ONLY PROVIDES 2 DOF
+		HORIZON-TRACKER?
+			
+			
+	## CONTROL
+		MAGNETORQUERS
+
+		REACTION WHEELS
+
+
+# PAYLOAD
+	CAMERA?
+		WAVELENGTHS(IR,VISIBLE,UV,ALL)?
+
+		CHECK OUT LIQUID LENSES
+
+		GET ONE WIHT ONBOARD IMAGE PROCESSING/MEMORY IF POSSIBLE
+
+		PROTOCOL
+			USB3?
+				DIRECT CONNECTION TO MCU
+				SLOWER FPS
+			CSPI?
+				HAS TO HAVE ANOTHER MCU ALONG WITH MEMORY
+
+	TESTING
+		CHECK IF DEPTH OF FIELD
+		
+		ACROSS THE CAMPUS?
+		FAR AWAY MOUNTAIN?
+		MOON FOCUSED?
+
+	
+WARNING: NEED ANOTHER NAME FOR CONTROL(CPU)
+
+
+# TEST/DEBUG
+
+SWD CONNNECTOR
+
+EXTERNAL USB -> UART MODULE
+EXTERNAL USB -> CHARGE
+CHARGE LED
+
+COMMUNICATION
+	EVERY SINGLE COMMUNICATION ERROR
+		PULLED HIGH
+		PULLED LOW
+		TIMEOUT
+		BAD DATA
+EVERY SINGLE IC
+	WHOAMI REGISTER
+	INTERNAL HARDWARE TESTS
+
+Lots of test points
+
+
+
+	CAN
+	I2C/SPI
+	UART
+
+
+	HARD BOARD
+	FLEX BOARD
+	WIRE
+
+[Control System](https://lirias.kuleuven.be/bitstream/123456789/514285/1/PhD_TjorvenDelabie.pdf)
