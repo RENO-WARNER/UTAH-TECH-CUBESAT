@@ -1,37 +1,32 @@
-### Utah Tech Cube
-
+### Utah Tech CubeSat
+#### TEMPLATE Function Report
 ---
-#### **TEMPLATE** **FUNCTION** **V1**
-
+### **TEMPLATE** **Function** **V1**
 **Subsystem Members**
-
-* 
-* 
+* _
+* _
 
 **Subsystem Leader**
-
-* 
+* _
 
 **System Engineers**
-
-* 
-* 
+* _
+* _
 
 **Project Manager**
-
-* 
-
+* _
 ---
-
-
-## Handle Data
-
-* SPI
-* I2C
-* UART
-
-## Store Data
-
-
-
-Communicate
+* Main Function
+	* Supporting Function
+		* Supporting Supporting Function
+		* Supporting Supporting Function
+		* Supporting Supporting Function
+	* Supporting Function
+	* Supporting Function
+* Main Function
+	* Supporting Function
+		* Supporting Supporting Function
+		* Supporting Supporting Function
+* Main Function
+	* Supporting Function
+		* Supporting Supporting Function
