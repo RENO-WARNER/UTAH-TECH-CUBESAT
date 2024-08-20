@@ -1,32 +1,32 @@
-
+### Utah Tech CubeSat
+#### TEMPLATE Function Report
 ---
-### **TEMPLATE** **FUNCTION** **V1**
-
+### **TEMPLATE** **Function** **V1**
 **Subsystem Members**
-
-* 
-* 
+* _
+* _
 
 **Subsystem Leader**
-
-* 
+* _
 
 **System Engineers**
-
-* 
-* 
+* _
+* _
 
 **Project Manager**
-
-* 
-
+* _
 ---
-
-### Tier 0
-1. Main Function
-2. Main Function
-### Tier 1 
-Supporting Functions that support
-### Tier 2
-
-### Teir N
+* Main Function
+	* Supporting Function
+		* Supporting Supporting Function
+		* Supporting Supporting Function
+		* Supporting Supporting Function
+	* Supporting Function
+	* Supporting Function
+* Main Function
+	* Supporting Function
+		* Supporting Supporting Function
+		* Supporting Supporting Function
+* Main Function
+	* Supporting Function
+		* Supporting Supporting Function
