@@ -1,7 +1,6 @@
-### Utah Tech Cube
 
 ---
-#### **TEMPLATE** **FUNCTION** **V1**
+### **TEMPLATE** **FUNCTION** **V1**
 
 **Subsystem Members**
 
@@ -23,15 +22,11 @@
 
 ---
 
+### Tier 0
+1. Main Function
+2. Main Function
+### Tier 1 
+Supporting Functions that support
+### Tier 2
 
-## Handle Data
-
-* SPI
-* I2C
-* UART
-
-## Store Data
-
-
-
-Communicate
+### Teir N

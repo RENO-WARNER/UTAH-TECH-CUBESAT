@@ -6,7 +6,7 @@
 * LARRY BURKE
 * RILEY PITCHER
 ## COMMUNICATION
-
+* Patrick Robanske
 ## CONTROLS
 
 ## POWER
