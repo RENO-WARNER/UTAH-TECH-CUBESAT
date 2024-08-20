@@ -18,7 +18,22 @@ Each subsystem development phase requires submitting the following reports:
 
 ### **Schematic:**
 
+Creating a Schematic
+Schematics will use the Utah Tech Cubesat Template
+
+
+Everyone will use a Heicharchal Document
+REFRENCE.schdoc will be used as
+
+
 An Image
+
+Use Template from Altium Designer Workspace make sure to fill out
+
+Subsystem
+Section
+Version
+Date
 
 ### **Layout:**
 ### **Test:**
