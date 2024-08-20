@@ -18,7 +18,7 @@ Each subsystem development phase requires submitting the following reports:
 
 ### **Schematic:**
 
-An Image
+An Image of your Schematic
 
 ### **Layout:**
 ### **Test:**
