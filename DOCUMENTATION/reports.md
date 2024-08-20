@@ -26,7 +26,7 @@ Everyone will use a Heicharchal Document
 REFRENCE.schdoc will be used as
 
 
-An Image
+An Image of your Schematic
 
 Use Template from Altium Designer Workspace make sure to fill out
 
