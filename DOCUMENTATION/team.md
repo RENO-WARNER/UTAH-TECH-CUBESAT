@@ -3,8 +3,8 @@
 ## Program Manager
 * RENO WARNER
 ## System Engineers
-* LARRY BURKE
-* RILEY PITCHER
+* Larry Burke
+* Riley Pitcher
 ## COMMUNICATION
 * Patrick Robanske
 ## CONTROLS
