@@ -10,7 +10,7 @@
 ## CONTROLS
 * Ben Sherman
 ## POWER
-
+* Shands Alexander
 ## PAYLOAD
 
 ## STRUCTURE
