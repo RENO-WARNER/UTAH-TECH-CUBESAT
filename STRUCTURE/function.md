@@ -2,8 +2,8 @@
 ---
 ### TEMPLATE Function V1
 **Subsystem Members**
-* Korbin Burton
 * Berk Mair
+* Korbin Burton
 
 **Subsystem Leader**
 * Berk Mair
