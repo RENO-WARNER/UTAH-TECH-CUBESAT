@@ -1,6 +1,6 @@
-
+# Utah Tech CubeSat: Template Report
 ---
-### **TEMPLATE** **Function** **V1**
+### TEMPLATE Function V1
 **Subsystem Members**
 * _
 * _
@@ -20,7 +20,7 @@
 **BELOW IS A SIGNED VERSION**
 
 ---
-### **TEMPLATE** **Function** **V1**
+### TEMPLATE Function V1
 **Subsystem Members**
 * John Doe
 * John Doe
