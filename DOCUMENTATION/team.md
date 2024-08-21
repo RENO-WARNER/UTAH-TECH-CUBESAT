@@ -7,6 +7,7 @@
 * Riley Pitcher
 ## COMMUNICATION
 * Patrick Robanske
+* Adam DiMaio
 ## CONTROLS
 * Ben Sherman
 * Trace Shafer
