@@ -9,6 +9,7 @@
 * Patrick Robanske
 ## CONTROLS
 * Ben Sherman
+* Trace Shafer
 ## POWER
 * Shands Alexander
 ## PAYLOAD
