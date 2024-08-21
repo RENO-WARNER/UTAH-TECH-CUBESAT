@@ -14,7 +14,7 @@
 ## POWER
 * Shands Alexander
 ## PAYLOAD
-
+* Rex Morgan
 ## STRUCTURE
 * Berk Mair
 * Korbin Burton
