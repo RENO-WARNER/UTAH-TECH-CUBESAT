@@ -1,4 +1,9 @@
 # Utah Tech CubeSat: Getting Started Guide
+## Contents
+* [Introduction](#introduction)
+* [Project Management](#project-management)
+* [Prerequisites](#prerequisites)
+* [Tips](#tips)
 ## Introduction
 Welcome to the Utah Water Resource Management CubeSat project! This guide will provide a comprehensive overview of the project, the CubeSat standard, our chosen subsystems, the development structure, prerequisites, and helpful resources. 
 
@@ -52,43 +57,26 @@ We embrace an iterative and collaborative development approach using Git for ver
 
 Study: **[Report Document](./reports.md)**
 
+Onshape: **[Onshape](https://cad.onshape.com/documents/c4e77bdcab1a7f0aa07b8b8b/w/ea53107cd727d7a4b10273b6/e/1b6fa754c8cf8c24668ebcda?renderMode=0&uiState=66c5ac7d0ce2432a1e3bed17)**
+
 ## Prerequisites
-### **1. Join the Discord:**
+### Join the Discord:
 1. Signup: **[Discord](https://discord.com/register)**
 2. Join: **[UTAH TECH UNIVERSITY CUBE SAT Discord](https://discord.gg/ZNtuyNdY)**
 3. Click: `UTAH TECH UNIVERSITY CUBE SAT`
 4. Click: `Edit Server Profile`(In The Drop Down)
 5. Change `Server Nickname` to full name
 
-### **2. VS Code and Git:**
-1. Download: **[VS Code](https://code.visualstudio.com/download)**
-2. Download: **[ Git](https://git-scm.com/download)**
-3. Study: **[Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)**
-4. Signup: **[Github](https://github.com/)** (Use University Email)
-5. Send: `@RENO WARNER LINK TO GITHUB ACCOUNT` (Over Discord)
-6. Study: [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+**If you have any issues communicate them using the discord for quick response.**
 
-**First Commit**
-1. Clone: **[Repository](https://github.com/RENO-WARNER/UTAH-TECH-CUBESAT)**
-2. Navigate to: `team.md`.
-3. Add your name under the relevant subsystem team.
-4. Navigate to the Source Control Tab: `Ctrl + Shift + G`
-5. Stage Changes: `team.md`
-6. Commit Message: `docs: added name`
-	* feat: Added Feature
-	* fix: Fixed Feature
-	* docs: Added Documentation
-7. Commit (Using the blue button)
-
-### **3. Study Open Source CubeSat Resources:**
+### Study Open Source CubeSat Resources:
 Explore these resources for inspiration and insights from other CubeSat projects:
-
 * [ORESAT](https://github.com/oresat)
 * [QUETZAL-1](https://github.com/Quetzal-1-CubeSat-Team/quetzal1-hardware)
 * [1K CUBE SAT](https://github.com/rgw3d/1KCubeSat_Hardware)
 * [ARTEMIS](https://github.com/hsfl/artemis-hardware)
 
-### **4. Altium Designer:**
+### Altium Designer:
 Altium Designer is our preferred PCB design software.
 
 * Apply: [Altium Education Student License](https://education.altium.com/) (One per subsystem is sufficient, but all members are encouraged to apply).
@@ -105,7 +93,7 @@ We are excited to have you on board for this impactful project! If you have any 
 #### Function Report
 * Use ChatGPT / Google Gemini to create using
 * Study **[ASU Requirments Sheet](https://dixiestate-my.sharepoint.com/:x:/r/personal/d00441759_utahtech_edu/Documents/Attachments/phoenix_requirements.xlsx?d=wbb50e20101e141d7aacbf00c178bc9cd&csf=1&web=1&e=yVgcJd)**
-#### Block Report
+#### Design Report
 * Study other CubeSat Block Diagrams
 	* [ORESAT Block Diagram](https://github.com/oresat/oresat.github.io/blob/master/pub/OreSat05_Block_Diagram.pdf)
 	* [QUETZAL-1]
@@ -130,6 +118,7 @@ We are excited to have you on board for this impactful project! If you have any 
 ### Preffered Manufactures
 * MCU: STM
 * Power ICs: TI
+* Connectors: Samtec
 * Capactiors/Inductors: Murata
 * Resistor: Yaego/TDK
 * Hardware(Standoffs / Nuts): RAF Electronic Hardware
