@@ -8,7 +8,7 @@
 ## COMMUNICATION
 * Patrick Robanske
 ## CONTROLS
-
+* Ben Sherman
 ## POWER
 
 ## PAYLOAD
