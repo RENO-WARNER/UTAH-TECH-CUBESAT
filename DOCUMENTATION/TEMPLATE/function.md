@@ -1,7 +1,6 @@
-### Utah Tech CubeSat
-#### TEMPLATE Function Report
+# Utah Tech CubeSat: Template Function Report
 ---
-### **TEMPLATE** **Function** **V1**
+### TEMPLATE Function V1
 **Subsystem Members**
 * _
 * _
