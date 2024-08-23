@@ -6,6 +6,8 @@
 * Braden Williams
 * Patrick Robanske
 * Ryley Horrocks
+* Gideon Iveoson
+* Davis Henderson
 
 **Subsystem Leader**
 * Braden Williams
@@ -38,5 +40,4 @@
     * Housing/electronics must be thermally stable
         * Heat is more of a problem than cold
         * We no cold here.
-    * 
     
