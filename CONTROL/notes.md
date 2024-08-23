@@ -3,7 +3,3 @@
 ### Magnetorquer
 
 ### Star tracker
-
-### GPS tracker
-
-
