@@ -11,11 +11,11 @@
 * Braden Williams
 
 **System Engineers**
-* Larry Burke
-* Riley Pitcher
+* _
+* _
 
 **Project Manager**
-* Reno Warner
+* _
 ---
 * Establish Uplinks/Downlinks capabilities between orbital payload and ground based users. 
 	* Reliable Signal 
