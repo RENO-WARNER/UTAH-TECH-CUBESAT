@@ -30,7 +30,9 @@ Each report will include a header with designated spaces for digital signatures 
 
 [Template](./TEMPLATE/header.md)
 
-Don't forget to change the template name to your subsystem
+**Don't fill in names in the header, only the associated person will sign**
+
+**Don't forget to change the template name to your subsystem**
 
 **When a revision needs to be made after a report has already been signed off, clone the header and increase the version number.**
 
