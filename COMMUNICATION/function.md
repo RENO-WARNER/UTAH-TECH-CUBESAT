@@ -30,13 +30,16 @@
         * Keep logs of space based computer logs
         * Keep buffer of commands  
     * Have comprehensive UI flowstream for prevledged users
-* Provide hardware for housing, controlling, actuating, and managing all ground base systems. 
+* Provide hardware for housing, controlling, actuating, and managing all ground base systems.
     * Antenna actuation
-        * Subsystem for actuators???
+        * Subsystem for actuators
+        * Actuator Control Hardware
+            * Microcontroller
+            * Rotator
+            * Pre-Amplifier
     * Water tight housing for all electronics
         * Per IP 68
     * Housing/electronics must be thermally stable
         * Heat is more of a problem than cold
         * We no cold here.
-    * 
     
