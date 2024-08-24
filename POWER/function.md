@@ -2,14 +2,14 @@
 ---
 ### POWER Function V1
 **Subsystem Members**
-* _
+* 
 * _
 
 **Subsystem Leader**
 * _
 
 **System Engineers**
-* _
+* Riley Pitcher
 * _
 
 **Project Manager**
