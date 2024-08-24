@@ -1,0 +1,32 @@
+name: Dropbox
+
+on:
+  schedule:
+    # Run the job every midnight
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual triggering of the workflow
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Upload
+      env:
+        DROPBOX_ACCESS_TOKEN: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
+      run: |
+        # Define the Dropbox folder path
+        DROPBOX_FOLDER="/CubeSat/"
+
+        # Create each file's Dropbox path and upload
+        find . -type f | while read file; do
+          DROPBOX_PATH="${DROPBOX_FOLDER}${file#./}"
+          curl -X POST https://content.dropboxapi.com/2/files/upload \
+          --header "Authorization: Bearer $DROPBOX_ACCESS_TOKEN" \
+          --header "Dropbox-API-Arg: {\"path\": \"$DROPBOX_PATH\",\"mode\": \"overwrite\",\"autorename\": false,\"mute\": true}" \
+          --header "Content-Type: application/octet-stream" \
+          --data-binary @"$file"
+        done

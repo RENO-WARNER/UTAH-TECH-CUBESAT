@@ -1,6 +1,6 @@
-# Utah Tech CubeSat: Template Function Report
+# Utah Tech CubeSat: PAYLOAD Function Report
 ---
-### Controls V1
+### PAYLOAD Function V1
 **Subsystem Members**
 * _
 * _

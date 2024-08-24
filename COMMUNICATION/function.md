@@ -6,16 +6,18 @@
 * Braden Williams
 * Patrick Robanske
 * Ryley Horrocks
+* Gideon Iveoson
+* Davis Henderson
 
 **Subsystem Leader**
 * Braden Williams
 
 **System Engineers**
-* Larry Burke
-* Riley Pitcher
+* _
+* _
 
 **Project Manager**
-* Reno Warner
+* _
 ---
 * Establish Uplinks/Downlinks capabilities between orbital payload and ground based users. 
 	* Reliable Signal 
