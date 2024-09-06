@@ -3,10 +3,10 @@
 ### POWER Function V1
 **Subsystem Members**
 * 
-* _
+* Levi Sanders, Ethan Fishel
 
 **Subsystem Leader**
-* _
+* Shands Alexander
 
 **System Engineers**
 * Riley Pitcher
