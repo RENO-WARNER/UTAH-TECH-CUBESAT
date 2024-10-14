@@ -63,7 +63,9 @@ This will allow easy recaculation if our parameters change.
 
 ### Design:
 
-The 
+**Components**
+This will be a list of all the active components needed.
+E-Fuse 
 
 **Analysis and Calculations**
 
@@ -73,11 +75,7 @@ for example:
 
 
 
-**Components**
 
-for instance:
-
-E-Fuse 
 
 **Selection**
 
