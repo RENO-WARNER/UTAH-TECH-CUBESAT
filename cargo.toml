@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "SOFTWARE/STAR",
+    "SOFTWARE/FIRMWARE"
+]
