@@ -1,0 +1,187 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c4b3c8f9-82bd-4648-8d22-870bf16aa829")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 139.7 86.36)
+		(size 41.91 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25a33f1f-9c89-41a2-a6e3-9fd3adab2d11")
+		(property "Sheetname" "COMMAND"
+			(at 139.7 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../COMMAND/KICAD/command.kicad_sch"
+			(at 139.7 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 132.08)
+		(size 33.02 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8812c96e-ca04-41e1-abbd-8267da6f4a17")
+		(property "Sheetname" "MAGNET_MODULE"
+			(at 86.36 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnet.module.kicad_sch"
+			(at 86.36 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 29.21)
+		(size 27.94 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9da6452e-b3cb-4b01-88c5-7df28751a9a5")
+		(property "Sheetname" "CONNECTOR"
+			(at 30.48 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../COMMAND/KICAD/connector.male.kicad_sch"
+			(at 30.48 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI1" input
+			(at 30.48 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9eec5f3-0d9e-4eb7-8f06-4dc121f1e5d4")
+		)
+		(pin "SPI2" input
+			(at 58.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f980d9d6-fa14-42f6-809a-7fc6f6e7ece7")
+		)
+		(pin "V_GND" input
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d2952475-96db-4525-a5a3-e6b1e781ed34")
+		)
+		(pin "V_HV" input
+			(at 30.48 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6078b602-e245-4132-bf8f-1dbfd82e2d64")
+		)
+		(pin "V_SOLAR" input
+			(at 30.48 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "727899a0-bae0-492b-9d9a-d5b17c23ae80")
+		)
+		(pin "V_LV" input
+			(at 58.42 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bede1819-1fe8-48c7-a7dc-dd1599480b23")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
