@@ -1,0 +1,1045 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5d09a5b0-5470-41ee-acbf-63da99fdcb81")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:Antenna"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 110.49 60.96) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a09e81-741d-4f15-b195-89929bab9ae1")
+	)
+	(wire
+		(pts
+			(xy 133.35 50.8) (xy 143.51 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c25587c-b8e4-444d-bed9-008c91324184")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 90.17 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1216b21d-f136-46f2-96b2-357901cff0f1")
+	)
+	(wire
+		(pts
+			(xy 259.08 60.96) (xy 261.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1721a6cd-e9bc-4abc-b300-07d09e60743f")
+	)
+	(wire
+		(pts
+			(xy 138.43 55.88) (xy 138.43 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3207051d-d4db-49f6-97e8-3dcc1362a8b7")
+	)
+	(wire
+		(pts
+			(xy 87.63 43.18) (xy 173.99 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32efd9da-b882-474f-b1ab-44313c4e2abf")
+	)
+	(wire
+		(pts
+			(xy 226.06 55.88) (xy 228.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6c7428-d0f9-4998-9609-c9842fc576a3")
+	)
+	(wire
+		(pts
+			(xy 198.12 50.8) (xy 198.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632599cb-ad23-45f0-8a7d-5453a26efb66")
+	)
+	(wire
+		(pts
+			(xy 168.91 50.8) (xy 171.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dbe5e26-57fc-4490-bbcd-3ac7cab3d138")
+	)
+	(wire
+		(pts
+			(xy 195.58 43.18) (xy 267.97 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dcf2c25-216f-4f73-89f9-9b05957644f4")
+	)
+	(wire
+		(pts
+			(xy 107.95 63.5) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a3cb1b-fd61-4361-8744-4c1db42c3746")
+	)
+	(wire
+		(pts
+			(xy 133.35 55.88) (xy 138.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e93143-e412-4307-9516-14750d90a9f0")
+	)
+	(wire
+		(pts
+			(xy 171.45 50.8) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b72dd1-86da-4fb9-87ae-0c1d185bf53e")
+	)
+	(wire
+		(pts
+			(xy 135.89 60.96) (xy 135.89 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bbd8932-7b1e-4b71-b356-cb220cba7edb")
+	)
+	(wire
+		(pts
+			(xy 87.63 59.69) (xy 90.17 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed33315-245b-4165-8a19-25c476510fc7")
+	)
+	(wire
+		(pts
+			(xy 171.45 48.26) (xy 173.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf40427-1b04-4752-8e0f-762d40bc3db3")
+	)
+	(wire
+		(pts
+			(xy 236.22 50.8) (xy 226.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9191bd69-9517-4559-abcc-33272caca68f")
+	)
+	(wire
+		(pts
+			(xy 236.22 60.96) (xy 233.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae99b40-c00e-45f8-819f-626c0f76851b")
+	)
+	(wire
+		(pts
+			(xy 261.62 63.5) (xy 261.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaebae6c-33a8-42c1-b65d-ee4a977dcfb8")
+	)
+	(wire
+		(pts
+			(xy 233.68 60.96) (xy 233.68 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1fea762-b395-4405-9f2c-1e69c742fd45")
+	)
+	(wire
+		(pts
+			(xy 200.66 50.8) (xy 198.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9907b47-ec54-477d-8202-49055a7321ac")
+	)
+	(wire
+		(pts
+			(xy 140.97 58.42) (xy 140.97 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6cfb68-2f9f-4b33-914a-2a8e6edc3d15")
+	)
+	(wire
+		(pts
+			(xy 228.6 58.42) (xy 228.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce75669f-4e94-4081-ab2a-f64306b8431d")
+	)
+	(wire
+		(pts
+			(xy 133.35 60.96) (xy 135.89 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da11b7d8-decb-4d5e-9748-10556a296841")
+	)
+	(wire
+		(pts
+			(xy 231.14 55.88) (xy 231.14 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a97b51-38fc-4c02-887e-25248e6b3dd0")
+	)
+	(wire
+		(pts
+			(xy 143.51 55.88) (xy 140.97 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb1b35c-b800-4454-93d7-1745c98e85a1")
+	)
+	(wire
+		(pts
+			(xy 195.58 48.26) (xy 198.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f206556a-ce3b-4b13-802b-5b7b4a140c6f")
+	)
+	(wire
+		(pts
+			(xy 236.22 55.88) (xy 231.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a13ca0-2a9b-4753-a1ab-2f0e975b7bdf")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 107.95 63.5 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bb00916-5d08-4a46-9a67-0aa6d9f91bc8")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 140.97 58.42 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fcb02fa-fe7e-43ed-bd51-b4761136a0cd")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 90.17 62.23 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7c86c22-99d1-4573-8704-fa4ae446bf34")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 261.62 63.5 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae06c8da-8d15-48d3-8bf8-39009a6820e7")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 228.6 58.42 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df727161-3624-4b4a-8a2a-e9352297e628")
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 273.05 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c060945b-5020-4df5-b4da-f077456cf6b3")
+		(property "Reference" "AE1"
+			(at 276.86 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 276.86 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 273.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e30e3873-fe7b-45aa-a080-cb1010413ba3")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81"
+					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 48.26)
+		(size 25.4 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "142bda22-1cde-4d1b-845f-d752951849bd")
+		(property "Sheetname" "ATTENUATOR2"
+			(at 200.66 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "attenuator.kicad_sch"
+			(at 200.66 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_GND" input
+			(at 226.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7eb24052-5ad7-47ed-8dda-c35562b2c9fd")
+		)
+		(pin "IN" input
+			(at 200.66 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "69fb1301-7df3-4a61-88d5-c08b70dec0af")
+		)
+		(pin "OUT" output
+			(at 226.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2c0537a-afc9-4594-98a0-bba2834b3d80")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 48.26)
+		(size 25.4 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3329e7e5-2610-4e28-abfc-b34a21268f84")
+		(property "Sheetname" "ATTENUATOR1"
+			(at 143.51 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "attenuator.kicad_sch"
+			(at 143.51 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_GND" input
+			(at 143.51 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5deda4d-b8d2-4363-b3d4-387970a7a4a1")
+		)
+		(pin "IN" input
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bad74c99-18b9-45bb-a247-7d7ff5f608b3")
+		)
+		(pin "OUT" output
+			(at 143.51 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d49d6da-5812-48cd-b1a5-a71c11a1d5d9")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 48.26)
+		(size 22.86 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "75b496fb-45fb-4406-abf3-9bfd2a90f09a")
+		(property "Sheetname" "DETECTOR1"
+			(at 110.49 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "detector.kicad_sch"
+			(at 110.49 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_GND" input
+			(at 110.49 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a8d458b-54ed-4d79-bd60-5f1b1eaae8c1")
+		)
+		(pin "OUT" output
+			(at 110.49 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73c72a78-0258-4e68-9a38-8cb4bdfae21b")
+		)
+		(pin "EN" input
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fbbc0b93-5386-477f-8753-4c55c4d45283")
+		)
+		(pin "IN" input
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4385829-87ce-4588-9b5c-d375ab80255a")
+		)
+		(pin "V_3.3" input
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fab1fb7e-5ff8-42d4-ac8a-3211b7889c40")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 48.26)
+		(size 22.86 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "88edaaa7-5256-4e2f-be33-398ec703b842")
+		(property "Sheetname" "DETECTOR2"
+			(at 236.22 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "detector.kicad_sch"
+			(at 236.22 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_GND" input
+			(at 259.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e51bccb-89b5-403f-9a5c-72f8d7602bb3")
+		)
+		(pin "OUT" output
+			(at 259.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00c0e298-de7f-4269-bdb6-6c1dc5086b7b")
+		)
+		(pin "EN" input
+			(at 236.22 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "67505d86-d830-4102-8108-d7892280178f")
+		)
+		(pin "IN" input
+			(at 236.22 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7713152e-2823-4dd2-a681-84a9dd4ef7d0")
+		)
+		(pin "V_3.3" input
+			(at 236.22 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c131e7e7-585b-4c2c-a6b6-38695c4edeff")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 101.6)
+		(size 45.72 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0c6c05c-9ea3-44bc-a9d3-abaa44ac414d")
+		(property "Sheetname" "COMMAND"
+			(at 63.5 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../../COMMAND/KICAD/command.kicad_sch"
+			(at 63.5 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 40.64)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3d993e0-4cd3-45de-9f3a-523a4ef7e76c")
+		(property "Sheetname" "COUPLER"
+			(at 173.99 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "coupler.kicad_sch"
+			(at 173.99 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 173.99 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa64e488-ed1c-4d8d-a8ff-9b9d0b3dbcea")
+		)
+		(pin "REVERSE" output
+			(at 173.99 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "14508106-7bc0-44a9-9a6c-f01c5a2553a7")
+		)
+		(pin "FORWARD" output
+			(at 195.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "752529f8-58fb-4dc0-b093-d40ed1ae5c85")
+		)
+		(pin "OUT" output
+			(at 195.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "640a9bcc-68c7-421d-a25c-6aff158b5270")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 40.64)
+		(size 45.72 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f40ea967-50c1-4c1b-a122-f39782df1c7e")
+		(property "Sheetname" "TRANSCIEVER"
+			(at 41.91 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "transciever.kicad_sch"
+			(at 41.91 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NRST" input
+			(at 41.91 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e99e488-618f-4512-8c2e-73a8172327c7")
+		)
+		(pin "BUSY" output
+			(at 41.91 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "31b8d632-205c-42b1-8c87-91d140deb02b")
+		)
+		(pin "V_5.0" input
+			(at 41.91 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a441b648-ddd1-44e1-be20-7c4e673cd1dc")
+		)
+		(pin "V_GND" input
+			(at 87.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "563cc4fc-2090-4917-81f2-87d9b2028e90")
+		)
+		(pin "ANT" bidirectional
+			(at 87.63 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0ce0a2d0-c089-4533-a07e-3d3c344def2a")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
