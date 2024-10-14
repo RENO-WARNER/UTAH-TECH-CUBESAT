@@ -1,1 +1,17 @@
+# Remove VSCode settings
 .vscode
+# Remove Rust compilation files
+target/
+# Remove Cargo.lock
+Cargo.lock
+# Remove Kicad Backup files
+*.bak
+# Remove Kicad Backup folders
+*-backups/
+# Remove Kicad Lock files
+~*.kicad_sch.lck 
+# Remove Kicad Autosave files
+\#auto_saved_files\#
+_autosave*
+# Remove Kicad Cache files
+fp-info-cache
