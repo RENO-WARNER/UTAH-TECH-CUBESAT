@@ -1,0 +1,1131 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f28ad8ab-5ceb-48a2-984d-82ff924bcd73")
+	(paper "A4")
+	(lib_symbols
+		(symbol "CUBESAT:LSM6DSO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dso.pdf"
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "The LSM6DSO is a 6-axis IMU (inertial measurement unit) system-in-package featuring a 3-axis digital accelerometer and a 3-axis digital gyroscope, boosting performance at 0.55 mA in high-performance mode and enabling always-on lowpower features for an optimal motion experience for the consumer."
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LSM6DSO_0_0"
+				(pin output line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "SDO/SA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "OCS_AUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "SDO_AUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 11.43 0)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 8.89 0)
+					(length 2.54)
+					(name "SCL/SPC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 6.35 0)
+					(length 2.54)
+					(name "SDA/SDI/SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "SDX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "SCX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -11.43 0)
+					(length 2.54)
+					(name "VDD_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -8.89 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -8.89 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 8.89 180)
+					(length 2.54)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LSM6DSO_1_1"
+				(rectangle
+					(start -10.16 13.97)
+					(end 10.16 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "LSM6DSO"
+					(at 0.254 14.986 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(color 0 72 0 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 152.4 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29b27afe-d333-4a1e-80a4-5a81e9917bcd")
+	)
+	(junction
+		(at 110.49 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b47f259-6909-4a77-98d9-9d319e82bd02")
+	)
+	(junction
+		(at 121.92 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7990af8-2ba7-430e-9c55-916e58bce909")
+	)
+	(no_connect
+		(at 151.13 91.44)
+		(uuid "38b6f456-b445-4e3c-92c6-b2309564dc7f")
+	)
+	(no_connect
+		(at 151.13 93.98)
+		(uuid "c8a6a843-3257-4a9e-bdf0-5cb705a92ed3")
+	)
+	(wire
+		(pts
+			(xy 121.92 93.98) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0606df73-9e59-4506-9011-bad304eed633")
+	)
+	(wire
+		(pts
+			(xy 107.95 101.6) (xy 110.49 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06213a66-99ff-4388-8f3c-ef5ec62cb342")
+	)
+	(wire
+		(pts
+			(xy 152.4 99.06) (xy 149.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077a2661-e0fe-46ca-8be8-739b6d372c03")
+	)
+	(wire
+		(pts
+			(xy 152.4 101.6) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07df9f65-540b-4a81-8d6c-59e40cf625c6")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0a29de-da62-4804-a3e3-0cc009b019d7")
+	)
+	(wire
+		(pts
+			(xy 151.13 91.44) (xy 149.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3980ca-8fe0-4c3c-9fb3-41ecbc652c76")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d0c7af2-46d7-4355-93c1-a44bb553ebcd")
+	)
+	(wire
+		(pts
+			(xy 121.92 96.52) (xy 121.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5547c596-98d4-4819-bcee-4396044c92a1")
+	)
+	(wire
+		(pts
+			(xy 110.49 104.14) (xy 124.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57217c42-f035-4926-98d2-67d2030e57d7")
+	)
+	(wire
+		(pts
+			(xy 154.94 99.06) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992c1276-007f-407b-8896-c61342265718")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a29e701-1b24-4adf-8d30-6793c7d9d1d7")
+	)
+	(wire
+		(pts
+			(xy 90.17 93.98) (xy 90.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae903b92-07f1-4d78-9fdd-91c946a222f4")
+	)
+	(wire
+		(pts
+			(xy 121.92 88.9) (xy 124.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3dfd88-db54-488d-ba7c-90712eb1826e")
+	)
+	(wire
+		(pts
+			(xy 90.17 83.82) (xy 90.17 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0676670-a729-40a0-83bb-6b5da84aa852")
+	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 110.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5606ba4-afc9-492d-9835-8fa060d98660")
+	)
+	(wire
+		(pts
+			(xy 151.13 93.98) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ca08da-b204-443d-a414-5e9675c6be2f")
+	)
+	(wire
+		(pts
+			(xy 77.47 93.98) (xy 77.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbbbde2-b18f-4c3d-92d5-4544fbeb2974")
+	)
+	(wire
+		(pts
+			(xy 121.92 81.28) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38a5e6e-990e-4a89-aea2-51322072378d")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92593b1-9ecc-4db3-888c-b3fd621c9ca9")
+	)
+	(wire
+		(pts
+			(xy 77.47 83.82) (xy 77.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff8bfc9-1e65-4b5a-9a88-f9eed44f9a7b")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 121.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee391a98-298d-4fa9-ab0b-932bda36b309")
+	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8096b44-d32d-42dc-a0a4-36b6ba31aa75")
+	)
+	(label "IMU_VDD"
+		(at 77.47 81.28 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e1b70c8-5486-4685-bce2-f9d06a488a16")
+	)
+	(label "IMU_CS"
+		(at 121.92 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a41bc4d-4215-4f55-8e39-4930aec4b158")
+	)
+	(label "IMU_MISO"
+		(at 121.92 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93d65e49-b0f7-4832-bd76-7e4462eee51a")
+	)
+	(label "IMU_VDD_IO"
+		(at 121.92 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aaf09394-1607-4ef2-8008-ef59a7f11133")
+	)
+	(label "IMU_VDD_IO"
+		(at 90.17 81.28 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1178c35-a770-4b07-aa98-bc16849c558d")
+	)
+	(label "IMU_SCK"
+		(at 121.92 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c22c03be-3cd9-4293-a37f-2d152f2c7d9c")
+	)
+	(label "IMU_VDD"
+		(at 121.92 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb6e10f1-9928-4526-a7a8-cae2ae6f7fb8")
+	)
+	(label "IMU_MOSI"
+		(at 121.92 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1a00524-6af7-4667-802a-e02eb4f2463f")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 90.17 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "189ec7e3-8300-49c4-9350-0f94560c2389")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 77.47 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a5c0d47-0084-4877-a0cc-f6eff8df6107")
+	)
+	(hierarchical_label "INT2"
+		(shape input)
+		(at 149.86 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "835bd7d1-5cd1-44fb-9706-c298a93949ae")
+	)
+	(hierarchical_label "V_LV"
+		(shape input)
+		(at 107.95 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8451de38-bbf8-4dff-a70f-63c27bb2a5d7")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 154.94 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb86593c-dcdb-4f4a-8c15-58d9b8410112")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 119.38 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbb47db1-10c6-4181-8480-5f43a6b146a0")
+	)
+	(hierarchical_label "INT1"
+		(shape input)
+		(at 149.86 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cefe0af7-beac-44ae-b18c-94f98980fbd7")
+	)
+	(symbol
+		(lib_id "CUBESAT:LSM6DSO")
+		(at 137.16 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07f9a0e6-6754-4223-a0a6-34b30b82665c")
+		(property "Reference" "U2"
+			(at 137.16 75.946 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dso.pdf"
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The LSM6DSO is a 6-axis IMU (inertial measurement unit) system-in-package featuring a 3-axis digital accelerometer and a 3-axis digital gyroscope, boosting performance at 0.55 mA in high-performance mode and enabling always-on lowpower features for an optimal motion experience for the consumer."
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "2edb151e-bf09-4d2d-b2cd-dab970639415")
+		)
+		(pin "10"
+			(uuid "82246663-57a6-4419-99c2-28bccc39470b")
+		)
+		(pin "12"
+			(uuid "1b44cca3-14fe-475d-b292-1bd37b5dc2fe")
+		)
+		(pin "4"
+			(uuid "fc97b721-afb9-45e7-87ab-7dfe946eb77f")
+		)
+		(pin "3"
+			(uuid "c03eb569-01f0-4f80-86f9-c595351fe6bf")
+		)
+		(pin "8"
+			(uuid "ddb9cc8f-573a-40d8-8216-05b09173f436")
+		)
+		(pin "2"
+			(uuid "22590ee0-59ff-4428-ba92-73b145662a63")
+		)
+		(pin "5"
+			(uuid "5b9baec5-337a-4a48-bf08-ab42ead0c473")
+		)
+		(pin "11"
+			(uuid "47c5d1d0-c17b-4b16-970e-d20e75baa910")
+		)
+		(pin "14"
+			(uuid "87f25ec9-df18-41f0-895a-16aafc144717")
+		)
+		(pin "6"
+			(uuid "54dccbf5-aed1-48df-bffb-05bb7884ec8d")
+		)
+		(pin "7"
+			(uuid "9bf5577f-0a40-47b3-9add-4bdb7e0e02f6")
+		)
+		(pin "1"
+			(uuid "c82529f0-dc8c-48c5-8933-da856c74f981")
+		)
+		(pin "9"
+			(uuid "39b5e1ff-2f48-4c81-af01-90c505f10e66")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/8812c96e-ca04-41e1-abbd-8267da6f4a17/e5069783-8ffc-4a77-a35d-d0ecbe4cde7f"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8114e410-3fc8-4c1b-8c22-913b8c068790")
+		(property "Reference" "C4"
+			(at 81.28 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 81.28 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.4352 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3688903d-735a-4546-8631-a99831524c15")
+		)
+		(pin "2"
+			(uuid "4d7565c7-7f5b-4916-b4be-7633f6b2ccf3")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/8812c96e-ca04-41e1-abbd-8267da6f4a17/e5069783-8ffc-4a77-a35d-d0ecbe4cde7f"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 90.17 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8829a355-8423-495c-b813-cc3fb6c1e6c2")
+		(property "Reference" "C5"
+			(at 93.98 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 93.98 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.1352 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b52657a4-490c-46cf-85f7-614ee15e77ac")
+		)
+		(pin "2"
+			(uuid "4a8b43ca-939b-4c45-8a21-6c3a7a0859f2")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/8812c96e-ca04-41e1-abbd-8267da6f4a17/e5069783-8ffc-4a77-a35d-d0ecbe4cde7f"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

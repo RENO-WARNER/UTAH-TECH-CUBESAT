@@ -1,0 +1,1009 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "67571d53-25f1-4aff-801d-10e8dc34f95d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "CUBESAT:TCANC3403-Q1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TCANC3403-Q1"
+				(at 0.508 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -8.89 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3403-q1.pdf"
+				(at 34.29 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TCAN340x-Q1 3.3V Automotive CAN FD Transceivers with Standby Mode and ±58V bus Standoff"
+				(at 47.498 29.718 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCANC3403-Q1_0_0"
+				(pin input line
+					(at -8.89 7.62 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -5.08 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 5.08 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -7.62 0)
+					(length 2.54)
+					(name "V_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "CAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "CAN_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "STB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TCANC3403-Q1_1_1"
+				(rectangle
+					(start -6.35 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(bus_entry
+		(at 135.89 95.25)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6725a9d2-cde1-49fa-8f51-91250546211f")
+	)
+	(bus_entry
+		(at 179.07 95.25)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821a5063-c1d4-445d-a37e-09fe054a9efd")
+	)
+	(bus_entry
+		(at 135.89 97.79)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99040695-0dc0-444c-af4d-f44e2aa470d1")
+	)
+	(bus_entry
+		(at 179.07 97.79)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93553ee-c8c8-48c8-8567-2efc2744e1d3")
+	)
+	(wire
+		(pts
+			(xy 138.43 100.33) (xy 147.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02569d0a-7c31-49cc-870d-2a6e01c76aa3")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 176.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089e49aa-e985-4758-b38c-c222d894ed47")
+	)
+	(wire
+		(pts
+			(xy 168.91 113.03) (xy 166.37 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3f9551-eae3-4a8b-af28-a80b13997b5d")
+	)
+	(bus
+		(pts
+			(xy 179.07 95.25) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4d3a56-e565-4924-9d89-3748df1927e0")
+	)
+	(wire
+		(pts
+			(xy 102.87 107.95) (xy 102.87 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bf41e3-fd96-4a4c-a23d-9969675d0ec6")
+	)
+	(bus
+		(pts
+			(xy 135.89 95.25) (xy 135.89 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c648ae-7416-44bf-87c2-c3504daab4e4")
+	)
+	(bus
+		(pts
+			(xy 190.5 91.44) (xy 179.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472b3dda-3e62-404e-9d65-74bac29bf832")
+	)
+	(wire
+		(pts
+			(xy 166.37 97.79) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ffceac9-4a65-434e-b5c3-1c41e036d49b")
+	)
+	(bus
+		(pts
+			(xy 135.89 95.25) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631ce86d-b59d-407b-b774-67c964b9fbfd")
+	)
+	(bus
+		(pts
+			(xy 179.07 91.44) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a03abdd-4fa7-4b8e-9835-4c0c874b671e")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 147.32 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895ad150-89e4-45bc-86b2-fd84f21b36c0")
+	)
+	(wire
+		(pts
+			(xy 144.78 110.49) (xy 147.32 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c2d51a-1033-4b9b-8e84-35579df59bf1")
+	)
+	(wire
+		(pts
+			(xy 115.57 107.95) (xy 115.57 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ae1438-c830-4e8d-8cda-3889d5c06078")
+	)
+	(wire
+		(pts
+			(xy 115.57 118.11) (xy 115.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fcaf60-ea01-4bb5-af93-f81718468acc")
+	)
+	(wire
+		(pts
+			(xy 144.78 113.03) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e773edc8-b30e-4862-9082-704b72744b33")
+	)
+	(bus
+		(pts
+			(xy 123.19 92.71) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab23b91-b5c8-4f26-896e-2c50971f0002")
+	)
+	(wire
+		(pts
+			(xy 102.87 118.11) (xy 102.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead359b3-ad0a-4704-a293-84a7ee65629f")
+	)
+	(text "STB HAS PULLUP"
+		(exclude_from_sim no)
+		(at 124.968 103.632 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "137517c0-d2cb-4b59-b5f4-4269a7aa99ab")
+	)
+	(text "CAN IS HI-Z WHEN UNPOWERED\n"
+		(exclude_from_sim no)
+		(at 179.578 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c458d26-594e-41ce-80e7-c59b4ec9e99f")
+	)
+	(text "STANDBY IS ACTIVE HIGH"
+		(exclude_from_sim no)
+		(at 124.968 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efab095e-ea1c-49ef-9e70-f17a4d949a31")
+	)
+	(label "CAN{RX TX}"
+		(at 124.46 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52953821-38e4-490c-b7a5-bd3e7a7bb717")
+	)
+	(label "CAN{H L}"
+		(at 179.07 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53011899-da96-4ea5-a142-1ebcaf0eb8c2")
+	)
+	(label "CAN.RX"
+		(at 138.43 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "570e82b6-3a30-45e5-b994-24c9cbf79a23")
+	)
+	(label "CAN.TX"
+		(at 138.43 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a48cd05c-ebbc-4507-8a37-21a6e28948ea")
+	)
+	(label "CAN.H"
+		(at 168.91 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b17d0945-004c-4c25-a79c-d7752a4dd864")
+	)
+	(label "CAN.L"
+		(at 168.91 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b29437ba-e6c6-48fd-9554-1cc77cc61d06")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 102.87 118.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0099cb3c-b6ad-43ef-a7ee-4e401a313008")
+	)
+	(hierarchical_label "CAN"
+		(shape input)
+		(at 190.5 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22b8906d-1f21-4c7b-a2bb-052cda7b0612")
+	)
+	(hierarchical_label "V_LV"
+		(shape input)
+		(at 102.87 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d95f1c0-dec5-4724-b621-4add3fcdc128")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 115.57 118.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8615f819-2f15-4975-8542-95983e35bf1b")
+	)
+	(hierarchical_label "V_LV"
+		(shape input)
+		(at 144.78 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a5ecae3-5614-4ae2-8aaa-50a40994769b")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 168.91 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8faea9b5-36a3-402d-a98f-067019355742")
+	)
+	(hierarchical_label "V_LV"
+		(shape input)
+		(at 144.78 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96713eb9-4225-4703-803d-d50480e18fa0")
+	)
+	(hierarchical_label "V_LV"
+		(shape input)
+		(at 115.57 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc362bdf-11e4-48fc-aa9d-bc58d83a1e15")
+	)
+	(hierarchical_label "CAN"
+		(shape input)
+		(at 123.19 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd563b5a-35fc-4694-94df-30080050e740")
+	)
+	(symbol
+		(lib_id "CUBESAT:TCANC3403-Q1")
+		(at 156.21 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f62b7ef-1aab-4bd3-917c-49661e2d9570")
+		(property "Reference" "U?"
+			(at 156.845 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCANC3403-Q1"
+			(at 156.845 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3403-q1.pdf"
+			(at 190.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TCAN340x-Q1 3.3V Automotive CAN FD Transceivers with Standby Mode and ±58V bus Standoff"
+			(at 203.708 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "bd3a11e3-dac7-441d-9c07-e7bc7c1baf1f")
+		)
+		(pin "1"
+			(uuid "ccc4047f-e8d2-43d9-be03-a768aad58d9f")
+		)
+		(pin "2"
+			(uuid "60a6af9d-291d-4fa5-ae35-36c816e70b9e")
+		)
+		(pin "4"
+			(uuid "8fab5781-d089-4b3a-a0aa-7c1970efafc7")
+		)
+		(pin "5"
+			(uuid "126f310e-6972-40a1-9606-66fde8c31250")
+		)
+		(pin "6"
+			(uuid "f1566ab8-7162-457a-a7eb-6dcedb223630")
+		)
+		(pin "8"
+			(uuid "35e9c9bf-0da3-4f62-9c6d-f7712c2d8173")
+		)
+		(pin "3"
+			(uuid "d407f454-47fd-4670-9430-3541050ff5b6")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/d0c6c05c-9ea3-44bc-a9d3-abaa44ac414d/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/25a33f1f-9c89-41a2-a6e3-9fd3adab2d11/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 115.57 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2349e0e-af07-4513-86bf-24335725c3e2")
+		(property "Reference" "C?"
+			(at 119.38 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 119.38 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.5352 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 115.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4176737a-6ba5-4b53-ba71-c7053c923d39")
+		)
+		(pin "2"
+			(uuid "98554ae8-3a6b-49cd-ada4-697c998ac301")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/d0c6c05c-9ea3-44bc-a9d3-abaa44ac414d/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/25a33f1f-9c89-41a2-a6e3-9fd3adab2d11/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4028d18-8d83-4628-9ff7-f6c21660ba72")
+		(property "Reference" "C?"
+			(at 106.68 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 106.68 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.8352 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66630922-cbee-41df-acf5-ad5fefada860")
+		)
+		(pin "2"
+			(uuid "dbe3182e-19c8-459c-a937-65677ff00172")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/d0c6c05c-9ea3-44bc-a9d3-abaa44ac414d/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/25a33f1f-9c89-41a2-a6e3-9fd3adab2d11/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

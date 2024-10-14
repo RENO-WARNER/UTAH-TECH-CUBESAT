@@ -1,0 +1,632 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7d0945a7-d196-4c5d-ba1c-7b08c1bd5948")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 148.59 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce55b9f0-067d-4419-be66-111088133538")
+	)
+	(junction
+		(at 148.59 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1a077b1-64e6-4450-9667-925e88a2f652")
+	)
+	(junction
+		(at 194.31 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f45d974b-7828-4f4f-85fb-147a3348e1ed")
+	)
+	(junction
+		(at 194.31 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcbdb707-0baf-4499-96b3-57fd5f122c75")
+	)
+	(no_connect
+		(at 204.47 60.96)
+		(uuid "be528b98-d680-4604-939f-64cd933cafbd")
+	)
+	(no_connect
+		(at 204.47 63.5)
+		(uuid "c95d2b2f-9302-4fe5-b394-2ca6ac903196")
+	)
+	(wire
+		(pts
+			(xy 133.35 86.36) (xy 146.05 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1312ceaf-c8a2-453c-9c58-cdff51ed1857")
+	)
+	(wire
+		(pts
+			(xy 148.59 123.19) (xy 157.48 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a8a311-616d-4c67-84a3-e7d80295faba")
+	)
+	(wire
+		(pts
+			(xy 203.2 63.5) (xy 204.47 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4d1ae5-de7c-4a20-a66d-7a5042fde2c3")
+	)
+	(wire
+		(pts
+			(xy 153.67 64.77) (xy 148.59 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ae5bdd-e757-4d09-8d2b-c0d5c6f34baa")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 78.74 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2650c744-d178-4f44-9570-53e4ca9960ae")
+	)
+	(wire
+		(pts
+			(xy 203.2 60.96) (xy 204.47 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377e5d9d-32dd-4c42-b25f-6962c5707b49")
+	)
+	(wire
+		(pts
+			(xy 153.67 115.57) (xy 157.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46593ac1-6334-47c5-b785-1881543251db")
+	)
+	(wire
+		(pts
+			(xy 193.04 104.14) (xy 194.31 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b69c05-0a59-4386-a169-73d25f1f40db")
+	)
+	(wire
+		(pts
+			(xy 148.59 102.87) (xy 153.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6e32d0-db2a-4691-804e-6a3b1256b534")
+	)
+	(wire
+		(pts
+			(xy 193.04 123.19) (xy 194.31 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81545a0a-04cc-4a84-9b0f-279c2609c461")
+	)
+	(wire
+		(pts
+			(xy 76.2 86.36) (xy 78.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ab8f2c-2daf-4250-afaf-be2e359bd347")
+	)
+	(wire
+		(pts
+			(xy 148.59 102.87) (xy 148.59 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab223bb3-339a-441e-b0ed-4a396dee8310")
+	)
+	(wire
+		(pts
+			(xy 76.2 64.77) (xy 78.74 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2d36c0-b3d0-4191-b092-8d4bc1ca9f81")
+	)
+	(wire
+		(pts
+			(xy 146.05 86.36) (xy 146.05 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac25e835-9d55-4cb3-bdfa-f5b37a456d45")
+	)
+	(wire
+		(pts
+			(xy 194.31 104.14) (xy 194.31 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbeeb34-e9c7-40db-aba9-3a1d54ebb502")
+	)
+	(wire
+		(pts
+			(xy 133.35 64.77) (xy 148.59 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b378b4-99d6-4798-bfb5-4f39f0e39666")
+	)
+	(wire
+		(pts
+			(xy 194.31 130.81) (xy 194.31 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e6198e-eaef-46c6-8de5-739153e90acc")
+	)
+	(wire
+		(pts
+			(xy 148.59 64.77) (xy 148.59 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc51c3d0-fb6b-4eb0-be8a-90d758c19e05")
+	)
+	(wire
+		(pts
+			(xy 146.05 130.81) (xy 194.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed07273c-ddda-4eaf-ba66-9eeb2670c68c")
+	)
+	(wire
+		(pts
+			(xy 153.67 118.11) (xy 157.48 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9ce3c7-17af-486e-a775-192e3787e8a4")
+	)
+	(wire
+		(pts
+			(xy 194.31 74.93) (xy 194.31 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26c4a96-8c02-4986-9e85-c483c12e0587")
+	)
+	(text "ENABLE TURNS ON THE SPI GATE DRIVER FOR THIS ALONG WITH THE FUSE"
+		(exclude_from_sim no)
+		(at 75.438 50.038 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb9a8cb9-adb8-4f1a-be7b-753a22b51679")
+	)
+	(hierarchical_label "V_LV"
+		(shape input)
+		(at 76.2 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "870dbedc-cddc-4180-bb33-c8216e230f95")
+	)
+	(hierarchical_label "STATUS"
+		(shape input)
+		(at 76.2 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7f93b75-636e-461a-88fc-ebc2d32a1053")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 76.2 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c02acda9-0fdb-411c-9919-618415088420")
+	)
+	(hierarchical_label "IN1"
+		(shape input)
+		(at 153.67 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c41d1df9-4767-497b-8970-e129c904900b")
+	)
+	(hierarchical_label "IN2"
+		(shape input)
+		(at 153.67 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1119835-9a9d-4100-b225-a7802331e376")
+	)
+	(sheet
+		(at 157.48 111.76)
+		(size 27.94 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "433919e1-31dc-4246-95f6-ee3d62409f80")
+		(property "Sheetname" "MAGNETORQUER"
+			(at 157.48 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnetorquer.kicad_sch"
+			(at 157.48 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_LV" input
+			(at 157.48 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "83b68b3d-09aa-4af8-a631-852af6618476")
+		)
+		(pin "IN1" input
+			(at 157.48 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c0fe7d4e-e928-46bf-9d8c-e4963053142a")
+		)
+		(pin "IN2" input
+			(at 157.48 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d95136b2-a672-45b1-b391-1316c9965864")
+		)
+		(pin "V_GND" input
+			(at 185.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da34da55-5754-4952-976c-36830dbe600f")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/8812c96e-ca04-41e1-abbd-8267da6f4a17"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 63.5)
+		(size 54.61 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f67d7e5-b4f1-4280-8ca9-89c489da0499")
+		(property "Sheetname" "EFUSE_LATCHED"
+			(at 78.74 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../POWER/KICAD/power/efuse.latched.kicad_sch"
+			(at 78.74 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_OUT" input
+			(at 133.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01c82610-8de4-4c82-965c-0ef33286de96")
+		)
+		(pin "SENSE" input
+			(at 78.74 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "876e96dc-66a6-42e5-80cf-14b76435d4c0")
+		)
+		(pin "V_GND" input
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a7f2184b-2b73-487e-9671-9fa1bc43e00a")
+		)
+		(pin "V_IN" input
+			(at 78.74 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe532661-666f-4837-a2f0-72eb0a45ce47")
+		)
+		(pin "STATUS" input
+			(at 78.74 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c7dd0d7d-462b-490a-8c51-b33bb44699e8")
+		)
+		(pin "EN" input
+			(at 78.74 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "592002b2-3fc9-4b7d-9379-49d5eafaa311")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/8812c96e-ca04-41e1-abbd-8267da6f4a17"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 83.82)
+		(size 35.56 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7961d14d-33e0-4023-b261-58154649801a")
+		(property "Sheetname" "MAGNETOMETER"
+			(at 157.48 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnetometer.kicad_sch"
+			(at 157.48 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_GND" input
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22b38362-4fc2-4524-889c-de6a9cf19e3d")
+		)
+		(pin "V_LV" input
+			(at 157.48 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c780c561-3b9c-4470-9868-962fc12dd502")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/8812c96e-ca04-41e1-abbd-8267da6f4a17"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 54.61)
+		(size 25.4 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5069783-8ffc-4a77-a35d-d0ecbe4cde7f")
+		(property "Sheetname" "IMU"
+			(at 153.67 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 153.67 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_GND" input
+			(at 179.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "24ae072e-3268-4c16-ab0c-d34da180ff2c")
+		)
+		(pin "INT2" input
+			(at 179.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1ecf837c-b4e3-4071-8eed-0d1b1d6c8a69")
+		)
+		(pin "INT1" input
+			(at 179.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b171d300-5a3c-4d0e-90a0-8f8f5d8f6e5a")
+		)
+		(pin "V_LV" input
+			(at 153.67 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9a5dbe8-5fb5-410b-829a-32500c19db6e")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/8812c96e-ca04-41e1-abbd-8267da6f4a17"
+					(page "5")
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ef47adc1-536f-4520-9ebd-fa1d01e89711")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 123.19 101.6)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e64aba1-9872-4229-a91b-1ccd7b04c751")
+		(property "Sheetname" "EFUSE_RETRY"
+			(at 123.19 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "efuse.retry.kicad_sch"
+			(at 123.19 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 92.71)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6d00460-0c90-4c03-a845-b46fe413c745")
+		(property "Sheetname" "EFUSE_LATCHED"
+			(at 123.19 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "efuse.latched.kicad_sch"
+			(at 123.19 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

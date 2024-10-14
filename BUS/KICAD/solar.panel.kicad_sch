@@ -1,0 +1,380 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f2f88d54-bb39-4d64-bf69-17982d44236a")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 128.27 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c0efd55-7a0f-46bf-bbb3-fba79016f5b6")
+	)
+	(junction
+		(at 157.48 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26011ff7-16cf-4709-bc85-06c1faddf21e")
+	)
+	(junction
+		(at 157.48 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3966610f-776b-4bce-85a1-3a0d2c2a32cd")
+	)
+	(junction
+		(at 128.27 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71ea5efa-3067-4ba0-a0c3-a882fff3d843")
+	)
+	(wire
+		(pts
+			(xy 128.27 92.71) (xy 128.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a0a3011-c652-44e5-ab65-7f52354216fc")
+	)
+	(wire
+		(pts
+			(xy 154.94 102.87) (xy 157.48 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45609e96-e6f4-44e3-86e6-f1a12be145fc")
+	)
+	(wire
+		(pts
+			(xy 130.81 113.03) (xy 128.27 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d75ba0-a989-4ac4-bbf0-66d9551fb8c2")
+	)
+	(wire
+		(pts
+			(xy 130.81 92.71) (xy 128.27 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d70fe79-422b-4f40-b78b-41cf233a4593")
+	)
+	(wire
+		(pts
+			(xy 157.48 92.71) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b338ab7-8bb2-4c46-91aa-11c082f95720")
+	)
+	(wire
+		(pts
+			(xy 154.94 113.03) (xy 157.48 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8641f90c-9df7-4992-88ca-82bf4d33e0f9")
+	)
+	(wire
+		(pts
+			(xy 157.48 102.87) (xy 157.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8650cf72-9f00-4a45-a2fb-1a59c9142ee8")
+	)
+	(wire
+		(pts
+			(xy 128.27 113.03) (xy 128.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b0e5a6-3425-46d8-b5c3-6c8ae2476c16")
+	)
+	(wire
+		(pts
+			(xy 128.27 102.87) (xy 130.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977f68e3-191f-4175-a909-c4118c756f69")
+	)
+	(wire
+		(pts
+			(xy 157.48 90.17) (xy 157.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04e94e4-54e6-4ba4-bb46-ea9af63eb494")
+	)
+	(wire
+		(pts
+			(xy 128.27 92.71) (xy 128.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f129e69e-4faa-43c5-8e1f-93d4c7d00b22")
+	)
+	(wire
+		(pts
+			(xy 157.48 113.03) (xy 157.48 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27a6217-95e2-41c7-9160-9c4416b1beaa")
+	)
+	(hierarchical_label "-"
+		(shape input)
+		(at 157.48 90.17 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6c85e90-03ef-41f4-9d51-d817cb23a694")
+	)
+	(hierarchical_label "+"
+		(shape input)
+		(at 128.27 90.17 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8275eb3-0de4-4306-9310-78e0ad218f65")
+	)
+	(sheet
+		(at 130.81 110.49)
+		(size 24.13 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "197f1972-d233-4c57-b008-a274f5c4ac00")
+		(property "Sheetname" "SOLAR_CELL3"
+			(at 130.81 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar.cell.kicad_sch"
+			(at 130.81 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+" input
+			(at 130.81 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d50936dc-d688-4a36-8c9f-16abe92adcfe")
+		)
+		(pin "-" input
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "427fccc4-6ef7-4df5-978c-72bd5485cfdd")
+		)
+		(instances
+			(project "bus"
+				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/a8889178-44bf-4398-84d8-8f3cb6365d69"
+					(page "5")
+				)
+			)
+			(project ""
+				(path "/0e501eaa-72d2-43eb-b894-767d1d081082/a8889178-44bf-4398-84d8-8f3cb6365d69"
+					(page "#")
+				)
+			)
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/0e501eaa-72d2-43eb-b894-767d1d081082/a8889178-44bf-4398-84d8-8f3cb6365d69"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 90.17)
+		(size 24.13 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "608bf9ab-69cb-4d82-ba7d-e5b163b79d60")
+		(property "Sheetname" "SOLAR_CELL1"
+			(at 130.81 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar.cell.kicad_sch"
+			(at 130.81 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+" input
+			(at 130.81 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d6927f20-3f17-4441-a45c-b142d5765a82")
+		)
+		(pin "-" input
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5ac1671d-be9f-4bab-9522-e4ac33e38792")
+		)
+		(instances
+			(project "bus"
+				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/a8889178-44bf-4398-84d8-8f3cb6365d69"
+					(page "4")
+				)
+			)
+			(project ""
+				(path "/0e501eaa-72d2-43eb-b894-767d1d081082/a8889178-44bf-4398-84d8-8f3cb6365d69"
+					(page "#")
+				)
+			)
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/0e501eaa-72d2-43eb-b894-767d1d081082/a8889178-44bf-4398-84d8-8f3cb6365d69"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 100.33)
+		(size 24.13 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ddac14e-9ffa-4570-873e-3121bb12e4a5")
+		(property "Sheetname" "SOLAR_CELL2"
+			(at 130.81 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar.cell.kicad_sch"
+			(at 130.81 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+" input
+			(at 130.81 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a0261a67-c415-4835-ad76-20fea9ca42a2")
+		)
+		(pin "-" input
+			(at 154.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d234b05-1567-4627-b56e-a5f27fe49f01")
+		)
+		(instances
+			(project "bus"
+				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/a8889178-44bf-4398-84d8-8f3cb6365d69"
+					(page "3")
+				)
+			)
+			(project ""
+				(path "/0e501eaa-72d2-43eb-b894-767d1d081082/a8889178-44bf-4398-84d8-8f3cb6365d69"
+					(page "#")
+				)
+			)
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/0e501eaa-72d2-43eb-b894-767d1d081082/a8889178-44bf-4398-84d8-8f3cb6365d69"
+					(page "11")
+				)
+			)
+		)
+	)
+)
