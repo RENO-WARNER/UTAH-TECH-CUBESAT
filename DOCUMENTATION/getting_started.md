@@ -120,5 +120,21 @@ We are excited to have you on board for this impactful project! If you have any 
 * Power ICs: TI
 * Connectors: Samtec
 * Capactiors/Inductors: Murata
-* Resistor: Yaego/TDK
+* Resistor: Yaego
 * Hardware(Standoffs / Nuts): RAF Electronic Hardware
+
+AEQ-C 100 Preffered 
+
+* All Capacitors are rated X7R 10 V 10 % GCM Murata
+	* 0603 < 2.2 uF
+	* 1206 < 22.0 uF
+* All Resistors are 0603 .5% -55C - 155 C +- 25 ppm if possible
+
+X7R 1059
+X8G 1525
+X8R 1772
+
+GRM 18 8 Z7 1A 475 K E15 D
+Ser LW T TM Vt CAP % 	 P
+
+GCM
