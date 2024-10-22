@@ -89,3 +89,41 @@ IDEAL DIODE
 	Prefer Overvoltage Protection
 	ORing
 	> 10 Amps
+
+
+* Power Montiors
+	* INA260
+		* CURRENT / VOLTAGE
+		* 1.25 mA
+		* 1.25 mV
+		* 10 mW
+
+		* 0.5 mA
+	* INA745B
+		* CURRENT ? VOLTAGE / TEMP / CHARGE / ENERGY
+		* 1.2 mA
+		* 3.125 mV
+		* 125 mC
+		* 240 uW
+		* 75 uC
+
+		* 1 mA
+	* INA780B
+		* CURRENT ? VOLTAGE / TEMP / CHARGE / ENERGY
+		* ~~2.4 mA~~
+		* 3.125 mV
+
+		* 1 mA
+
+		* ~~85 Volt~~
+	* INA740B
+		* CURRENT ? VOLTAGE / TEMP / CHARGE / ENERGY
+		* 1.2 mA
+		* 3.125 mV
+		* 125 mC
+		* 240 uW
+		* 75 uC
+
+		* 1 mA
+
+		* ~~85 Volt~~
