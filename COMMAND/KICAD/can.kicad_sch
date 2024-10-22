@@ -816,36 +816,30 @@
 			)
 		)
 		(pin "7"
-			(uuid "bd3a11e3-dac7-441d-9c07-e7bc7c1baf1f")
+			(uuid "1f02473a-8890-4149-9015-466ec9dfca0f")
 		)
 		(pin "1"
-			(uuid "ccc4047f-e8d2-43d9-be03-a768aad58d9f")
+			(uuid "2f610eb3-50e2-45a0-ba02-27c589de48d7")
 		)
 		(pin "2"
-			(uuid "60a6af9d-291d-4fa5-ae35-36c816e70b9e")
+			(uuid "20b42775-6aa4-4466-b04a-67127c967ed5")
 		)
 		(pin "4"
-			(uuid "8fab5781-d089-4b3a-a0aa-7c1970efafc7")
+			(uuid "15a72fc8-e78e-4143-b0ac-b426f15f9865")
 		)
 		(pin "5"
-			(uuid "126f310e-6972-40a1-9606-66fde8c31250")
+			(uuid "dfc55ac7-adc5-4248-b399-d8812886ed93")
 		)
 		(pin "6"
-			(uuid "f1566ab8-7162-457a-a7eb-6dcedb223630")
+			(uuid "64aa9064-444d-456f-9ce5-db08d5d0dc0e")
 		)
 		(pin "8"
-			(uuid "35e9c9bf-0da3-4f62-9c6d-f7712c2d8173")
+			(uuid "e534ce4c-cb7c-4900-9208-e8aa189cce50")
 		)
 		(pin "3"
-			(uuid "d407f454-47fd-4670-9430-3541050ff5b6")
+			(uuid "08a65243-972e-4c7c-8881-1b119f07449e")
 		)
 		(instances
-			(project "communication"
-				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/d0c6c05c-9ea3-44bc-a9d3-abaa44ac414d/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
-					(reference "U?")
-					(unit 1)
-				)
-			)
 			(project "control"
 				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/25a33f1f-9c89-41a2-a6e3-9fd3adab2d11/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
 					(reference "U?")
@@ -910,18 +904,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4176737a-6ba5-4b53-ba71-c7053c923d39")
+			(uuid "faa96d1d-3705-44e2-b2c6-7c75009ec753")
 		)
 		(pin "2"
-			(uuid "98554ae8-3a6b-49cd-ada4-697c998ac301")
+			(uuid "96c5e1cf-b9cd-4754-8de3-e40d258dca43")
 		)
 		(instances
-			(project "communication"
-				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/d0c6c05c-9ea3-44bc-a9d3-abaa44ac414d/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "control"
 				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/25a33f1f-9c89-41a2-a6e3-9fd3adab2d11/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
 					(reference "C?")
@@ -986,18 +974,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "66630922-cbee-41df-acf5-ad5fefada860")
+			(uuid "cccce969-191c-403b-b98c-af235aa99677")
 		)
 		(pin "2"
-			(uuid "dbe3182e-19c8-459c-a937-65677ff00172")
+			(uuid "43409abb-c06c-4636-a30a-cbcf6da8405c")
 		)
 		(instances
-			(project "communication"
-				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/d0c6c05c-9ea3-44bc-a9d3-abaa44ac414d/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "control"
 				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/25a33f1f-9c89-41a2-a6e3-9fd3adab2d11/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
 					(reference "C?")

@@ -432,6 +432,14 @@
     [
       "29e40f37-92ad-48d8-a826-f7dff8f4d82a",
       "DEBUG"
+    ],
+    [
+      "fb9352ff-c66d-477b-916f-fe2d1bcbdc99",
+      "MONITOR"
+    ],
+    [
+      "5f381140-b1de-4322-8ceb-e52831a9109f",
+      "BLDC_MOTOR_DRIVER"
     ]
   ],
   "text_variables": {}

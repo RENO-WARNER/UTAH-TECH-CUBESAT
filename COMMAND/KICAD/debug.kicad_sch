@@ -874,54 +874,48 @@
 			)
 		)
 		(pin "05"
-			(uuid "c22bcbef-5caf-4efe-a170-f2cbf6d83373")
+			(uuid "181b397f-099c-45bc-94fe-7d1c67e57cd9")
 		)
 		(pin "12"
-			(uuid "f3e7e018-e866-48b1-adea-7740346ae198")
+			(uuid "e8e9a993-0cca-49f8-b1f5-f22f8d125403")
 		)
 		(pin "07"
-			(uuid "8733fbd8-5485-47d9-86a4-dd301344a4e5")
+			(uuid "66a44c70-347e-4592-bf48-d70df2ed70fe")
 		)
 		(pin "13"
-			(uuid "f3e4b975-0ec8-4422-912d-8d42d3b9946e")
+			(uuid "82195d02-1c4f-4c7b-8aa5-7ac9344601c4")
 		)
 		(pin "06"
-			(uuid "86f55831-c92d-4b06-8576-4afe9fbef6ea")
+			(uuid "261e14c1-f356-45cd-a937-315f05b80e62")
 		)
 		(pin "02"
-			(uuid "fd7f7a09-0b64-4d8d-a1fb-8ea35ed08c2c")
+			(uuid "50f8e40b-8266-4be5-89b6-fcb2e7a731db")
 		)
 		(pin "04"
-			(uuid "90bc4271-0abd-4452-bdea-358389590385")
+			(uuid "813edd85-9a36-48b1-aaec-ef40d6236068")
 		)
 		(pin "10"
-			(uuid "6b986f14-971c-4563-9e2a-d41e8a0fd594")
+			(uuid "edb8d5cb-4aaa-41db-b2fe-d1ef1c9af9a0")
 		)
 		(pin "03"
-			(uuid "cbc4e1ef-f816-434f-b1f5-fcf3f98a090a")
+			(uuid "c8cf0887-a0f9-49cc-b37f-4b2d9aff765e")
 		)
 		(pin "09"
-			(uuid "0a18af11-ec6a-4ee0-989c-3505ef4b31c3")
+			(uuid "05512ce0-e86b-4a9a-9823-b742ef2c69b8")
 		)
 		(pin "08"
-			(uuid "e2f99907-d1af-4244-b7b4-574e132d0396")
+			(uuid "876c1113-45dc-46dc-a818-3c737860e7ee")
 		)
 		(pin "11"
-			(uuid "d70efa57-c20b-45a1-af36-91e3e1b9b616")
+			(uuid "54219ed2-82b0-40b0-8e26-18ca84426b2e")
 		)
 		(pin "01"
-			(uuid "b64e9082-fefe-49c5-b1fa-b8182df22571")
+			(uuid "1f8c9415-ba42-4b73-8d63-c821d23807d6")
 		)
 		(pin "14"
-			(uuid "3461ab91-86e6-4326-b0cb-607cc4a24861")
+			(uuid "94e57c30-ce95-44ae-94c9-05e86fb4edcd")
 		)
 		(instances
-			(project "communication"
-				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/d0c6c05c-9ea3-44bc-a9d3-abaa44ac414d/29e40f37-92ad-48d8-a826-f7dff8f4d82a"
-					(reference "J?")
-					(unit 1)
-				)
-			)
 			(project "control"
 				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/25a33f1f-9c89-41a2-a6e3-9fd3adab2d11/29e40f37-92ad-48d8-a826-f7dff8f4d82a"
 					(reference "J?")

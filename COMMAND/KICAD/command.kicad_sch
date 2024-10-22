@@ -509,7 +509,7 @@
 				)
 				(justify right)
 			)
-			(uuid "5d11796d-bd89-457b-ab8e-a0960c8d6b04")
+			(uuid "b30ec589-dced-4649-a4dc-fb72babfc1e5")
 		)
 		(pin "V_LV" input
 			(at 69.85 140.97 180)
@@ -519,7 +519,7 @@
 				)
 				(justify left)
 			)
-			(uuid "f19ca8ad-8d3b-438c-9a94-2154477d900b")
+			(uuid "32b63065-006d-406f-a1d4-1ec95993a010")
 		)
 		(pin "UART" input
 			(at 69.85 133.35 180)
@@ -529,7 +529,7 @@
 				)
 				(justify left)
 			)
-			(uuid "d25ab3e5-63d5-4777-b762-3e8392009e52")
+			(uuid "e39732c8-c8bf-4072-92da-7fffc93541a5")
 		)
 		(pin "DEBUG" input
 			(at 69.85 137.16 180)
@@ -539,17 +539,12 @@
 				)
 				(justify left)
 			)
-			(uuid "54332dab-7e97-4024-b255-a12f2ae4f304")
+			(uuid "26bade98-f2f2-465a-bda0-1fb5918a5be6")
 		)
 		(instances
 			(project "control"
 				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/25a33f1f-9c89-41a2-a6e3-9fd3adab2d11"
 					(page "12")
-				)
-			)
-			(project "communication"
-				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/d0c6c05c-9ea3-44bc-a9d3-abaa44ac414d"
-					(page "#")
 				)
 			)
 		)
@@ -592,7 +587,7 @@
 				)
 				(justify left)
 			)
-			(uuid "7e975adb-caa8-42ae-8ef3-239f41c24ca3")
+			(uuid "9e7aae01-fe26-4cb0-8b14-484d333342e3")
 		)
 		(pin "V_GND" input
 			(at 168.91 93.98 180)
@@ -602,7 +597,7 @@
 				)
 				(justify left)
 			)
-			(uuid "2538c78c-1e1d-40a5-9f1c-c0fe2b61ad71")
+			(uuid "cafaa42f-5f93-432f-ad49-30c57b2b9a4a")
 		)
 		(pin "CAN" input
 			(at 201.93 87.63 0)
@@ -612,7 +607,7 @@
 				)
 				(justify right)
 			)
-			(uuid "93517e4c-e127-45e3-b24c-a52c9a40b4fe")
+			(uuid "2f16229d-dabe-4def-80ef-a5ca84e1e285")
 		)
 		(instances
 			(project "control"
@@ -660,7 +655,7 @@
 				)
 				(justify left)
 			)
-			(uuid "87e63b8d-828f-477c-b2d1-24ec61ceff5c")
+			(uuid "94f95971-29a4-4e6e-b014-264cfb29716e")
 		)
 		(pin "V_GND" input
 			(at 110.49 96.52 0)
@@ -670,7 +665,7 @@
 				)
 				(justify right)
 			)
-			(uuid "de4dcb52-2baa-4867-a0f9-8e6fad27482f")
+			(uuid "f2c69b45-69e4-4e15-a5ee-e98b13810b2a")
 		)
 		(pin "PA" bidirectional
 			(at 110.49 74.93 0)
@@ -680,7 +675,7 @@
 				)
 				(justify right)
 			)
-			(uuid "7e9fc1c4-309b-4a22-aa92-5991cf125481")
+			(uuid "d14325c6-b0b0-440d-8d2e-9fbc3cf5c236")
 		)
 		(pin "PB" bidirectional
 			(at 110.49 86.36 0)
@@ -690,7 +685,7 @@
 				)
 				(justify right)
 			)
-			(uuid "62786143-eb96-47dc-baa1-9bb530d8fd02")
+			(uuid "ac5e9f33-9e29-4644-9b4e-7cf0501c7f78")
 		)
 		(instances
 			(project "control"

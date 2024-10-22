@@ -416,7 +416,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../../POWER/KICAD/power/efuse.latched.kicad_sch"
+		(property "Sheetfile" "../../POWER/KICAD/efuse.latched.kicad_sch"
 			(at 78.74 89.4846 0)
 			(effects
 				(font
