@@ -53,6 +53,30 @@
 				)
 			)
 			(symbol "SM811K08TF_0_1"
+				(polyline
+					(pts
+						(xy -8.89 5.08) (xy -5.08 2.54) (xy -5.489 3.7299) (xy -5.08 2.54) (xy -6.3038 2.5384)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.7795 6.8455) (xy -3.9695 4.3055) (xy -4.3785 5.4954) (xy -3.9695 4.3055) (xy -5.1933 4.3039)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 0 0)
 					(radius 5.08)
@@ -66,7 +90,7 @@
 				)
 			)
 			(symbol "SM811K08TF_1_0"
-				(pin power_out line
+				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
 					(name "+"
@@ -84,7 +108,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "-"
@@ -689,7 +713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CUBESAT:SM811K08TF"
 			(at 137.16 104.14 0)
 			(effects
 				(font
@@ -767,7 +791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 170.18 104.14 0)
 			(effects
 				(font
@@ -845,7 +869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 157.48 104.14 0)
 			(effects
 				(font

@@ -3,4 +3,4 @@
 members = [
     "SOFTWARE/STAR",
     "SOFTWARE/FIRMWARE"
-]
+, "SOFTWARE/CONTROL"]
