@@ -5,6 +5,164 @@
 	(uuid "ef47adc1-536f-4520-9ebd-fa1d01e89711")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 134.62 44.45) (xy 107.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fbf934-afc0-4179-8b8a-dca1f301840a")
+	)
+	(wire
+		(pts
+			(xy 134.62 62.23) (xy 134.62 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83903049-592d-4788-8eae-0b9bd38833c3")
+	)
+	(sheet
+		(at 59.69 35.56)
+		(size 48.26 66.04)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "211baf62-5fe7-428f-b98d-135f15031c53")
+		(property "Sheetname" "CONNECTOR_X+"
+			(at 59.69 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../BUS/KICAD/connector.male.kicad_sch"
+			(at 59.69 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RESET" bidirectional
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2468375-3a4c-409e-a397-7bb769a96b21")
+		)
+		(pin "V_GND" bidirectional
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f3993781-fbe2-486d-a0ad-f8bb0e84a917")
+		)
+		(pin "V_SOLAR" bidirectional
+			(at 107.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76d8d5c8-2532-42c4-9e92-3e14d396390b")
+		)
+		(pin "V_BAT" bidirectional
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "39c714d3-db0e-46d4-b72b-2b0361248d4e")
+		)
+		(pin "SHUTDOWN" bidirectional
+			(at 107.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "848670fd-11d9-45d0-98d4-58992bbcea34")
+		)
+		(pin "USB" bidirectional
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd433c71-572e-478d-b477-3071cef9dfbd")
+		)
+		(pin "MAGNET" bidirectional
+			(at 107.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e3a7a0d6-abb8-4ae6-99d6-240ca08c4804")
+		)
+		(pin "PHOTODIODE" bidirectional
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "64cfedc3-3d60-4a3d-b51f-76c691edcea1")
+		)
+		(pin "I2C" bidirectional
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e706e628-ee2b-491e-888f-522c8790ad03")
+		)
+		(pin "CAN" bidirectional
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3654a0c0-52c8-473b-b9b2-ac5fdcef42b4")
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 123.19 101.6)
 		(size 12.7 3.81)
@@ -39,6 +197,44 @@
 			(project "power"
 				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58fd429d-e8bc-4dae-9d70-752a4565c9e8")
+		(property "Sheetname" "BATTERY_MODULE"
+			(at 201.93 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_module.kicad_sch"
+			(at 201.93 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711"
+					(page "3")
 				)
 			)
 		)

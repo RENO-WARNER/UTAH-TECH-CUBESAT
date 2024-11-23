@@ -1546,7 +1546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bbce596-466f-435e-bc69-e5c17ea49270")
-		(property "Reference" "R?"
+		(property "Reference" "R21"
 			(at 154.94 114.2999 0)
 			(effects
 				(font
@@ -1600,12 +1600,18 @@
 		(instances
 			(project "control"
 				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/8812c96e-ca04-41e1-abbd-8267da6f4a17/4f67d7e5-b4f1-4280-8ca9-89c489da0499/b44fa901-dbbb-4255-9c8a-45abddcd36be"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 			)
 			(project "command"
 				(path "/e00fbfc6-dde6-474b-a191-76d0397e7dbb/fc69eaab-145a-4b23-932e-6f5d1f636f2f/b44fa901-dbbb-4255-9c8a-45abddcd36be"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/2e64aba1-9872-4229-a91b-1ccd7b04c751/b44fa901-dbbb-4255-9c8a-45abddcd36be"
 					(reference "R?")
 					(unit 1)
 				)
@@ -1622,7 +1628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c1916a2-1f0c-41a4-a69b-718f96dc4d24")
-		(property "Reference" "R?"
+		(property "Reference" "R20"
 			(at 154.94 71.1199 0)
 			(effects
 				(font
@@ -1676,12 +1682,18 @@
 		(instances
 			(project "control"
 				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/8812c96e-ca04-41e1-abbd-8267da6f4a17/4f67d7e5-b4f1-4280-8ca9-89c489da0499/b44fa901-dbbb-4255-9c8a-45abddcd36be"
-					(reference "R?")
+					(reference "R20")
 					(unit 1)
 				)
 			)
 			(project "command"
 				(path "/e00fbfc6-dde6-474b-a191-76d0397e7dbb/fc69eaab-145a-4b23-932e-6f5d1f636f2f/b44fa901-dbbb-4255-9c8a-45abddcd36be"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/2e64aba1-9872-4229-a91b-1ccd7b04c751/b44fa901-dbbb-4255-9c8a-45abddcd36be"
 					(reference "R?")
 					(unit 1)
 				)
@@ -1698,7 +1710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c70d1314-8f66-434d-8dd7-1e9a877b703c")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 121.666 93.98 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1782,12 +1794,18 @@
 		(instances
 			(project "control"
 				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/8812c96e-ca04-41e1-abbd-8267da6f4a17/4f67d7e5-b4f1-4280-8ca9-89c489da0499/b44fa901-dbbb-4255-9c8a-45abddcd36be"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
 			(project "command"
 				(path "/e00fbfc6-dde6-474b-a191-76d0397e7dbb/fc69eaab-145a-4b23-932e-6f5d1f636f2f/b44fa901-dbbb-4255-9c8a-45abddcd36be"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/2e64aba1-9872-4229-a91b-1ccd7b04c751/b44fa901-dbbb-4255-9c8a-45abddcd36be"
 					(reference "Q?")
 					(unit 1)
 				)
@@ -1804,7 +1822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd0d807d-05e7-440b-82d3-ff8229a596ff")
-		(property "Reference" "R?"
+		(property "Reference" "R19"
 			(at 139.7 114.2999 0)
 			(effects
 				(font
@@ -1858,12 +1876,18 @@
 		(instances
 			(project "control"
 				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/8812c96e-ca04-41e1-abbd-8267da6f4a17/4f67d7e5-b4f1-4280-8ca9-89c489da0499/b44fa901-dbbb-4255-9c8a-45abddcd36be"
-					(reference "R?")
+					(reference "R19")
 					(unit 1)
 				)
 			)
 			(project "command"
 				(path "/e00fbfc6-dde6-474b-a191-76d0397e7dbb/fc69eaab-145a-4b23-932e-6f5d1f636f2f/b44fa901-dbbb-4255-9c8a-45abddcd36be"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/2e64aba1-9872-4229-a91b-1ccd7b04c751/b44fa901-dbbb-4255-9c8a-45abddcd36be"
 					(reference "R?")
 					(unit 1)
 				)
@@ -1880,7 +1904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffaefb88-4a54-4ddd-b62e-a8a17864c932")
-		(property "Reference" "R?"
+		(property "Reference" "R18"
 			(at 139.7 71.1199 0)
 			(effects
 				(font
@@ -1934,12 +1958,18 @@
 		(instances
 			(project "control"
 				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/8812c96e-ca04-41e1-abbd-8267da6f4a17/4f67d7e5-b4f1-4280-8ca9-89c489da0499/b44fa901-dbbb-4255-9c8a-45abddcd36be"
-					(reference "R?")
+					(reference "R18")
 					(unit 1)
 				)
 			)
 			(project "command"
 				(path "/e00fbfc6-dde6-474b-a191-76d0397e7dbb/fc69eaab-145a-4b23-932e-6f5d1f636f2f/b44fa901-dbbb-4255-9c8a-45abddcd36be"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/2e64aba1-9872-4229-a91b-1ccd7b04c751/b44fa901-dbbb-4255-9c8a-45abddcd36be"
 					(reference "R?")
 					(unit 1)
 				)

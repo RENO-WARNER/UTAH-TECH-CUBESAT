@@ -400,16 +400,68 @@
       "EFUSE_LATCHED"
     ],
     [
-      "b44fa901-dbbb-4255-9c8a-45abddcd36be",
-      "QFET"
+      "58fd429d-e8bc-4dae-9d70-752a4565c9e8",
+      "BATTERY_MODULE"
     ],
     [
       "2e64aba1-9872-4229-a91b-1ccd7b04c751",
       "EFUSE_RETRY"
     ],
     [
+      "211baf62-5fe7-428f-b98d-135f15031c53",
+      "CONNECTOR_X+"
+    ],
+    [
       "b44fa901-dbbb-4255-9c8a-45abddcd36be",
       "QFET"
+    ],
+    [
+      "c156077b-ae29-4617-92c3-7939e0ba3491",
+      "MONITOR"
+    ],
+    [
+      "3f30ce55-3b73-438a-8098-a0113cf13b97",
+      "MPPT"
+    ],
+    [
+      "eadfe1de-76fa-4ba7-8aca-8d629af1bd01",
+      "MONITOR1"
+    ],
+    [
+      "272627ea-7474-456d-81ae-5f6b1fdd0a68",
+      "BATTERY"
+    ],
+    [
+      "682a7ccb-ae4e-4e27-aa22-99379a5a65e4",
+      "COMMAND"
+    ],
+    [
+      "cb18dbec-8103-4a1e-8186-57440c4fcd2d",
+      "EFUSE_LATCHED"
+    ],
+    [
+      "29e40f37-92ad-48d8-a826-f7dff8f4d82a",
+      "DEBUG"
+    ],
+    [
+      "c8c09d09-edfb-4719-b53d-f0597930b56b",
+      "MCU"
+    ],
+    [
+      "eb4bc99a-bff4-43e7-a690-ddc781eafea7",
+      "EXPANDER"
+    ],
+    [
+      "3f2d8199-33e9-456c-b5a1-16126a4e29ed",
+      "CAN"
+    ],
+    [
+      "8fddf8f7-b62c-4c22-a1ec-6fda59926f37",
+      "MPPT1"
+    ],
+    [
+      "3638ca90-9701-4456-8013-6f74e8e57495",
+      "TEMPERATURE_SENSOR"
     ]
   ],
   "text_variables": {}
