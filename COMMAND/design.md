@@ -396,6 +396,46 @@ ERROR CHECKING
 	THAT WAY WE CAN JUST HANDLE AN ERROR QUICKLY
 
 
+RESET
+BOOT MAYBE
+EFUSE?
+EFUSE STATUS?
+CAN TRANSMIT?
+
 
 DEPLOYMENT
 	GYROSCOPE TESTING
+
+NO BGA
+NO CSP / WLCSP
+NO THROUGH HOLE
+	DIP / SIP / QIP
+TOO BIG
+
+QFP
+QFN / VQFN / WQFN / UQFN
+
+SOP
+
+
+I2C EXPANDER: TCA9538 / TCAL9538
+DROP IN REPLACEMENT
+TSSOP
+
+USB SWITCH: TS3USB221E
+
+MEMORY
+	Up To SDMMC 5.1
+		1 bit
+		4 bit 
+		8 bit
+		HS4000 not supported
+
+
+BOOTLOADER IDS
+	Don't Know?
+	Let's just try
+	Doesn't matter because boot0 determines it. I guess we could just use the one I2C but who cares.
+
+
+Sorry for anyone reading this.
