@@ -127,14 +127,18 @@ AEQ-C 100 Preffered
 
 * All Capacitors are rated X7R 10 V 10 % GCM Murata
 	* 0603 < 2.2 uF
+	* 0805 < 10 uF
 	* 1206 < 22.0 uF
 * All Resistors are 0603 .5% -55C - 155 C +- 25 ppm if possible
+
+0603 Jumper < 1.5 A
 
 X7R 1059
 X8G 1525
 X8R 1772
 
-GRM 18 8 Z7 1A 475 K E15 D
-Ser LW T TM Vt CAP % 	 P
+Inductors must be shielded
 
-GCM
+Stackup 
+1 oz
+4 Layers
