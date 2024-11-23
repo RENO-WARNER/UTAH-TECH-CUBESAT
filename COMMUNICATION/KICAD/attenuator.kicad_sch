@@ -1,0 +1,421 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3fc13c70-0ce7-4709-8e50-035ea67a37b0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "RF:PAT1220-C-10DB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PAT1220-C-10DB"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RF_Converter:RF_Attenuator_Susumu_PAT1220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 10dB Attenuation, PAT1220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RF attenuator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RF*Attenuator*Susumu*PAT1220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PAT1220-C-10DB_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 -3.048) (xy 3.937 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 1.27) (xy -3.937 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.937 1.27) (xy 3.937 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PAT1220-C-10DB_1_1"
+				(rectangle
+					(start -4.572 -1.778)
+					(end -3.302 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 3.175)
+					(end 1.524 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 -3.048) (xy -3.937 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.937 -3.048) (xy 3.937 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 1.524 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.302 -1.778)
+					(end 4.572 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 163.83 88.9) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d52aa1-caac-42a3-a608-e525c3c3f9fd")
+	)
+	(wire
+		(pts
+			(xy 138.43 88.9) (xy 140.97 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd4950a-18a0-422d-a0cc-d3db05a36180")
+	)
+	(wire
+		(pts
+			(xy 151.13 101.6) (xy 151.13 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da65e321-94c6-4ecb-b42c-7db51476691b")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 138.43 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49a7c04b-3371-4e47-a107-3a36347d4d67")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 151.13 101.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fa5b966-2bce-4aab-a643-1c895e559808")
+	)
+	(hierarchical_label "OUT"
+		(shape output)
+		(at 163.83 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eddb03ca-cc44-46b4-9c7a-29c8433743e3")
+	)
+	(symbol
+		(lib_id "RF:PAT1220-C-10DB")
+		(at 151.13 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea567139-0033-47f9-9092-75e21b52bbdf")
+		(property "Reference" "U1"
+			(at 151.13 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PAT1220-C-10DB"
+			(at 151.13 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Converter:RF_Attenuator_Susumu_PAT1220"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 10dB Attenuation, PAT1220"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "24ef3069-70ef-4b83-ada2-c65782a0f2d8")
+		)
+		(pin "1"
+			(uuid "b60c61d1-af1d-4bff-87f4-bcf5f76cdc88")
+		)
+		(pin "2"
+			(uuid "daa22ac3-0760-4b7c-a51a-82f804bc9019")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/4eb0d389-8a08-4cbf-a5eb-8a7b63640ccd/831451b2-3007-47ac-a3e1-e45c9767ea10"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/4eb0d389-8a08-4cbf-a5eb-8a7b63640ccd/c11b217c-e18a-4a41-8758-05d70ecb46e2"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/e60adf2b-68aa-469a-b511-2688a73729bb/831451b2-3007-47ac-a3e1-e45c9767ea10"
+					(reference "U14")
+					(unit 1)
+				)
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/e60adf2b-68aa-469a-b511-2688a73729bb/c11b217c-e18a-4a41-8758-05d70ecb46e2"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

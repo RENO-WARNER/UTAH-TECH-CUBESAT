@@ -1,0 +1,314 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ecea5821-342a-484e-8c7a-c6a53aa8c35d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "CUBESAT:X4C09F1-30S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.874 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "X4C09F1-30S"
+				(at 0 6.096 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.ttm.com/repository/products/wireless-xinger/10-20-30-dB-directional-couplers/X4C09F1-30S/X4C09F1-30S.pdf"
+				(at -3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "30 dB Directional Coupler"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "X4C09F1-30S_0_0"
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "REVERSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "FORWARD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "X4C09F1-30S_1_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 133.35 100.33) (xy 135.89 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32394bfa-bd40-44d8-bec6-4744b80f4c8d")
+	)
+	(wire
+		(pts
+			(xy 163.83 105.41) (xy 161.29 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b203a190-0a2b-42d5-b89d-bee96bcfdebf")
+	)
+	(wire
+		(pts
+			(xy 163.83 100.33) (xy 161.29 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03ce880-7f5d-4f52-abbb-883122d52046")
+	)
+	(wire
+		(pts
+			(xy 133.35 105.41) (xy 135.89 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab107e0-a209-44b6-b136-998f8d4c51bd")
+	)
+	(hierarchical_label "FORWARD"
+		(shape output)
+		(at 163.83 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23180da4-cfb4-4cbd-addb-bb80cdf690c5")
+	)
+	(hierarchical_label "OUT"
+		(shape output)
+		(at 163.83 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e78b970-3ffb-43b9-b6dc-746601d79f7c")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 133.35 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f406950-0f54-47af-9526-788fefce3ccc")
+	)
+	(hierarchical_label "REVERSE"
+		(shape output)
+		(at 133.35 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da193eea-787f-4e0a-8e92-9c7ea1acc68e")
+	)
+	(symbol
+		(lib_id "CUBESAT:X4C09F1-30S")
+		(at 148.59 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0222c5d2-eac6-44ba-99ed-0491c7e7e43b")
+		(property "Reference" "U4"
+			(at 148.59 94.996 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "X4C09F1-30S"
+			(at 148.59 96.774 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CUBESAT:X4C09F1-30S"
+			(at 148.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.ttm.com/repository/products/wireless-xinger/10-20-30-dB-directional-couplers/X4C09F1-30S/X4C09F1-30S.pdf"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30 dB Directional Coupler"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f01a45c8-11f2-4a0e-8e78-9c5d4c2f9887")
+		)
+		(pin "2"
+			(uuid "57dff6ee-66b0-4594-b2da-3fb9b005286c")
+		)
+		(pin "1"
+			(uuid "2196a4b3-0395-4f10-8128-c356edf16ab6")
+		)
+		(pin "4"
+			(uuid "e932dbc4-d69b-4dc0-9741-0afe0fe2cb3b")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/4eb0d389-8a08-4cbf-a5eb-8a7b63640ccd/d474d84d-c447-4bc2-aa61-4f57e1a8a903"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/e60adf2b-68aa-469a-b511-2688a73729bb/d474d84d-c447-4bc2-aa61-4f57e1a8a903"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
