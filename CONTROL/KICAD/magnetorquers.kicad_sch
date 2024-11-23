@@ -1,0 +1,1262 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7f4e4c44-5473-4f00-90d0-0fbe402e61f1")
+	(paper "A4")
+	(lib_symbols)
+	(no_connect
+		(at 116.84 106.68)
+		(uuid "1642c057-ab4f-483b-81f8-45aa0d7ed075")
+	)
+	(no_connect
+		(at 116.84 109.22)
+		(uuid "4b10baf9-21c0-4f1d-8085-265907367329")
+	)
+	(no_connect
+		(at 116.84 90.17)
+		(uuid "8a4e0bfc-92bc-471e-ba92-92e5ddb9234c")
+	)
+	(no_connect
+		(at 116.84 87.63)
+		(uuid "f668f436-f98f-4907-9d6a-435292589bee")
+	)
+	(bus
+		(pts
+			(xy 133.35 64.77) (xy 135.89 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15277609-43cd-49de-b6ab-6c2c64b52fc8")
+	)
+	(wire
+		(pts
+			(xy 118.11 114.3) (xy 115.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d183c5-71d9-466b-a653-426f35ebb794")
+	)
+	(wire
+		(pts
+			(xy 115.57 109.22) (xy 116.84 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da3033e-46ff-42d3-b9c3-1dad26de2d74")
+	)
+	(wire
+		(pts
+			(xy 242.57 50.8) (xy 240.03 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e521af2-c226-4f1d-a2d8-62baf9dc0167")
+	)
+	(wire
+		(pts
+			(xy 242.57 96.52) (xy 240.03 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b6abf3-42b1-4f89-bd2b-897070d51847")
+	)
+	(wire
+		(pts
+			(xy 242.57 81.28) (xy 240.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4177c0-d60a-496d-95ca-2b47e0e660d3")
+	)
+	(wire
+		(pts
+			(xy 118.11 95.25) (xy 115.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cba764-ac87-4f55-b999-d98285055f66")
+	)
+	(bus
+		(pts
+			(xy 86.36 58.42) (xy 88.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b04b7bd-9c07-4a2d-a5fb-473665f43e5f")
+	)
+	(bus
+		(pts
+			(xy 240.03 45.72) (xy 262.89 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4295c5-7bb2-45b4-bab0-8c58bf131ccf")
+	)
+	(wire
+		(pts
+			(xy 115.57 90.17) (xy 116.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66aadca2-954f-43d8-a29a-d459165c0ed7")
+	)
+	(bus
+		(pts
+			(xy 86.36 55.88) (xy 88.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3f1ed1-b2b4-4880-9e54-889a09226d91")
+	)
+	(bus
+		(pts
+			(xy 240.03 60.96) (xy 242.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f365bb8-b876-41b8-bafa-e40706083536")
+	)
+	(bus
+		(pts
+			(xy 133.35 62.23) (xy 135.89 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804dc858-7a25-49f7-a840-feff2158b202")
+	)
+	(wire
+		(pts
+			(xy 115.57 87.63) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d30b0f-872a-4b28-b797-9ad1a4303315")
+	)
+	(wire
+		(pts
+			(xy 85.09 87.63) (xy 87.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831e4f91-dc77-4846-b346-bf3c3d2a27f5")
+	)
+	(bus
+		(pts
+			(xy 85.09 95.25) (xy 87.63 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d68ebc-bb12-4ee3-9785-d322a98f3d8d")
+	)
+	(wire
+		(pts
+			(xy 115.57 106.68) (xy 116.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f1fbc0-6593-417d-bca3-3d12ffe7c934")
+	)
+	(wire
+		(pts
+			(xy 242.57 66.04) (xy 240.03 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88489b60-3337-47d6-af37-5434898df31d")
+	)
+	(bus
+		(pts
+			(xy 133.35 67.31) (xy 135.89 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a0f4a40-8a4e-46ce-89e7-7561b7bc2bb8")
+	)
+	(wire
+		(pts
+			(xy 135.89 69.85) (xy 133.35 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9725696b-7dff-49f5-9b4d-948b03d6c6ca")
+	)
+	(bus
+		(pts
+			(xy 133.35 59.69) (xy 135.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc7424f-3990-4e6f-84b3-c0f5b3cd5c6f")
+	)
+	(bus
+		(pts
+			(xy 133.35 57.15) (xy 135.89 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8c46f6-e4c2-4248-80a6-2028a99d86c4")
+	)
+	(bus
+		(pts
+			(xy 133.35 54.61) (xy 135.89 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4210cd1-ef4f-40fd-942b-67ef7d31c04b")
+	)
+	(wire
+		(pts
+			(xy 242.57 113.03) (xy 240.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafe0b87-46ea-42bd-924f-e727f825905f")
+	)
+	(bus
+		(pts
+			(xy 85.09 114.3) (xy 87.63 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db15aace-00d2-4fd0-aaca-bfab6d71072b")
+	)
+	(wire
+		(pts
+			(xy 85.09 106.68) (xy 87.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52e17af-e071-40cd-b3be-87705108b5a7")
+	)
+	(label "I2C3"
+		(at 85.09 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0064d70f-6fc6-4978-b2b9-4b00b2ec3660")
+	)
+	(label "PH[0..3]"
+		(at 135.89 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d1ee4ed-a7cf-4c7e-a16e-8cdbf2a6751c")
+	)
+	(label "MAGNETORQUER_X+{+ -}"
+		(at 242.57 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25649e77-0cb0-4bba-919d-843cc53e713a")
+	)
+	(label "PD[0..15]"
+		(at 135.89 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26c3ce32-da46-41a4-81c8-c15ab1630572")
+	)
+	(label "PA[0..15]"
+		(at 135.89 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5af9ca35-ff60-41ad-819c-418ed0ba00a4")
+	)
+	(label "PB[0..15]"
+		(at 135.89 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "846a0600-b33e-4e42-b780-e24679358ead")
+	)
+	(label "PE[0..15]"
+		(at 135.89 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94475188-ea3d-4a18-90b4-fb60ead64369")
+	)
+	(label "MAGNETORQUER_X-{+ -}"
+		(at 242.57 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b58b11e0-75bc-4889-8e57-dcd771758cbc")
+	)
+	(label "PC[0..15]"
+		(at 135.89 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f17ec436-90d2-4f05-87ec-110db909d972")
+	)
+	(label "I2C3"
+		(at 85.09 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f84eb9bb-c7b5-43b0-baf3-3e0c6335863e")
+	)
+	(hierarchical_label "I2C{SCL SDA}"
+		(shape bidirectional)
+		(at 86.36 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ad621a5-717d-46f2-882b-fa69d6419ad4")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 135.89 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1aa887d6-c5fa-432b-baa4-223aeb528526")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 242.57 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "574a0fc8-b5fb-49ad-873d-6cf6e2036978")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 118.11 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f6b190a-84f8-42da-b77b-c39223e0270b")
+	)
+	(hierarchical_label "V_3.3"
+		(shape input)
+		(at 85.09 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78149bb7-b730-4c84-84a8-6c7769a4cd5d")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 242.57 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92df1fda-4739-4866-a271-d829bfee4cb9")
+	)
+	(hierarchical_label "CAN{H L}"
+		(shape bidirectional)
+		(at 86.36 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95285f48-93e5-43ac-92d5-7a5e9d0e38f1")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 242.57 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a788539a-da21-4863-bce9-2fd1b6b35ea4")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 242.57 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aeb50544-94e1-4c70-a200-a8a8554e9031")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 118.11 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c97e9bc6-dd79-4119-922c-04682e9ae05c")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 242.57 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7dd5cea-fa64-43fe-aa40-d0ab007766b5")
+	)
+	(hierarchical_label "V_3.3"
+		(shape input)
+		(at 85.09 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8a2b10c-8649-456d-aa8a-b053e5c1710d")
+	)
+	(sheet
+		(at 185.42 43.18)
+		(size 54.61 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5515c2b4-89e0-44d6-9c6c-4352b897283b")
+		(property "Sheetname" "MAGNETORQUER_X+"
+			(at 185.42 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnetorquer.kicad_sch"
+			(at 185.42 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_BAT" input
+			(at 185.42 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "193de690-0f5b-4b29-9c90-5490d35674b4")
+		)
+		(pin "V_GND" input
+			(at 240.03 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cb4c451b-1742-4a97-910e-546176673d8c")
+		)
+		(pin "OUT_[1..2]" output
+			(at 240.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d9b6306d-b56a-4653-a626-bcb2435a3d23")
+		)
+		(pin "IN_[1..2]" input
+			(at 185.42 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e0b1beea-2ffb-4f62-be8f-fa31839bfdc1")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 105.41)
+		(size 54.61 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b9a0047-516c-4e3b-addf-e80b44a059cc")
+		(property "Sheetname" "MAGNETORQUER_Z"
+			(at 185.42 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnetorquer.kicad_sch"
+			(at 185.42 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_BAT" input
+			(at 185.42 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c7c62637-c6b0-4f08-8a73-a2e534b8a9ed")
+		)
+		(pin "V_GND" input
+			(at 240.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0cbb4f84-817a-40c1-89ed-1f287fee20d0")
+		)
+		(pin "OUT_[1..2]" output
+			(at 240.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c9300db-7fa6-42d7-bd44-bff8d8273489")
+		)
+		(pin "IN_[1..2]" input
+			(at 185.42 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b2e1c85c-d974-419e-9e3a-90a9eab0c427")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 104.14)
+		(size 27.94 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73b2e9ff-1238-4887-a719-793481ab6810")
+		(property "Sheetname" "MAGNETOMETER 2"
+			(at 87.63 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../CONTROL/KICAD/magnetometer.kicad_sch"
+			(at 87.63 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_GND" input
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c8d751b6-0ca4-4e23-a14b-157564d254bd")
+		)
+		(pin "V_3.3" input
+			(at 87.63 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2cb72cff-3426-4c24-8a8a-b380a496c162")
+		)
+		(pin "I2C" bidirectional
+			(at 87.63 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c468e6a1-d3a6-4062-ab4d-145bb0d3b658")
+		)
+		(pin "INT" output
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "06963c80-3ed2-46e4-a878-a03d6b6fb692")
+		)
+		(pin "DRDY" output
+			(at 115.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "485ae11c-709b-41c4-a649-acfc0627d437")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 58.42)
+		(size 54.61 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7fbc164b-2874-4c19-a992-166477eeefa6")
+		(property "Sheetname" "MAGNETORQUER_X-"
+			(at 185.42 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnetorquer.kicad_sch"
+			(at 185.42 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_BAT" input
+			(at 185.42 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "deea7e56-39a1-4a45-b7db-32eef773ace7")
+		)
+		(pin "V_GND" input
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "603e7f77-0a70-42b4-858f-7155abe1a105")
+		)
+		(pin "OUT_[1..2]" output
+			(at 240.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "885dbbab-95ef-4025-a312-b2e637ccc49b")
+		)
+		(pin "IN_[1..2]" input
+			(at 185.42 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e6db6339-588c-40c6-815a-f6658e5315ad")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 49.53)
+		(size 44.45 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ace0dddc-e7de-4238-9577-ce744b7cdb3f")
+		(property "Sheetname" "COMMAND1"
+			(at 88.9 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../COMMAND/KICAD/command.kicad_sch"
+			(at 88.9 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C{SCL SDA}" bidirectional
+			(at 88.9 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "12f06fca-e525-41d0-8d6d-246dc7bef515")
+		)
+		(pin "V_3.3" input
+			(at 88.9 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9081fac9-8e82-4eae-9da4-2a482d68b617")
+		)
+		(pin "V_GND" input
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf6d03cf-5e28-4b82-80b3-e6869aab9818")
+		)
+		(pin "CAN{H L}" input
+			(at 88.9 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d11424c-cb7f-462a-a631-fb43b5379dda")
+		)
+		(pin "PD[0..15]" bidirectional
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f16493a3-48a8-48d3-a2b3-4e920b2967c4")
+		)
+		(pin "PB[0..15]" bidirectional
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "79ee33a0-76e7-4a34-a818-c7d3c1932a53")
+		)
+		(pin "PH[0..3]" bidirectional
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2060b32a-d08d-4be2-881a-3727ebc67592")
+		)
+		(pin "PC[0..15]" bidirectional
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0beeaf8-cf93-4d22-9a5b-9182039b9e0e")
+		)
+		(pin "PA[0..15]" bidirectional
+			(at 133.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ad1149bb-07bb-45d2-a85c-2400d6aae418")
+		)
+		(pin "V_LV" input
+			(at 88.9 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "58cddfea-7b50-4041-a5ac-1f5c7b876099")
+		)
+		(pin "STATUS" input
+			(at 88.9 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d56b13a-2bc0-45b9-a4d3-b12c1f168449")
+		)
+		(pin "PE[0..15]" bidirectional
+			(at 133.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86ef4174-8db5-4865-9a54-e50671ab2d54")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 73.66)
+		(size 54.61 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af7edfcd-2aa5-4a42-8dd4-7a111c35a30f")
+		(property "Sheetname" "MAGNETORQUER_Y+"
+			(at 185.42 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnetorquer.kicad_sch"
+			(at 185.42 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_BAT" input
+			(at 185.42 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "941aaa03-5eac-4d79-9c3e-7ebc44292ddd")
+		)
+		(pin "V_GND" input
+			(at 240.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e838e90a-7fdf-404d-94d9-10cf9a277720")
+		)
+		(pin "OUT_[1..2]" output
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ad233a76-e9e3-49a2-ad83-5cac2a6a361c")
+		)
+		(pin "IN_[1..2]" input
+			(at 185.42 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4af30405-cbb8-4906-b75f-d7b646e22365")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 88.9)
+		(size 54.61 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dde8df26-115a-409e-83dc-a42c4273e9cd")
+		(property "Sheetname" "MAGNETORQUER_Y-"
+			(at 185.42 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnetorquer.kicad_sch"
+			(at 185.42 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_BAT" input
+			(at 185.42 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4a488a5-986a-418e-a0fa-aeba58c91af6")
+		)
+		(pin "V_GND" input
+			(at 240.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4b1ecbfc-49d6-4492-a874-929c3712906a")
+		)
+		(pin "OUT_[1..2]" output
+			(at 240.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd2c52ef-8c67-42d4-ab10-7f70bbd49900")
+		)
+		(pin "IN_[1..2]" input
+			(at 185.42 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce6026dd-1a0b-4764-a374-02884f39843c")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 85.09)
+		(size 27.94 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec2b2905-1572-4476-b559-bb6f4c1eb2ca")
+		(property "Sheetname" "IMU 2"
+			(at 87.63 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../CONTROL/KICAD/imu.kicad_sch"
+			(at 87.63 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_GND" input
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d04aa46d-100c-463f-bf1e-bbc33dd78961")
+		)
+		(pin "INT2" input
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f0cdb018-3fcb-4433-bdc4-903de735c067")
+		)
+		(pin "INT1" input
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "507f337f-190c-4bb6-b4df-a417b863bb8d")
+		)
+		(pin "I2C" bidirectional
+			(at 87.63 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f65c52eb-7c2c-4f79-8228-e7d14db56488")
+		)
+		(pin "V_3.3" input
+			(at 87.63 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d29f1e0e-e159-46c4-9cda-0a9511a66724")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501"
+					(page "5")
+				)
+			)
+		)
+	)
+)

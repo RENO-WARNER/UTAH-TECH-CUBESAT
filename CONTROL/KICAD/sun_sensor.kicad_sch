@@ -53,7 +53,7 @@
 				)
 			)
 			(symbol "K857PE_0_0"
-				(pin passive line
+				(pin output line
 					(at 15.24 -7.62 180)
 					(length 2.54)
 					(name "ANODE_4"
@@ -89,7 +89,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 15.24 2.54 180)
 					(length 2.54)
 					(name "ANODE_2"
@@ -107,7 +107,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 15.24 7.62 180)
 					(length 2.54)
 					(name "ANODE_1"
@@ -143,7 +143,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 15.24 -2.54 180)
 					(length 2.54)
 					(name "ANODE_3"
@@ -991,6 +991,7 @@
 	)
 	(label "PHOTODIODE_4"
 		(at 148.59 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1012,6 +1013,7 @@
 	)
 	(label "PHOTODIODE_1"
 		(at 148.59 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1022,6 +1024,7 @@
 	)
 	(label "PHOTODIODE_3"
 		(at 148.59 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1043,6 +1046,7 @@
 	)
 	(label "PHOTODIODE_2"
 		(at 148.59 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1051,7 +1055,7 @@
 		)
 		(uuid "775ff89a-27c5-4731-93ea-fb9219401429")
 	)
-	(label "PHOTODIODE_[1..4]"
+	(label "PHOTODIODE_[0..3]"
 		(at 170.18 124.46 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1108,7 +1112,7 @@
 		)
 		(uuid "2ae70992-97f1-4f5d-b95e-e837aa67d50c")
 	)
-	(hierarchical_label "PHOTODIODE"
+	(hierarchical_label "PHOTODIODE_[0..3]"
 		(shape output)
 		(at 190.5 124.46 0)
 		(fields_autoplaced yes)
@@ -1158,148 +1162,14 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "038582e9-f3b2-48c1-834f-17d3195132ff")
-		(property "Reference" "R5"
-			(at 142.24 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 142.24 117.348 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 121.158 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c5d0ae49-9904-443d-a999-11e54e885d1e")
-		)
-		(pin "1"
-			(uuid "f689f8fb-7393-4d49-abd5-33b494f7c437")
-		)
-		(instances
-			(project "bus"
-				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/8d2027d9-d4ac-482a-843a-297d7edc3e5a"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07dbf810-4e2f-4aeb-9873-a8cd287c6e68")
-		(property "Reference" "R2"
-			(at 142.24 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 142.24 98.298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 102.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20810906-0043-4ee5-b49d-8ef8c04af9ea")
-		)
-		(pin "1"
-			(uuid "57c81f59-0993-48f1-ba55-f59452631d21")
-		)
-		(instances
-			(project "bus"
-				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/8d2027d9-d4ac-482a-843a-297d7edc3e5a"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 142.24 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "084185b1-caf0-428d-9cb4-4f081814e87d")
-		(property "Reference" "R3"
+		(uuid "1929a6dd-de15-4045-908b-bc873b54be67")
+		(property "Reference" "R6"
 			(at 142.24 102.87 90)
 			(effects
 				(font
@@ -1307,7 +1177,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7kΩ"
 			(at 142.24 104.648 90)
 			(effects
 				(font
@@ -1315,7 +1185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 108.458 90)
 			(effects
 				(font
@@ -1343,15 +1213,82 @@
 			)
 		)
 		(pin "2"
-			(uuid "1fc36ddc-19e2-45b2-916e-94e3340821cb")
+			(uuid "e3aa2a40-a3c9-4f32-990c-c920b4f4b06e")
 		)
 		(pin "1"
-			(uuid "77115e94-e592-4ec1-a43e-6dfa51da70e4")
+			(uuid "d8138d09-cfaf-4f80-b101-764f16d83133")
 		)
 		(instances
 			(project "bus"
 				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/8d2027d9-d4ac-482a-843a-297d7edc3e5a"
-					(reference "R3")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ad7d3f1-4348-4ab0-8160-bb623cea6542")
+		(property "Reference" "R7"
+			(at 142.24 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 142.24 110.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 142.24 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62f8c636-e565-43ee-9819-33cc8e6237bc")
+		)
+		(pin "1"
+			(uuid "db286500-102b-4920-acf5-884790add647")
+		)
+		(instances
+			(project "bus"
+				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/8d2027d9-d4ac-482a-843a-297d7edc3e5a"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1382,7 +1319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 130.556 67.056 0)
 			(effects
 				(font
@@ -1428,7 +1365,7 @@
 			(uuid "3c34ae0f-19c0-442c-89f4-3e1c9dc70979")
 		)
 		(instances
-			(project ""
+			(project "bus"
 				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/8d2027d9-d4ac-482a-843a-297d7edc3e5a"
 					(reference "D7")
 					(unit 1)
@@ -1438,31 +1375,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 113.03 90)
+		(at 142.24 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "76546541-eeda-4933-8bfb-612dd9864806")
-		(property "Reference" "R4"
-			(at 142.24 109.22 90)
+		(uuid "5ba72a91-4ff2-46a8-90e4-52055e9ef8f1")
+		(property "Reference" "R8"
+			(at 142.24 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 142.24 110.998 90)
+		(property "Value" "4.7kΩ"
+			(at 142.24 117.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 142.24 114.808 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 142.24 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1408,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 113.03 0)
+			(at 142.24 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1417,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 113.03 0)
+			(at 142.24 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,15 +1426,82 @@
 			)
 		)
 		(pin "2"
-			(uuid "e14f4a38-2e2b-42be-95f0-97eb985a458e")
+			(uuid "4195f4f8-fd91-46a3-b0ee-2577f982e5aa")
 		)
 		(pin "1"
-			(uuid "212a54c7-1ac6-43aa-9328-6d83ec7a50f9")
+			(uuid "2d14b5f0-0456-4fcd-844a-f007052df854")
 		)
 		(instances
 			(project "bus"
 				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/8d2027d9-d4ac-482a-843a-297d7edc3e5a"
-					(reference "R4")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5d7ffeb-647d-4ffe-a3b5-c8ae0b2f3d5a")
+		(property "Reference" "R5"
+			(at 142.24 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 142.24 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 142.24 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6010e76-efe0-4de8-a2ac-6cbeedafe38a")
+		)
+		(pin "1"
+			(uuid "dd1dc7a6-056b-4531-8801-0650172803bf")
+		)
+		(instances
+			(project "bus"
+				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/8d2027d9-d4ac-482a-843a-297d7edc3e5a"
+					(reference "R5")
 					(unit 1)
 				)
 			)
