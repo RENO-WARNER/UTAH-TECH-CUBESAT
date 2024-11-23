@@ -5,7 +5,7 @@
 	(uuid "67571d53-25f1-4aff-801d-10e8dc34f95d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CUBESAT:TCANC3403-Q1"
+		(symbol "CUBESAT:TCANC3403DR-Q1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -17,7 +17,7 @@
 					)
 				)
 			)
-			(property "Value" "TCANC3403-Q1"
+			(property "Value" "TCAN3403DRB-Q1"
 				(at 0.508 11.176 0)
 				(effects
 					(font
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DFN_QFN:Texas_DRB0008J"
 				(at -8.89 7.62 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TCANC3403-Q1_0_0"
+			(symbol "TCANC3403DR-Q1_0_0"
 				(pin input line
 					(at -8.89 7.62 0)
 					(length 2.54)
@@ -198,7 +198,7 @@
 					)
 				)
 			)
-			(symbol "TCANC3403-Q1_1_1"
+			(symbol "TCANC3403DR-Q1_1_1"
 				(rectangle
 					(start -6.35 10.16)
 					(end 7.62 -10.16)
@@ -350,7 +350,7 @@
 		)
 	)
 	(bus_entry
-		(at 135.89 95.25)
+		(at 133.35 95.25)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -368,7 +368,7 @@
 		(uuid "821a5063-c1d4-445d-a37e-09fe054a9efd")
 	)
 	(bus_entry
-		(at 135.89 97.79)
+		(at 133.35 97.79)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -387,16 +387,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 100.33) (xy 147.32 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02569d0a-7c31-49cc-870d-2a6e01c76aa3")
-	)
-	(wire
-		(pts
 			(xy 166.37 100.33) (xy 176.53 100.33)
 		)
 		(stroke
@@ -404,6 +394,26 @@
 			(type default)
 		)
 		(uuid "089e49aa-e985-4758-b38c-c222d894ed47")
+	)
+	(wire
+		(pts
+			(xy 135.89 97.79) (xy 147.32 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef6cf23-d535-4d05-b59e-d7569bb69866")
+	)
+	(wire
+		(pts
+			(xy 135.89 100.33) (xy 147.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ff7d86-bbc6-4276-918f-0efffbb2eba4")
 	)
 	(wire
 		(pts
@@ -427,7 +437,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 107.95) (xy 102.87 105.41)
+			(xy 66.04 99.06) (xy 66.04 96.52)
 		)
 		(stroke
 			(width 0)
@@ -437,7 +447,7 @@
 	)
 	(bus
 		(pts
-			(xy 135.89 95.25) (xy 135.89 97.79)
+			(xy 133.35 95.25) (xy 133.35 97.79)
 		)
 		(stroke
 			(width 0)
@@ -447,7 +457,7 @@
 	)
 	(bus
 		(pts
-			(xy 190.5 91.44) (xy 179.07 91.44)
+			(xy 191.77 91.44) (xy 179.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -465,9 +475,19 @@
 		)
 		(uuid "5ffceac9-4a65-434e-b5c3-1c41e036d49b")
 	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 147.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61782332-ce7a-43e1-a01c-3eae4e2fdd2a")
+	)
 	(bus
 		(pts
-			(xy 135.89 95.25) (xy 135.89 92.71)
+			(xy 133.35 95.25) (xy 133.35 92.71)
 		)
 		(stroke
 			(width 0)
@@ -487,16 +507,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 97.79) (xy 147.32 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "895ad150-89e4-45bc-86b2-fd84f21b36c0")
-	)
-	(wire
-		(pts
 			(xy 144.78 110.49) (xy 147.32 110.49)
 		)
 		(stroke
@@ -507,7 +517,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 107.95) (xy 115.57 105.41)
+			(xy 78.74 99.06) (xy 78.74 96.52)
 		)
 		(stroke
 			(width 0)
@@ -517,7 +527,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 118.11) (xy 115.57 115.57)
+			(xy 78.74 109.22) (xy 78.74 106.68)
 		)
 		(stroke
 			(width 0)
@@ -537,7 +547,7 @@
 	)
 	(bus
 		(pts
-			(xy 123.19 92.71) (xy 135.89 92.71)
+			(xy 115.57 92.71) (xy 133.35 92.71)
 		)
 		(stroke
 			(width 0)
@@ -547,7 +557,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 118.11) (xy 102.87 115.57)
+			(xy 66.04 109.22) (xy 66.04 106.68)
 		)
 		(stroke
 			(width 0)
@@ -555,9 +565,33 @@
 		)
 		(uuid "ead359b3-ad0a-4704-a293-84a7ee65629f")
 	)
+	(rectangle
+		(start 58.42 83.82)
+		(end 100.33 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3f97d701-9dd7-4a46-a4b1-fec8e825644e)
+	)
+	(rectangle
+		(start 106.68 87.63)
+		(end 205.74 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7a18380c-68fa-4670-b08c-2c8dc2141f82)
+	)
 	(text "STB HAS PULLUP"
 		(exclude_from_sim no)
-		(at 124.968 103.632 0)
+		(at 114.3 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -568,7 +602,7 @@
 	)
 	(text "CAN IS HI-Z WHEN UNPOWERED\n"
 		(exclude_from_sim no)
-		(at 179.578 93.98 0)
+		(at 170.18 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -577,9 +611,31 @@
 		)
 		(uuid "4c458d26-594e-41ce-80e7-c59b4ec9e99f")
 	)
+	(text "DECOUPLING CAPS"
+		(exclude_from_sim no)
+		(at 62.23 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "964e8525-805f-4f4d-9972-d5cac2a9ac46")
+	)
+	(text "VERIFICATION\nSYMBOL: X\nSCHEMATIC: X\nFOOTPRINT: X\nBOARD: "
+		(exclude_from_sim no)
+		(at 163.83 64.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e1865d74-9b46-4ab0-8d92-ce35562ca0a2")
+	)
 	(text "STANDBY IS ACTIVE HIGH"
 		(exclude_from_sim no)
-		(at 124.968 101.854 0)
+		(at 114.3 84.328 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -588,18 +644,18 @@
 		)
 		(uuid "efab095e-ea1c-49ef-9e70-f17a4d949a31")
 	)
-	(label "CAN{RX TX}"
-		(at 124.46 92.71 0)
+	(label "CAN_I{RX TX}"
+		(at 130.81 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "52953821-38e4-490c-b7a5-bd3e7a7bb717")
 	)
-	(label "CAN{H L}"
+	(label "CAN_O{H L}"
 		(at 179.07 91.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -610,25 +666,25 @@
 		)
 		(uuid "53011899-da96-4ea5-a142-1ebcaf0eb8c2")
 	)
-	(label "CAN.RX"
-		(at 138.43 100.33 0)
+	(label "CAN_I.RX"
+		(at 144.78 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "570e82b6-3a30-45e5-b994-24c9cbf79a23")
 	)
-	(label "CAN.TX"
-		(at 138.43 97.79 0)
+	(label "CAN_I.TX"
+		(at 144.78 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a48cd05c-ebbc-4507-8a37-21a6e28948ea")
 	)
@@ -656,7 +712,7 @@
 	)
 	(hierarchical_label "V_GND"
 		(shape input)
-		(at 102.87 118.11 270)
+		(at 66.04 109.22 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -666,9 +722,9 @@
 		)
 		(uuid "0099cb3c-b6ad-43ef-a7ee-4e401a313008")
 	)
-	(hierarchical_label "CAN"
+	(hierarchical_label "CAN_O{H L}"
 		(shape input)
-		(at 190.5 91.44 0)
+		(at 191.77 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -678,9 +734,9 @@
 		)
 		(uuid "22b8906d-1f21-4c7b-a2bb-052cda7b0612")
 	)
-	(hierarchical_label "V_LV"
+	(hierarchical_label "V_3.3"
 		(shape input)
-		(at 102.87 105.41 90)
+		(at 78.74 96.52 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -688,11 +744,23 @@
 			)
 			(justify left)
 		)
-		(uuid "4d95f1c0-dec5-4724-b621-4add3fcdc128")
+		(uuid "2af937de-7045-4fb7-8528-48888f133feb")
+	)
+	(hierarchical_label "V_3.3"
+		(shape input)
+		(at 66.04 96.52 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "735a8216-fd2d-4b0f-817f-128646387801")
 	)
 	(hierarchical_label "V_GND"
 		(shape input)
-		(at 115.57 118.11 270)
+		(at 78.74 109.22 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -702,7 +770,7 @@
 		)
 		(uuid "8615f819-2f15-4975-8542-95983e35bf1b")
 	)
-	(hierarchical_label "V_LV"
+	(hierarchical_label "V_3.3"
 		(shape input)
 		(at 144.78 110.49 180)
 		(fields_autoplaced yes)
@@ -726,7 +794,7 @@
 		)
 		(uuid "8faea9b5-36a3-402d-a98f-067019355742")
 	)
-	(hierarchical_label "V_LV"
+	(hierarchical_label "V_3.3"
 		(shape input)
 		(at 144.78 113.03 180)
 		(fields_autoplaced yes)
@@ -738,21 +806,21 @@
 		)
 		(uuid "96713eb9-4225-4703-803d-d50480e18fa0")
 	)
-	(hierarchical_label "V_LV"
+	(hierarchical_label "STB"
 		(shape input)
-		(at 115.57 105.41 90)
+		(at 144.78 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "fc362bdf-11e4-48fc-aa9d-bc58d83a1e15")
+		(uuid "f37d712a-9923-4f82-8231-030e452b2e1e")
 	)
-	(hierarchical_label "CAN"
+	(hierarchical_label "CAN_I{RX TX}"
 		(shape input)
-		(at 123.19 92.71 180)
+		(at 115.57 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -763,7 +831,7 @@
 		(uuid "fd563b5a-35fc-4694-94df-30080050e740")
 	)
 	(symbol
-		(lib_id "CUBESAT:TCANC3403-Q1")
+		(lib_id "CUBESAT:TCANC3403DR-Q1")
 		(at 156.21 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -771,8 +839,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f62b7ef-1aab-4bd3-917c-49661e2d9570")
-		(property "Reference" "U?"
+		(uuid "17fa69b0-3452-483f-bc4e-33d9a8a0f14c")
+		(property "Reference" "U6"
 			(at 156.845 90.17 0)
 			(effects
 				(font
@@ -780,7 +848,7 @@
 				)
 			)
 		)
-		(property "Value" "TCANC3403-Q1"
+		(property "Value" "TCAN3403-Q1"
 			(at 156.845 92.71 0)
 			(effects
 				(font
@@ -788,7 +856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:Texas_DRB0008J"
 			(at 147.32 97.79 0)
 			(effects
 				(font
@@ -815,34 +883,38 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "1f02473a-8890-4149-9015-466ec9dfca0f")
-		)
 		(pin "1"
-			(uuid "2f610eb3-50e2-45a0-ba02-27c589de48d7")
+			(uuid "93cb937f-f15f-4cfe-b678-b312698e2a94")
 		)
 		(pin "2"
-			(uuid "20b42775-6aa4-4466-b04a-67127c967ed5")
-		)
-		(pin "4"
-			(uuid "15a72fc8-e78e-4143-b0ac-b426f15f9865")
-		)
-		(pin "5"
-			(uuid "dfc55ac7-adc5-4248-b399-d8812886ed93")
-		)
-		(pin "6"
-			(uuid "64aa9064-444d-456f-9ce5-db08d5d0dc0e")
-		)
-		(pin "8"
-			(uuid "e534ce4c-cb7c-4900-9208-e8aa189cce50")
+			(uuid "a73aea02-dd85-46e8-8086-eb55d45086c9")
 		)
 		(pin "3"
-			(uuid "08a65243-972e-4c7c-8881-1b119f07449e")
+			(uuid "e2a39a5a-3483-45da-afa0-9584afb53a0c")
+		)
+		(pin "4"
+			(uuid "30af0857-5ccd-4e44-bd6a-68a8fb62e034")
+		)
+		(pin "6"
+			(uuid "a8e10022-d906-4235-b369-8bc2190f11c0")
+		)
+		(pin "5"
+			(uuid "8cf01070-c2eb-4f47-9285-22636e18e96d")
+		)
+		(pin "8"
+			(uuid "392d72cb-18f0-43ba-8b7a-72cfeea77c7a")
+		)
+		(pin "7"
+			(uuid "7ed41c52-bf71-4634-847c-7130edb4471e")
 		)
 		(instances
 			(project "control"
-				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/25a33f1f-9c89-41a2-a6e3-9fd3adab2d11/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
-					(reference "U?")
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501/ace0dddc-e7de-4238-9577-ce744b7cdb3f/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+					(reference "U21")
+					(unit 1)
+				)
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/94383bfe-d869-4ac9-b660-9c199e344f31/9d3a0f9f-9dfc-4311-9915-9308a3fac81f/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -850,7 +922,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 115.57 111.76 0)
+		(at 78.74 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -858,8 +930,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2349e0e-af07-4513-86bf-24335725c3e2")
-		(property "Reference" "C?"
-			(at 119.38 110.4899 0)
+		(property "Reference" "C32"
+			(at 82.55 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,7 +940,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 119.38 113.0299 0)
+			(at 82.55 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,8 +948,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 116.5352 115.57 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 79.7052 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,7 +958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 111.76 0)
+			(at 78.74 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,7 +967,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 115.57 111.76 0)
+			(at 78.74 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,15 +976,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "faa96d1d-3705-44e2-b2c6-7c75009ec753")
+			(uuid "754a4f28-6a24-4cca-b9bb-c3f6aed90d75")
 		)
 		(pin "2"
-			(uuid "96c5e1cf-b9cd-4754-8de3-e40d258dca43")
+			(uuid "9e7527ef-5f5b-4c67-86e4-af9664389742")
 		)
 		(instances
 			(project "control"
-				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/25a33f1f-9c89-41a2-a6e3-9fd3adab2d11/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
-					(reference "C?")
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501/ace0dddc-e7de-4238-9577-ce744b7cdb3f/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+					(reference "C82")
+					(unit 1)
+				)
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/94383bfe-d869-4ac9-b660-9c199e344f31/9d3a0f9f-9dfc-4311-9915-9308a3fac81f/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -920,7 +996,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 102.87 111.76 0)
+		(at 66.04 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -928,8 +1004,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4028d18-8d83-4628-9ff7-f6c21660ba72")
-		(property "Reference" "C?"
-			(at 106.68 110.4899 0)
+		(property "Reference" "C31"
+			(at 69.85 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -938,7 +1014,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 106.68 113.0299 0)
+			(at 69.85 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,8 +1022,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 103.8352 115.57 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,7 +1032,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 111.76 0)
+			(at 66.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,7 +1041,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 102.87 111.76 0)
+			(at 66.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,15 +1050,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "cccce969-191c-403b-b98c-af235aa99677")
+			(uuid "8471ab7c-1a1d-4664-9a0b-ae5bac73d1ce")
 		)
 		(pin "2"
-			(uuid "43409abb-c06c-4636-a30a-cbcf6da8405c")
+			(uuid "d3434010-7b3b-4f86-a6a9-ccd6c0ff834b")
 		)
 		(instances
 			(project "control"
-				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/25a33f1f-9c89-41a2-a6e3-9fd3adab2d11/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
-					(reference "C?")
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501/ace0dddc-e7de-4238-9577-ce744b7cdb3f/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+					(reference "C81")
+					(unit 1)
+				)
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/94383bfe-d869-4ac9-b660-9c199e344f31/9d3a0f9f-9dfc-4311-9915-9308a3fac81f/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+					(reference "C31")
 					(unit 1)
 				)
 			)

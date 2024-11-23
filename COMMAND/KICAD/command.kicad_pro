@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -384,28 +384,28 @@
   },
   "sheets": [
     [
-      "e00fbfc6-dde6-474b-a191-76d0397e7dbb",
+      "4ce81e3f-8350-4cd3-b668-cec8249c0daa",
       "Root"
     ],
     [
-      "61e53333-0d49-4afb-a7b0-e10fa4b42dcf",
+      "cb18dbec-8103-4a1e-8186-57440c4fcd2d",
+      "EFUSE_LATCHED"
+    ],
+    [
+      "29e40f37-92ad-48d8-a826-f7dff8f4d82a",
+      "DEBUG"
+    ],
+    [
+      "c8c09d09-edfb-4719-b53d-f0597930b56b",
       "MCU"
     ],
     [
-      "1ed6e105-9d33-483d-bc07-614dd71ef42b",
-      "CONNECTOR"
+      "eb4bc99a-bff4-43e7-a690-ddc781eafea7",
+      "EXPANDER"
     ],
     [
-      "fc69eaab-145a-4b23-932e-6f5d1f636f2f",
-      "EFUSE_RETRY"
-    ],
-    [
-      "b44fa901-dbbb-4255-9c8a-45abddcd36be",
-      "QFET"
-    ],
-    [
-      "9b5307c5-95ab-4e7a-9965-4e05e882c07b",
-      "ISOLATOR"
+      "3f2d8199-33e9-456c-b5a1-16126a4e29ed",
+      "CAN"
     ]
   ],
   "text_variables": {}

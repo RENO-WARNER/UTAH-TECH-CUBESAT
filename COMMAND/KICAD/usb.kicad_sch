@@ -1,0 +1,1157 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4ce81e3f-8350-4cd3-b668-cec8249c0daa")
+	(paper "A4")
+	(lib_symbols
+		(symbol "CUBESAT:TS3USB221EDRC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 12.954 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS3USB221EDRC"
+				(at 0 11.176 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts3usb221e.pdf"
+				(at 8.89 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High-Speed USB 2.0 (480Mbps) 1:2 Multiplexer – Demultiplexer Switch With Single Enable and IEC Level 3 ESD Protection"
+				(at 8.89 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS3USB221EDRC_0_0"
+				(pin bidirectional line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "1D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -7.62 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "1D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 7.62 180)
+					(length 2.54)
+					(name "2D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 5.08 180)
+					(length 2.54)
+					(name "2D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 5.08 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 7.62 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TS3USB221EDRC_1_1"
+				(rectangle
+					(start -6.35 10.16)
+					(end 6.35 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(bus_entry
+		(at 171.45 106.68)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41755ee8-6d07-4949-8418-70b04fc66f75")
+	)
+	(bus_entry
+		(at 121.92 101.6)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1cae74-4e43-4767-88de-b8fb610ef30e")
+	)
+	(bus_entry
+		(at 171.45 104.14)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fad790c-49b3-4036-86c2-6f07fb658748")
+	)
+	(bus_entry
+		(at 171.45 91.44)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a144faa1-c454-4f15-9092-aad504ced12b")
+	)
+	(bus_entry
+		(at 171.45 93.98)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6e35c2-ba5f-43e4-9c07-b9645da06a09")
+	)
+	(bus_entry
+		(at 121.92 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b2b0d7-d8b8-4fb9-a51c-2e169b375aa4")
+	)
+	(wire
+		(pts
+			(xy 154.94 93.98) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ffc6a5-d87a-4357-bf05-f2656b14c854")
+	)
+	(bus
+		(pts
+			(xy 104.14 96.52) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e2dfd8-90f9-43ca-ab39-ccdaf0612196")
+	)
+	(wire
+		(pts
+			(xy 134.62 93.98) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16dca941-0751-4bf0-bbb3-daa515b84a59")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2b6214-cfcf-4d8a-8ebb-98bc8faf532d")
+	)
+	(bus
+		(pts
+			(xy 171.45 109.22) (xy 171.45 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a867f4-f482-4451-87a1-cfcecd3c5875")
+	)
+	(wire
+		(pts
+			(xy 154.94 101.6) (xy 168.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34772166-29a9-4052-a479-f1b142282fa9")
+	)
+	(bus
+		(pts
+			(xy 121.92 96.52) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a89104-fa00-46cb-a2f7-949b3fbfe149")
+	)
+	(bus
+		(pts
+			(xy 171.45 88.9) (xy 190.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481d3469-b7eb-4ba2-aa06-19c4dfa2ed46")
+	)
+	(bus
+		(pts
+			(xy 171.45 104.14) (xy 171.45 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb5fe8d-1cf1-40ac-a4a8-832731be04fe")
+	)
+	(wire
+		(pts
+			(xy 66.04 81.28) (xy 66.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63dc09d9-0f15-451c-8a1a-3518c6537869")
+	)
+	(wire
+		(pts
+			(xy 77.47 81.28) (xy 77.47 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654439a2-8bbf-4b1c-a0fd-46bccd6c1497")
+	)
+	(bus
+		(pts
+			(xy 171.45 91.44) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b26fd47-56d6-4e08-b262-d43f5f5a5f52")
+	)
+	(wire
+		(pts
+			(xy 154.94 96.52) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a2cb8d-d7b1-4405-97c3-c17f0ab1e46d")
+	)
+	(bus
+		(pts
+			(xy 171.45 93.98) (xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74569f5f-d407-4e55-be1e-9a8474a95a3c")
+	)
+	(wire
+		(pts
+			(xy 124.46 104.14) (xy 137.16 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b964e17-b312-4d14-9c63-e187aab5a62e")
+	)
+	(wire
+		(pts
+			(xy 66.04 91.44) (xy 66.04 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94acceb4-bed7-42a3-963c-9cfc77906de0")
+	)
+	(wire
+		(pts
+			(xy 134.62 96.52) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982449ae-8e12-44ac-b91b-6620900bcd1c")
+	)
+	(wire
+		(pts
+			(xy 77.47 91.44) (xy 77.47 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb56a2f2-7513-4a32-99a6-7753b527acd7")
+	)
+	(bus
+		(pts
+			(xy 171.45 109.22) (xy 190.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00cded6-2a75-49ec-b73c-45f6498e34fd")
+	)
+	(bus
+		(pts
+			(xy 121.92 99.06) (xy 121.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35791cd-3d36-42f7-a26d-c46b6d52a4f0")
+	)
+	(wire
+		(pts
+			(xy 154.94 104.14) (xy 168.91 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77ab39b-45ca-43f3-8627-f09662b27995")
+	)
+	(wire
+		(pts
+			(xy 157.48 109.22) (xy 154.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e92bb8f6-72b9-4e2f-8b7d-60e8ce3d4f3e")
+	)
+	(wire
+		(pts
+			(xy 134.62 109.22) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb0ffe4-d64f-4ebe-b12c-dccdb1c063f0")
+	)
+	(text "VERIFICATION\nSYMBOL: X\nSCHEMATIC: X\nFOOTPRINT:\nBOARD: "
+		(exclude_from_sim no)
+		(at 158.242 74.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9eaf0055-ec2c-43ab-afae-3fa6d47d8bcd")
+	)
+	(text "ALLOWS FOR OPEN DRAIN FROM EITHER MICROCONTROLLER"
+		(exclude_from_sim no)
+		(at 56.896 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c408853b-7b3f-49a7-b980-bbf784f8e435")
+	)
+	(text "PULLUP"
+		(exclude_from_sim no)
+		(at 56.896 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d88e4299-56d8-4245-9327-c6bc2386066f")
+	)
+	(label "USB{D- D+}"
+		(at 106.68 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0505ffc7-2f87-41dc-8783-00e26126b0ac")
+	)
+	(label "USB.D-"
+		(at 134.62 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25efe93c-4947-405d-8628-4282098124f9")
+	)
+	(label "USB_2.D-"
+		(at 157.48 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5547fbf9-51f2-4114-8a7c-d1dda1489db7")
+	)
+	(label "USB_1.D+"
+		(at 157.48 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "564971da-21d4-48f8-8bdf-9558dfff6214")
+	)
+	(label "USB_1{D- D+}"
+		(at 173.99 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "785e0ff5-53d8-43ac-b0f2-a1177f455e2e")
+	)
+	(label "USB_2.D+"
+		(at 157.48 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d346402b-3508-4497-91c7-78cce8d79b68")
+	)
+	(label "USB_2{D- D+}"
+		(at 187.96 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc98c29c-4dbd-4530-83cd-46e02e0e5c1e")
+	)
+	(label "USB.D+"
+		(at 134.62 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dcc50c13-f9b3-4428-aeee-8d36990966fa")
+	)
+	(label "USB_1.D-"
+		(at 157.48 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9d4a495-8cfe-41b3-acda-fe6ab9908eaa")
+	)
+	(hierarchical_label "V_GND"
+		(shape input)
+		(at 157.48 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "038ee3ab-8496-417a-857a-b41407071c9c")
+	)
+	(hierarchical_label "V_3.3"
+		(shape input)
+		(at 66.04 81.28 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f2deaf7-a7e2-4a59-938e-6718c4a5e35b")
+	)
+	(hierarchical_label "USB_1"
+		(shape bidirectional)
+		(at 190.5 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55a307f1-eb36-47d4-b9db-fd9d421dd0ba")
+	)
+	(hierarchical_label "SWITCH"
+		(shape input)
+		(at 66.04 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65fab11e-095c-464a-bd87-f20838fdfb27")
+	)
+	(hierarchical_label "USB"
+		(shape bidirectional)
+		(at 104.14 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86ca8ef2-11a8-4464-9444-008be0fd88b7")
+	)
+	(hierarchical_label "V_3.3"
+		(shape input)
+		(at 134.62 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c3f3a18-8c90-4580-8a0d-a52edf2ed460")
+	)
+	(hierarchical_label "USB_2"
+		(shape bidirectional)
+		(at 190.5 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab5b26c6-506f-4a81-aedd-c1dd108a63b3")
+	)
+	(hierarchical_label "SWITCH"
+		(shape input)
+		(at 134.62 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1b32b94-7056-4ffa-a317-5e751dc26aea")
+	)
+	(hierarchical_label "V_3.3"
+		(shape input)
+		(at 77.47 81.28 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d40ba344-b7ea-4e98-bbcb-b4ad5be2b4d0")
+	)
+	(hierarchical_label "ENABLE"
+		(shape input)
+		(at 134.62 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee2e6433-4901-464e-b8a2-85e75bdcb315")
+	)
+	(hierarchical_label "ENABLE"
+		(shape input)
+		(at 77.47 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f90a1eb8-43ea-424a-aae8-1958b8bb58a5")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ba96bdb-9c12-461a-8802-fd3b945a9985")
+		(property "Reference" "R8"
+			(at 80.01 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 80.01 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 75.692 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72de625f-0714-4e5c-a0bc-562d355f8a58")
+		)
+		(pin "1"
+			(uuid "d6aa222a-1d2e-461f-9bc2-34f83f74799b")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/4e3d2197-fe5d-4664-82bd-4df58203503e"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CUBESAT:TS3USB221EDRC")
+		(at 146.05 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73f02e04-5026-44eb-a609-a19d48512a11")
+		(property "Reference" "U5"
+			(at 146.05 88.646 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS3USB221E"
+			(at 146.05 90.424 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts3usb221e.pdf"
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-Speed USB 2.0 (480Mbps) 1:2 Multiplexer – Demultiplexer Switch With Single Enable and IEC Level 3 ESD Protection"
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "5762f47e-dd16-4aa4-820f-c6aa0d193280")
+		)
+		(pin "2"
+			(uuid "e2572083-8f9a-479b-84b1-236fd5cbda8f")
+		)
+		(pin "7"
+			(uuid "97813bd1-7119-450f-a662-d32ee0c88be4")
+		)
+		(pin "1"
+			(uuid "ed34928b-975e-41c6-9ce2-03a7a651d6d5")
+		)
+		(pin "3"
+			(uuid "ab3e1d2d-ae91-41c7-9715-001a686feb73")
+		)
+		(pin "6"
+			(uuid "08e85605-f328-47dc-8df1-bf418a039fb6")
+		)
+		(pin "8"
+			(uuid "2c6765ea-1883-4034-8ccc-72d4c1c8df5a")
+		)
+		(pin "5"
+			(uuid "b958b637-7fb2-4471-baab-14046528b8e4")
+		)
+		(pin "4"
+			(uuid "c2b7d409-25f4-42b4-a020-ab6a68f63184")
+		)
+		(pin "10"
+			(uuid "a80023b4-eed2-464d-a529-5e2f22ffc0b2")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/4e3d2197-fe5d-4664-82bd-4df58203503e"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7513ea52-d444-44f1-9f40-34333f920102")
+		(property "Reference" "R14"
+			(at 68.58 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 68.58 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.262 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "509c5754-c563-4eed-b98f-904bb4d11503")
+		)
+		(pin "1"
+			(uuid "6ac33040-6d71-4b02-9a56-6cf28e252bfd")
+		)
+		(instances
+			(project "communication"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/4e3d2197-fe5d-4664-82bd-4df58203503e"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
