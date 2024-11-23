@@ -15,3 +15,5 @@ Cargo.lock
 _autosave*
 # Remove Kicad Cache files
 fp-info-cache
+# Remove Python Virtual Environments
+venv/
