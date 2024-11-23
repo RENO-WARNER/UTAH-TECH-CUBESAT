@@ -33,7 +33,7 @@ fn main() {
 
 	println!("Star 264 {:?} {:?} {:?}",star_264.0.right_ascension.to_degrees(),star_264.0.declination.to_degrees(),star_264.1);
 	println!("Star 403 {:?} {:?} {:?}",star_403.0.right_ascension.to_degrees(),star_403.0.declination.to_degrees(),star_403.1);
-	println!("Star 21 {:?} {:?} {:?}",star_542.0.right_ascension.to_degrees(),star_542.0.declination.to_degrees(),star_542.1);
+	println!("Star 542 {:?} {:?} {:?}",star_542.0.right_ascension.to_degrees(),star_542.0.declination.to_degrees(),star_542.1);
 
 	println!("Star 264 / Star 403 Actual Angle: {:?} rad",Database::Star::angle(star_264.0,star_403.0));
 	println!("Star 264 / Star 542 Actual Angle: {:?} deg",Database::Star::angle(star_264.0,star_542.0));
@@ -174,7 +174,7 @@ mod Identification {
 	}
 
 	fn find_pairs(a: &super::ImageProcessing::Star,b: &super::ImageProcessing::Star, database: &Vec<AnglePair>) -> Option<Vec<Pair>> {
-		const EPSILON: f32 = 0.0002;
+		const EPSILON: f32 = 0.00015;
 
 		let target: f32 = (a.vector.0.sin() * b.vector.0.sin() + a.vector.0.cos() * b.vector.0.cos() * (a.vector.1 - b.vector.1).cos()).acos();
 
@@ -192,39 +192,13 @@ mod Identification {
 		ab: &[Pair],
 		ac: &[Pair],
 		exclude: &[StarID],
-	) -> Option<StarID> {
-		//FIX: Increase Speed with some bit manipulation.
+	) -> Vec<StarID> {
 
-		let commons: Option<Vec<StarID>> = ab.iter().filter_map(|(a,b)| {
-			if exclude.contains(&a) {
-				return None;
-			}
-			if exclude.contains(&b) {
-				return None;
-			}
-
-			return match ac.iter().find_map(|(c,d)| (c == a || c == b).then_some(*c)) {// This is BAD Also it should be filter.
-				Some(d) => Some(Some(d)),
-				None => {
-					match ac.iter().find_map(|(c,d)| (d == a || d == b).then_some(*d)) {
-						Some(c) => Some(Some(c)),
-						None => None,
-					}
-				},
-			}
+		return ab.iter().filter_map(|(a,b)| {
+			return ac.iter().find_map(|(c,d)| {
+				return (c == a || c == b).then_some(*c).or((d == a || d == b).then_some(*d));
+			});
 		}).collect();
-
-		match commons {
-			None => return None,
-			Some(commons) => {
-				println!("Commons: {:?}",commons.len());
-				if commons.len() == 1 {
-					return Some(commons[0]);
-				}
-
-				return None;
-			},
-		};
 	}
 
 	pub fn identify(stars: Vec<super::ImageProcessing::Star>, database: &Vec<AnglePair>) -> Result<StarID, &'static str> {
@@ -246,15 +220,15 @@ mod Identification {
 			let potential_pairs_ik = match self::find_pairs(i, k, database) {None => continue,Some(asdf) => asdf};//Fail if no pairs are found
 			let potential_pairs_jk = match self::find_pairs(j, k, database) {None => continue,Some(asdf) => asdf};//Fail if no pairs are found
 	
-			for pair in potential_pairs_ij.iter() {
-				println!("IJ: {:?}",pair);
-			}
-			for pair in potential_pairs_ik.iter() {
-				println!("IK: {:?}",pair);
-			}
-			for pair in potential_pairs_jk.iter() {
-				println!("JK: {:?}",pair);
-			}
+			// for pair in potential_pairs_ij.iter() {
+			// 	println!("IJ: {:?}",pair);
+			// }
+			// for pair in potential_pairs_ik.iter() {
+			// 	println!("IK: {:?}",pair);
+			// }
+			// for pair in potential_pairs_jk.iter() {
+			// 	println!("JK: {:?}",pair);
+			// }
 
 			println!("Potential pairs");
 
@@ -264,33 +238,33 @@ mod Identification {
 
 			println!("Common Star I: {:?}",star_i);
 
-			if star_i.is_none() {
+			if star_i.is_empty() {
 				continue;
 			}
 	
-			exclude.push(star_i.unwrap());
+			//exclude.push(star_i.unwrap());
 	
 			let star_j = self::find_common_star(&potential_pairs_ij, &potential_pairs_jk, &exclude);
 
-			println!("Common Star I: {:?}",star_j);
+			println!("Common Star J: {:?}",star_j);
 
-			if star_j.is_none() {
+			if star_j.is_empty() {
 				continue;
 			}
 	
-			exclude.push(star_j.unwrap());
+			//exclude.push(star_j.unwrap());
 	
 			let star_k = self::find_common_star(&potential_pairs_ik, &potential_pairs_jk, &exclude);
 
-			println!("Common Star I: {:?}",star_k);
+			println!("Common Star K: {:?}",star_k);
 
-			if star_k.is_none() {
+			if star_k.is_empty() {
 				continue;
 			}
 	
-			println!("i: {:?}, j: {:?}, k: {:?}", star_i.unwrap(), star_j.unwrap(), star_k.unwrap());
+			println!("i: {:?}, j: {:?}, k: {:?}", star_i, star_j, star_k);
 
-			return Ok(star_i.unwrap());
+			return Ok(star_i[0]);
 		}
 
 		return Err("Could not find a match");
