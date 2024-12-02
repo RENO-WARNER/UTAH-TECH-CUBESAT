@@ -772,7 +772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0061d5b8-ee25-41a9-b633-57a560725a24")
-		(property "Reference" "C2"
+		(property "Reference" "C10"
 			(at 110.49 99.0599 0)
 			(effects
 				(font
@@ -818,21 +818,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3d731e3-130c-4c20-be7f-a3c64eecbe36")
+			(uuid "d427f50f-edee-43c0-b3a1-d78ddbfd5026")
 		)
 		(pin "2"
-			(uuid "73b0fe2d-fa95-41f0-9020-e85fb3c61899")
+			(uuid "080a2b74-4a86-4547-b44f-b34f2492a1f8")
 		)
 		(instances
-			(project ""
-				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/b8cd3b68-e49c-4009-8a50-5ec068f5cb3a"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/3638ca90-9701-4456-8013-6f74e8e57495"
-					(reference "C28")
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/272627ea-7474-456d-81ae-5f6b1fdd0a68/2708a68d-1022-4340-b2e0-aa371803758b"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -848,7 +842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c7461f7-bca9-439a-a44c-7110c2440cf2")
-		(property "Reference" "R4"
+		(property "Reference" "R34"
 			(at 179.07 101.5999 0)
 			(effects
 				(font
@@ -894,20 +888,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "dc1d19ac-c2ab-46ea-93f1-8fe527b71e95")
+			(uuid "0dd3a5da-5fb1-43ce-99ff-c7cad825089b")
 		)
 		(pin "1"
-			(uuid "b9423900-5b69-49bc-a83c-85160488e3a9")
+			(uuid "5baac263-420c-4d85-aeec-5ab4b632eac6")
 		)
 		(instances
 			(project "power"
-				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/b8cd3b68-e49c-4009-8a50-5ec068f5cb3a"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/3638ca90-9701-4456-8013-6f74e8e57495"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/272627ea-7474-456d-81ae-5f6b1fdd0a68/2708a68d-1022-4340-b2e0-aa371803758b"
 					(reference "R34")
 					(unit 1)
 				)
@@ -924,7 +912,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5bb7d5d1-e68c-4514-bc7a-6d26853632d7")
-		(property "Reference" "R3"
+		(property "Reference" "R33"
 			(at 179.07 88.8999 0)
 			(effects
 				(font
@@ -970,20 +958,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "eb6d7042-cc50-4c27-8f6c-0cb3ee75dea9")
+			(uuid "0d55376f-20f2-4560-8ea5-4883fef88b7b")
 		)
 		(pin "1"
-			(uuid "0f4c4282-2160-42f8-9775-1c6a80c44784")
+			(uuid "bd6e2118-3c98-44a0-943a-07c34d41ef2b")
 		)
 		(instances
 			(project "power"
-				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/b8cd3b68-e49c-4009-8a50-5ec068f5cb3a"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/3638ca90-9701-4456-8013-6f74e8e57495"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/272627ea-7474-456d-81ae-5f6b1fdd0a68/2708a68d-1022-4340-b2e0-aa371803758b"
 					(reference "R33")
 					(unit 1)
 				)
@@ -999,7 +981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da9913b0-5a50-49a8-bc96-295160627903")
-		(property "Reference" "U2"
+		(property "Reference" "U6"
 			(at 153.67 88.9 0)
 			(effects
 				(font
@@ -1043,32 +1025,26 @@
 			)
 		)
 		(pin "4"
-			(uuid "87337405-966e-4166-8f01-1422f918c1b5")
+			(uuid "01f7b312-474d-421a-af5c-5e637b3115d5")
 		)
 		(pin "5"
-			(uuid "c273f2ee-7952-42e3-8b4a-3c2afc60f80f")
+			(uuid "a30fd5f0-2646-48b3-b062-5eadc8df6edc")
 		)
 		(pin "2"
-			(uuid "690bad7b-4e03-4ca5-bff5-46988e4f1855")
+			(uuid "89a12625-671c-4116-bdcf-8fd076370034")
 		)
 		(pin "1"
-			(uuid "873414c5-cc2d-4d47-8079-338a72f23f54")
+			(uuid "8eacf224-ce68-45d2-b1f5-d182c7528aa4")
 		)
 		(pin "6"
-			(uuid "32f5ed9c-97f0-4d79-93d0-3ef8f7d5aee3")
+			(uuid "32a830db-1ced-4822-854f-44e64a27be40")
 		)
 		(pin "3"
-			(uuid "890d2b9e-d63b-48d1-86e5-6ea476748209")
+			(uuid "6fe90f15-c64f-4397-af1a-5dba2ec69390")
 		)
 		(instances
-			(project ""
-				(path "/d0cf13c6-7468-4a0f-ad0e-01e083e4d938/b8cd3b68-e49c-4009-8a50-5ec068f5cb3a"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/3638ca90-9701-4456-8013-6f74e8e57495"
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/272627ea-7474-456d-81ae-5f6b1fdd0a68/2708a68d-1022-4340-b2e0-aa371803758b"
 					(reference "U6")
 					(unit 1)
 				)

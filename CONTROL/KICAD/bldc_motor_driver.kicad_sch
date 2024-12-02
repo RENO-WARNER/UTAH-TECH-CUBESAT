@@ -1381,6 +1381,9 @@
 			)
 		)
 	)
+	(bus_alias "PHASES"
+		(members "A" "B" "C")
+	)
 	(junction
 		(at 80.01 109.22)
 		(diameter 0)
@@ -1502,7 +1505,7 @@
 		(uuid "10c10e40-c1d1-4548-a74f-c83bf99373bd")
 	)
 	(bus_entry
-		(at 114.3 48.26)
+		(at 123.19 48.26)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1520,7 +1523,7 @@
 		(uuid "2282b383-9346-48ef-b41b-962cc87487ef")
 	)
 	(bus_entry
-		(at 114.3 60.96)
+		(at 123.19 60.96)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1529,7 +1532,7 @@
 		(uuid "29c3d753-5f5b-4d5e-b594-bd0d06437547")
 	)
 	(bus_entry
-		(at 114.3 68.58)
+		(at 123.19 68.58)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1538,7 +1541,7 @@
 		(uuid "3768a31c-d1d7-45a9-b9aa-ea4b06378712")
 	)
 	(bus_entry
-		(at 114.3 50.8)
+		(at 123.19 50.8)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1565,7 +1568,7 @@
 		(uuid "a03ddcd7-fc23-4ade-bade-21fc6536b684")
 	)
 	(bus_entry
-		(at 114.3 71.12)
+		(at 123.19 71.12)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1574,7 +1577,7 @@
 		(uuid "a5ea06db-53f9-4dc4-a16f-24e148f86ff8")
 	)
 	(bus_entry
-		(at 114.3 58.42)
+		(at 123.19 58.42)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1631,7 +1634,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 63.5) (xy 137.16 63.5)
+			(xy 125.73 63.5) (xy 137.16 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +1654,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 60.96) (xy 137.16 60.96)
+			(xy 125.73 60.96) (xy 137.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1671,7 +1674,7 @@
 	)
 	(bus
 		(pts
-			(xy 59.69 41.91) (xy 114.3 41.91)
+			(xy 107.95 41.91) (xy 123.19 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1691,7 +1694,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 96.52) (xy 198.12 96.52)
+			(xy 181.61 96.52) (xy 199.39 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1711,7 +1714,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 60.96) (xy 114.3 68.58)
+			(xy 123.19 60.96) (xy 123.19 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1831,7 +1834,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 50.8) (xy 137.16 50.8)
+			(xy 125.73 50.8) (xy 137.16 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1851,7 +1854,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 71.12) (xy 137.16 71.12)
+			(xy 125.73 71.12) (xy 137.16 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1991,7 +1994,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 73.66) (xy 137.16 73.66)
+			(xy 125.73 73.66) (xy 137.16 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2081,7 +2084,7 @@
 	)
 	(bus
 		(pts
-			(xy 93.98 76.2) (xy 120.65 76.2)
+			(xy 111.76 76.2) (xy 120.65 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2231,7 +2234,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 41.91) (xy 114.3 48.26)
+			(xy 123.19 41.91) (xy 123.19 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2251,7 +2254,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 68.58) (xy 114.3 71.12)
+			(xy 123.19 68.58) (xy 123.19 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2391,7 +2394,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 48.26) (xy 114.3 50.8)
+			(xy 123.19 48.26) (xy 123.19 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2471,7 +2474,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 50.8) (xy 114.3 58.42)
+			(xy 123.19 50.8) (xy 123.19 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2531,7 +2534,7 @@
 	)
 	(bus
 		(pts
-			(xy 185.42 45.72) (xy 204.47 45.72)
+			(xy 185.42 45.72) (xy 205.74 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2551,7 +2554,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 58.42) (xy 114.3 60.96)
+			(xy 123.19 58.42) (xy 123.19 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2631,7 +2634,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 53.34) (xy 137.16 53.34)
+			(xy 125.73 53.34) (xy 137.16 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2812,7 +2815,7 @@
 		)
 		(uuid "1778f601-1a60-47a8-8bf6-fcc7701125cf")
 	)
-	(label "CONTROL.BRAKE"
+	(label "BRAKE"
 		(at 134.62 73.66 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2834,7 +2837,7 @@
 		)
 		(uuid "29f97d38-7e34-47fc-b0e4-1cfe0e0e6f98")
 	)
-	(label "CONTROL.DRVOFF"
+	(label "DRVOFF"
 		(at 134.62 60.96 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2867,14 +2870,14 @@
 		)
 		(uuid "395f2a76-a447-4821-af17-b17a52a41c5c")
 	)
-	(label "CONTROL{BRAKE PWM FAULT SLEEP DRVOFF FGOUT}"
-		(at 62.23 41.91 0)
+	(label "{CONTROL}"
+		(at 120.65 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5c1e550a-81d6-4ae9-865d-0bac5b26a9d9")
 	)
@@ -2900,7 +2903,7 @@
 		)
 		(uuid "7c9298ad-5817-4741-b60b-5936f40c14ab")
 	)
-	(label "CONTROL.SLEEP"
+	(label "SLEEP"
 		(at 134.62 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2911,7 +2914,7 @@
 		)
 		(uuid "971b13a6-dbb1-46ec-a2d7-685843730877")
 	)
-	(label "CONTROL.FAULT"
+	(label "FAULT"
 		(at 134.62 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2922,7 +2925,7 @@
 		)
 		(uuid "9ab52b65-55ae-425d-b02a-50e7888b9d42")
 	)
-	(label "SPI{CS SCLK SDI SDO}"
+	(label "{SPI}"
 		(at 118.11 76.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2933,7 +2936,7 @@
 		)
 		(uuid "a006abb2-4bc4-47a5-86e5-02e7e5802186")
 	)
-	(label "CONTROL.FGOUT"
+	(label "FGOUT"
 		(at 134.62 63.5 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2955,7 +2958,7 @@
 		)
 		(uuid "c41bb152-de4a-40fd-844b-5767eece0ac3")
 	)
-	(label "MOTOR{A B C}"
+	(label "MOTOR{PHASES}"
 		(at 187.96 45.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2988,7 +2991,7 @@
 		)
 		(uuid "d038f357-2df3-4186-8182-2d34b8c53e38")
 	)
-	(label "HALL{A B C}"
+	(label "HALL{PHASES}"
 		(at 184.15 96.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3010,7 +3013,7 @@
 		)
 		(uuid "f115b0be-0494-4a96-8106-1ee0d440a191")
 	)
-	(label "CONTROL.PWM "
+	(label "PWM"
 		(at 134.62 71.12 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3139,9 +3142,9 @@
 		)
 		(uuid "4104765c-59b5-4fa5-a16f-d74f7f0a5ef6")
 	)
-	(hierarchical_label "HALL{A  B C} "
+	(hierarchical_label "HALL{PHASES} "
 		(shape input)
-		(at 198.12 96.52 0)
+		(at 199.39 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3199,9 +3202,9 @@
 		)
 		(uuid "55d48f80-d897-439b-a405-18ded354b0f5")
 	)
-	(hierarchical_label "MOTOR{A B C}"
+	(hierarchical_label "MOTOR{PHASES}"
 		(shape output)
-		(at 204.47 45.72 0)
+		(at 205.74 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3259,9 +3262,9 @@
 		)
 		(uuid "a53af41b-5daf-4864-bf04-905a639d2bfe")
 	)
-	(hierarchical_label "CONTROL{BRAKE PWM FAULT SLEEP DRVOFF FGOUT}"
+	(hierarchical_label "{CONTROL}"
 		(shape bidirectional)
-		(at 59.69 41.91 180)
+		(at 107.95 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3307,9 +3310,9 @@
 		)
 		(uuid "cf27c6ab-0c0c-4b45-9aa7-413b4a7fceae")
 	)
-	(hierarchical_label "SPI{CS SCLK SDI SDO}"
+	(hierarchical_label "{SPI}"
 		(shape bidirectional)
-		(at 93.98 76.2 180)
+		(at 111.76 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

@@ -3351,9 +3351,15 @@
 					(unit 1)
 				)
 			)
-			(project "communication"
+			(project "control"
 				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/9da6452e-b3cb-4b01-88c5-7df28751a9a5"
-					(reference "J1")
+					(reference "J?")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/211baf62-5fe7-428f-b98d-135f15031c53"
+					(reference "J?")
 					(unit 1)
 				)
 			)

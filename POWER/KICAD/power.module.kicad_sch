@@ -1,0 +1,634 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f925d94d-e91e-46bb-8579-5b2cfe773f31")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 105.41 43.18) (xy 107.95 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0deac2-6696-481c-b1a7-46ba265c1442")
+	)
+	(wire
+		(pts
+			(xy 105.41 33.02) (xy 115.57 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ff91ad-b953-47f9-9130-dfe535699de1")
+	)
+	(wire
+		(pts
+			(xy 158.75 31.75) (xy 156.21 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea0990a-7e01-4188-8110-ba7bd06861e9")
+	)
+	(wire
+		(pts
+			(xy 72.39 38.1) (xy 74.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6f7305-ac6f-47ce-90ca-7184881d19d8")
+	)
+	(wire
+		(pts
+			(xy 72.39 33.02) (xy 74.93 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b03ce31c-7710-4ba3-b66d-a695712051bc")
+	)
+	(wire
+		(pts
+			(xy 105.41 35.56) (xy 107.95 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1802638-7cf4-46b0-8e02-4d93e823d1ac")
+	)
+	(rectangle
+		(start 53.34 15.24)
+		(end 175.26 55.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9c69cec6-9eb4-4a36-a765-ca8478dd1abe)
+	)
+	(text "BACKUP DOMAIN POWER SUPPLY"
+		(exclude_from_sim no)
+		(at 55.88 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8164cda5-f44f-4dfe-93cc-ae08e84b5cfe")
+	)
+	(label "EFUSE_STATUS"
+		(at 72.39 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e645d50-f560-4cf6-bf83-4a21357e0bcd")
+	)
+	(label "V_3.3AB"
+		(at 158.75 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc8337dd-a81a-4a2d-80a1-8b361c732fe6")
+	)
+	(label "EFUSE_ENABLE"
+		(at 72.39 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e77ba209-76bf-4871-9a3d-959130524ea0")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41059945-6827-48c3-ab06-38a5e5c3a765")
+		(property "Reference" "R2"
+			(at 111.76 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 111.76 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.172 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d754d20d-82ad-4fe6-8693-65de34951355")
+		)
+		(pin "2"
+			(uuid "deadbceb-6c86-42ed-981a-6af10e142c0e")
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 55.88)
+		(size 40.64 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "272627ea-7474-456d-81ae-5f6b1fdd0a68")
+		(property "Sheetname" "BATTERY_MODULE"
+			(at 63.5 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../POWER/KICAD/battery.module.kicad_sch"
+			(at 63.5 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 86.36)
+		(size 86.36 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ea2810e-4717-4e38-a293-78c5d721b886")
+		(property "Sheetname" "SOLAR MODULE"
+			(at 64.77 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar.module.kicad_sch"
+			(at 64.77 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 30.48)
+		(size 40.64 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58d3c8ad-efab-4066-aac0-52f2e936aa90")
+		(property "Sheetname" "SMPS(3.3 V)1"
+			(at 115.57 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../POWER/KICAD/smps_3V3.kicad_sch"
+			(at 115.57 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_OUT" output
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e77299ef-60f2-469b-8728-477044188e72")
+		)
+		(pin "V_IN" input
+			(at 115.57 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6c202ab9-beb9-4638-947b-361b1544e701")
+		)
+		(pin "V_GND" input
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2ccd062-6bd5-4ef3-b213-bf44bba3f74f")
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 149.86)
+		(size 60.96 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "682a7ccb-ae4e-4e27-aa22-99379a5a65e4")
+		(property "Sheetname" "COMMAND"
+			(at 68.58 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../COMMAND/KICAD/command.kicad_sch"
+			(at 68.58 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 116.84)
+		(size 86.36 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6cc64a2d-93ee-420a-962c-7def1761cc5b")
+		(property "Sheetname" "SOLAR MODULE1"
+			(at 64.77 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar.module.kicad_sch"
+			(at 64.77 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 25.4)
+		(size 30.48 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c832478-9010-4a40-9a07-45e1d4589332")
+		(property "Sheetname" "EFUSE_LATCHED1"
+			(at 74.93 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../POWER/KICAD/efuse.latched.kicad_sch"
+			(at 74.93 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_OUT" input
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "659530b3-200d-49c7-9cff-e5e851253879")
+		)
+		(pin "V_GND" input
+			(at 105.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d730b0d6-850d-4158-b426-b1b7176edb80")
+		)
+		(pin "STATUS" input
+			(at 74.93 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "823cd4fc-2cee-4dc0-8769-c5d3dc26c262")
+		)
+		(pin "ENABLE" input
+			(at 74.93 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "198032fa-8a96-4c35-b8d0-2e4677ce39d9")
+		)
+		(pin "V_IN" input
+			(at 74.93 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b6e2599-701c-4190-933f-8ad99d4d0921")
+		)
+		(pin "I_LIM" output
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f6fbf0e-8f3b-4610-9c5f-4f60df9fad98")
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8"
+					(page "6")
+				)
+			)
+		)
+	)
+)

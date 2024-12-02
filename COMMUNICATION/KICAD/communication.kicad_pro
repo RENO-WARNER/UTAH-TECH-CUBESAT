@@ -617,40 +617,56 @@
       "Root"
     ],
     [
-      "831451b2-3007-47ac-a3e1-e45c9767ea10",
-      "ATTENUATOR1"
+      "a021a516-f8a2-48a4-8b79-b531761ea9b5",
+      "ATTENUATOR2"
     ],
     [
       "b6f6ac0e-fcb6-4622-ad2c-a5111b27f164",
       "COMMAND"
     ],
     [
-      "c11b217c-e18a-4a41-8758-05d70ecb46e2",
-      "ATTENUATOR2"
-    ],
-    [
-      "d474d84d-c447-4bc2-aa61-4f57e1a8a903",
+      "503aa56d-040d-4678-bd81-08001f5a7e2d",
       "COUPLER"
     ],
     [
-      "5efc2ac6-6661-44e2-8b94-f2851e091db5",
+      "611ffc60-9e46-441d-ae7c-396a267ab426",
+      "DETECTOR_FW"
+    ],
+    [
+      "9b49bd94-3f53-445c-969a-845f5bbf9694",
+      "SMPS"
+    ],
+    [
+      "0e426de6-47a4-4e57-a06e-750b655f3261",
+      "TRANSCIEVER"
+    ],
+    [
+      "b38a137a-6f64-4fbf-b6b0-3363b61c2955",
       "DETECTOR_RV"
     ],
     [
-      "7f6487ca-8c06-43f6-ab32-f7086d3a45c4",
-      "DETECTOR_FW"
+      "7d8c925a-125b-4b48-bcb8-98e345733372",
+      "EFUSE_LATCHED"
     ],
     [
       "25bb0265-97e6-4245-b885-96ca038fe3f9",
       "MONITOR"
     ],
     [
+      "7d8c925a-125b-4b48-bcb8-98e345733372",
+      "EFUSE_LATCHED"
+    ],
+    [
+      "b90e1395-1e98-4e3a-bf33-85d3c9f53eb2",
+      "ATTENUATOR1"
+    ],
+    [
       "1b9fe0c9-c384-41ce-a26f-5efa23fec5ab",
       "CONNECTOR"
     ],
     [
-      "db0bc37c-7e2e-4192-a9ef-5d3860346c8a",
-      "TRANSCIEVER"
+      "b90e1395-1e98-4e3a-bf33-85d3c9f53eb2",
+      "ATTENUATOR1"
     ],
     [
       "4e3d2197-fe5d-4664-82bd-4df58203503e",
@@ -665,31 +681,27 @@
       "COMMUNICATION MODULE 2"
     ],
     [
-      "c11b217c-e18a-4a41-8758-05d70ecb46e2",
-      "ATTENUATOR2"
-    ],
-    [
-      "d474d84d-c447-4bc2-aa61-4f57e1a8a903",
+      "503aa56d-040d-4678-bd81-08001f5a7e2d",
       "COUPLER"
     ],
     [
-      "7f6487ca-8c06-43f6-ab32-f7086d3a45c4",
+      "611ffc60-9e46-441d-ae7c-396a267ab426",
       "DETECTOR_FW"
     ],
     [
-      "831451b2-3007-47ac-a3e1-e45c9767ea10",
-      "ATTENUATOR1"
+      "b38a137a-6f64-4fbf-b6b0-3363b61c2955",
+      "DETECTOR_RV"
+    ],
+    [
+      "a021a516-f8a2-48a4-8b79-b531761ea9b5",
+      "ATTENUATOR2"
     ],
     [
       "b6f6ac0e-fcb6-4622-ad2c-a5111b27f164",
       "COMMAND"
     ],
     [
-      "5efc2ac6-6661-44e2-8b94-f2851e091db5",
-      "DETECTOR_RV"
-    ],
-    [
-      "db0bc37c-7e2e-4192-a9ef-5d3860346c8a",
+      "0e426de6-47a4-4e57-a06e-750b655f3261",
       "TRANSCIEVER"
     ],
     [
@@ -697,40 +709,84 @@
       "MONITOR"
     ],
     [
+      "ab30452b-ab67-45bc-8ea6-b86e49bc1921",
+      "SMPS(5.0 V)"
+    ],
+    [
       "cb18dbec-8103-4a1e-8186-57440c4fcd2d",
       "EFUSE_LATCHED"
+    ],
+    [
+      "1dd4ce49-25f0-4020-bfb7-a0e8adc07c24",
+      "SMPS(3.3 V)"
+    ],
+    [
+      "9b49bd94-3f53-445c-969a-845f5bbf9694",
+      "SMPS"
     ],
     [
       "29e40f37-92ad-48d8-a826-f7dff8f4d82a",
       "DEBUG"
     ],
     [
-      "c8c09d09-edfb-4719-b53d-f0597930b56b",
-      "MCU"
+      "a3be7482-392a-4138-a83a-39c705d4f6cc",
+      "SMPS(5.0 V)"
+    ],
+    [
+      "9b49bd94-3f53-445c-969a-845f5bbf9694",
+      "SMPS"
     ],
     [
       "eb4bc99a-bff4-43e7-a690-ddc781eafea7",
       "EXPANDER"
+    ],
+    [
+      "c8c09d09-edfb-4719-b53d-f0597930b56b",
+      "MCU"
     ],
     [
       "3f2d8199-33e9-456c-b5a1-16126a4e29ed",
       "CAN"
     ],
     [
+      "ab30452b-ab67-45bc-8ea6-b86e49bc1921",
+      "SMPS(5.0 V)"
+    ],
+    [
+      "9b49bd94-3f53-445c-969a-845f5bbf9694",
+      "SMPS"
+    ],
+    [
       "cb18dbec-8103-4a1e-8186-57440c4fcd2d",
       "EFUSE_LATCHED"
+    ],
+    [
+      "1dd4ce49-25f0-4020-bfb7-a0e8adc07c24",
+      "SMPS(3.3 V)"
+    ],
+    [
+      "9b49bd94-3f53-445c-969a-845f5bbf9694",
+      "SMPS"
     ],
     [
       "29e40f37-92ad-48d8-a826-f7dff8f4d82a",
       "DEBUG"
     ],
     [
-      "c8c09d09-edfb-4719-b53d-f0597930b56b",
-      "MCU"
+      "a3be7482-392a-4138-a83a-39c705d4f6cc",
+      "SMPS(5.0 V)"
+    ],
+    [
+      "9b49bd94-3f53-445c-969a-845f5bbf9694",
+      "SMPS"
     ],
     [
       "eb4bc99a-bff4-43e7-a690-ddc781eafea7",
       "EXPANDER"
+    ],
+    [
+      "c8c09d09-edfb-4719-b53d-f0597930b56b",
+      "MCU"
     ],
     [
       "3f2d8199-33e9-456c-b5a1-16126a4e29ed",

@@ -663,7 +663,7 @@
       "MONITOR1"
     ],
     [
-      "3f2d8199-33e9-456c-b5a1-16126a4e29ed",
+      "fd3f1189-33c7-4694-b893-b6769cf32056",
       "CAN"
     ],
     [
@@ -683,7 +683,7 @@
       "MAGNETORQUER_Z"
     ],
     [
-      "ace0dddc-e7de-4238-9577-ce744b7cdb3f",
+      "5d95f24e-69a0-4585-974a-64f0c2602c3c",
       "COMMAND1"
     ],
     [
@@ -691,12 +691,12 @@
       "MAGNETORQUER_X+"
     ],
     [
-      "3f2d8199-33e9-456c-b5a1-16126a4e29ed",
-      "CAN"
+      "cb18dbec-8103-4a1e-8186-57440c4fcd2d",
+      "EFUSE_LATCHED"
     ],
     [
-      "29e40f37-92ad-48d8-a826-f7dff8f4d82a",
-      "DEBUG"
+      "c8c09d09-edfb-4719-b53d-f0597930b56b",
+      "MCU"
     ],
     [
       "b86aa1f1-85e0-4f80-b2fe-806e22786dab",
@@ -751,12 +751,56 @@
       "EXPANDER"
     ],
     [
-      "cb18dbec-8103-4a1e-8186-57440c4fcd2d",
+      "29e40f37-92ad-48d8-a826-f7dff8f4d82a",
+      "DEBUG"
+    ],
+    [
+      "fd3f1189-33c7-4694-b893-b6769cf32056",
+      "CAN"
+    ],
+    [
+      "8d2ef980-89e5-4a91-bb16-014456652ca6",
+      "EFUSE_LATCHED1"
+    ],
+    [
+      "1dd4ce49-25f0-4020-bfb7-a0e8adc07c24",
+      "SMPS(3.3 V)"
+    ],
+    [
+      "0c778c24-e804-4e7a-a7ec-0e61d23660cd",
+      "EFUSE_LATCHED2"
+    ],
+    [
+      "9b49bd94-3f53-445c-969a-845f5bbf9694",
+      "SMPS"
+    ],
+    [
+      "225a98f3-f595-40fb-98a2-a3c507f7e1c7",
+      "EFUSE_LATCHED3"
+    ],
+    [
+      "02de0640-c7f1-456e-993e-5397c052da9c",
       "EFUSE_LATCHED"
     ],
     [
-      "c8c09d09-edfb-4719-b53d-f0597930b56b",
-      "MCU"
+      "02de0640-c7f1-456e-993e-5397c052da9c",
+      "EFUSE_LATCHED"
+    ],
+    [
+      "02de0640-c7f1-456e-993e-5397c052da9c",
+      "EFUSE_LATCHED"
+    ],
+    [
+      "02de0640-c7f1-456e-993e-5397c052da9c",
+      "EFUSE_LATCHED"
+    ],
+    [
+      "1dd4ce49-25f0-4020-bfb7-a0e8adc07c24",
+      "SMPS(3.3 V)"
+    ],
+    [
+      "9b49bd94-3f53-445c-969a-845f5bbf9694",
+      "SMPS"
     ]
   ],
   "text_variables": {}

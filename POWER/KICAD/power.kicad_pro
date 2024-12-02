@@ -236,7 +236,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "CUBESAT"
+    ]
   },
   "meta": {
     "filename": "power.kicad_pro",
@@ -401,7 +403,7 @@
     ],
     [
       "58fd429d-e8bc-4dae-9d70-752a4565c9e8",
-      "BATTERY_MODULE"
+      "POWER_MODULE"
     ],
     [
       "2e64aba1-9872-4229-a91b-1ccd7b04c751",
@@ -412,28 +414,72 @@
       "CONNECTOR_X+"
     ],
     [
-      "b44fa901-dbbb-4255-9c8a-45abddcd36be",
-      "QFET"
+      "7c832478-9010-4a40-9a07-45e1d4589332",
+      "EFUSE_LATCHED1"
     ],
     [
-      "c156077b-ae29-4617-92c3-7939e0ba3491",
-      "MONITOR"
+      "58d3c8ad-efab-4066-aac0-52f2e936aa90",
+      "SMPS(3.3 V)1"
     ],
     [
-      "3f30ce55-3b73-438a-8098-a0113cf13b97",
-      "MPPT"
-    ],
-    [
-      "eadfe1de-76fa-4ba7-8aca-8d629af1bd01",
-      "MONITOR1"
+      "6cc64a2d-93ee-420a-962c-7def1761cc5b",
+      "SOLAR MODULE1"
     ],
     [
       "272627ea-7474-456d-81ae-5f6b1fdd0a68",
-      "BATTERY"
+      "BATTERY_MODULE"
     ],
     [
       "682a7ccb-ae4e-4e27-aa22-99379a5a65e4",
       "COMMAND"
+    ],
+    [
+      "9b49bd94-3f53-445c-969a-845f5bbf9694",
+      "SMPS"
+    ],
+    [
+      "2708a68d-1022-4340-b2e0-aa371803758b",
+      "TEMPERATURE_SENSOR"
+    ],
+    [
+      "6837e5b5-d444-43fa-a505-5428fe2a3f00",
+      "EFUSE ORING"
+    ],
+    [
+      "6837e5b5-d444-43fa-a505-5428fe2a3f00",
+      "EFUSE ORING"
+    ],
+    [
+      "3b92c93b-7605-46d6-9928-7b161091704f",
+      "MPPT"
+    ],
+    [
+      "4ea2810e-4717-4e38-a293-78c5d721b886",
+      "SOLAR MODULE"
+    ],
+    [
+      "a2bc830c-087c-4aeb-9032-e6842741e5e9",
+      "MONITOR"
+    ],
+    [
+      "a2bc830c-087c-4aeb-9032-e6842741e5e9",
+      "MONITOR"
+    ],
+    [
+      "3b92c93b-7605-46d6-9928-7b161091704f",
+      "MPPT"
+    ],
+    [
+      "eb4bc99a-bff4-43e7-a690-ddc781eafea7",
+      "EXPANDER"
+    ],
+    [
+      "fd3f1189-33c7-4694-b893-b6769cf32056",
+      "CAN"
+    ],
+    [
+      "c8c09d09-edfb-4719-b53d-f0597930b56b",
+      "MCU"
     ],
     [
       "cb18dbec-8103-4a1e-8186-57440c4fcd2d",
@@ -444,24 +490,12 @@
       "DEBUG"
     ],
     [
-      "c8c09d09-edfb-4719-b53d-f0597930b56b",
-      "MCU"
+      "1dd4ce49-25f0-4020-bfb7-a0e8adc07c24",
+      "SMPS(3.3 V)"
     ],
     [
-      "eb4bc99a-bff4-43e7-a690-ddc781eafea7",
-      "EXPANDER"
-    ],
-    [
-      "3f2d8199-33e9-456c-b5a1-16126a4e29ed",
-      "CAN"
-    ],
-    [
-      "8fddf8f7-b62c-4c22-a1ec-6fda59926f37",
-      "MPPT1"
-    ],
-    [
-      "3638ca90-9701-4456-8013-6f74e8e57495",
-      "TEMPERATURE_SENSOR"
+      "9b49bd94-3f53-445c-969a-845f5bbf9694",
+      "SMPS"
     ]
   ],
   "text_variables": {}

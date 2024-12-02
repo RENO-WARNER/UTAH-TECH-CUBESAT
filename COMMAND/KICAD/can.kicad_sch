@@ -5,7 +5,7 @@
 	(uuid "67571d53-25f1-4aff-801d-10e8dc34f95d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CUBESAT:TCANC3403DR-Q1"
+		(symbol "CUBESAT:TCANC3413DDF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -17,7 +17,7 @@
 					)
 				)
 			)
-			(property "Value" "TCAN3403DRB-Q1"
+			(property "Value" "TCAN3413DDFR"
 				(at 0.508 11.176 0)
 				(effects
 					(font
@@ -26,7 +26,7 @@
 				)
 			)
 			(property "Footprint" "Package_DFN_QFN:Texas_DRB0008J"
-				(at -8.89 7.62 0)
+				(at 0.254 0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,8 +34,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3403-q1.pdf"
-				(at 34.29 10.16 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3413.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -43,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TCAN340x-Q1 3.3V Automotive CAN FD Transceivers with Standby Mode and ±58V bus Standoff"
+			(property "Description" "TCAN340x 3.3V CAN FD Transceivers with Standby Mode and ±58V bus Standoff"
 				(at 47.498 29.718 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TCANC3403DR-Q1_0_0"
+			(symbol "TCANC3413DDF_0_0"
 				(pin input line
 					(at -8.89 7.62 0)
 					(length 2.54)
@@ -198,7 +198,7 @@
 					)
 				)
 			)
-			(symbol "TCANC3403DR-Q1_1_1"
+			(symbol "TCANC3413DDF_1_1"
 				(rectangle
 					(start -6.35 10.16)
 					(end 7.62 -10.16)
@@ -359,7 +359,7 @@
 		(uuid "6725a9d2-cde1-49fa-8f51-91250546211f")
 	)
 	(bus_entry
-		(at 179.07 95.25)
+		(at 175.26 95.25)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -377,7 +377,7 @@
 		(uuid "99040695-0dc0-444c-af4d-f44e2aa470d1")
 	)
 	(bus_entry
-		(at 179.07 97.79)
+		(at 175.26 97.79)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -387,13 +387,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 100.33) (xy 176.53 100.33)
+			(xy 166.37 100.33) (xy 172.72 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "089e49aa-e985-4758-b38c-c222d894ed47")
+	)
+	(bus
+		(pts
+			(xy 175.26 91.44) (xy 185.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5b9eec-d9e1-458c-b649-61194a05e616")
 	)
 	(wire
 		(pts
@@ -427,7 +437,7 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 95.25) (xy 179.07 97.79)
+			(xy 175.26 95.25) (xy 175.26 97.79)
 		)
 		(stroke
 			(width 0)
@@ -455,19 +465,9 @@
 		)
 		(uuid "37c648ae-7416-44bf-87c2-c3504daab4e4")
 	)
-	(bus
-		(pts
-			(xy 191.77 91.44) (xy 179.07 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "472b3dda-3e62-404e-9d65-74bac29bf832")
-	)
 	(wire
 		(pts
-			(xy 166.37 97.79) (xy 176.53 97.79)
+			(xy 166.37 97.79) (xy 172.72 97.79)
 		)
 		(stroke
 			(width 0)
@@ -497,7 +497,7 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 91.44) (xy 179.07 95.25)
+			(xy 175.26 91.44) (xy 175.26 95.25)
 		)
 		(stroke
 			(width 0)
@@ -566,8 +566,8 @@
 		(uuid "ead359b3-ad0a-4704-a293-84a7ee65629f")
 	)
 	(rectangle
-		(start 58.42 83.82)
-		(end 100.33 121.92)
+		(start 59.055 83.185)
+		(end 100.965 121.285)
 		(stroke
 			(width 0)
 			(type default)
@@ -589,9 +589,9 @@
 		)
 		(uuid 7a18380c-68fa-4670-b08c-2c8dc2141f82)
 	)
-	(text "STB HAS PULLUP"
+	(text "STANDBY\n	PULL UP\n	ACTIVE HIGH"
 		(exclude_from_sim no)
-		(at 114.3 86.36 0)
+		(at 119.38 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -600,9 +600,9 @@
 		)
 		(uuid "137517c0-d2cb-4b59-b5f4-4269a7aa99ab")
 	)
-	(text "CAN IS HI-Z WHEN UNPOWERED\n"
+	(text "CAN\n	UNPOWERED: HI-Z"
 		(exclude_from_sim no)
-		(at 170.18 86.36 0)
+		(at 172.72 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -613,7 +613,7 @@
 	)
 	(text "DECOUPLING CAPS"
 		(exclude_from_sim no)
-		(at 62.23 86.36 0)
+		(at 60.96 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -622,9 +622,9 @@
 		)
 		(uuid "964e8525-805f-4f4d-9972-d5cac2a9ac46")
 	)
-	(text "VERIFICATION\nSYMBOL: X\nSCHEMATIC: X\nFOOTPRINT: X\nBOARD: "
+	(text "VERIFICATION\n	SYMBOL: X\n	SCHEMATIC: X\n	FOOTPRINT: X\n	BOARD: "
 		(exclude_from_sim no)
-		(at 163.83 64.008 0)
+		(at 119.38 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -632,17 +632,6 @@
 			(justify left top)
 		)
 		(uuid "e1865d74-9b46-4ab0-8d92-ce35562ca0a2")
-	)
-	(text "STANDBY IS ACTIVE HIGH"
-		(exclude_from_sim no)
-		(at 114.3 84.328 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "efab095e-ea1c-49ef-9e70-f17a4d949a31")
 	)
 	(label "CAN_I{RX TX}"
 		(at 130.81 92.71 180)
@@ -655,8 +644,8 @@
 		)
 		(uuid "52953821-38e4-490c-b7a5-bd3e7a7bb717")
 	)
-	(label "CAN_O{H L}"
-		(at 179.07 91.44 0)
+	(label "{CAN}"
+		(at 177.8 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -688,7 +677,7 @@
 		)
 		(uuid "a48cd05c-ebbc-4507-8a37-21a6e28948ea")
 	)
-	(label "CAN.H"
+	(label "H"
 		(at 168.91 97.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -699,7 +688,7 @@
 		)
 		(uuid "b17d0945-004c-4c25-a79c-d7752a4dd864")
 	)
-	(label "CAN.L"
+	(label "L"
 		(at 168.91 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -722,9 +711,9 @@
 		)
 		(uuid "0099cb3c-b6ad-43ef-a7ee-4e401a313008")
 	)
-	(hierarchical_label "CAN_O{H L}"
+	(hierarchical_label "{CAN}"
 		(shape input)
-		(at 191.77 91.44 0)
+		(at 185.42 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -831,7 +820,7 @@
 		(uuid "fd563b5a-35fc-4694-94df-30080050e740")
 	)
 	(symbol
-		(lib_id "CUBESAT:TCANC3403DR-Q1")
+		(lib_id "CUBESAT:TCANC3413DDF")
 		(at 156.21 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -839,8 +828,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17fa69b0-3452-483f-bc4e-33d9a8a0f14c")
-		(property "Reference" "U6"
+		(uuid "587e252a-6093-41c1-b629-8ebf55e83eec")
+		(property "Reference" "U5"
 			(at 156.845 90.17 0)
 			(effects
 				(font
@@ -848,7 +837,7 @@
 				)
 			)
 		)
-		(property "Value" "TCAN3403-Q1"
+		(property "Value" "TCAN3413DDFR"
 			(at 156.845 92.71 0)
 			(effects
 				(font
@@ -857,7 +846,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Texas_DRB0008J"
-			(at 147.32 97.79 0)
+			(at 156.464 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -865,8 +854,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3403-q1.pdf"
-			(at 190.5 95.25 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3413.pdf"
+			(at 156.21 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TCAN340x-Q1 3.3V Automotive CAN FD Transceivers with Standby Mode and ±58V bus Standoff"
+		(property "Description" "TCAN340x 3.3V CAN FD Transceivers with Standby Mode and ±58V bus Standoff"
 			(at 203.708 75.692 0)
 			(effects
 				(font
@@ -883,38 +872,44 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "93cb937f-f15f-4cfe-b678-b312698e2a94")
-		)
-		(pin "2"
-			(uuid "a73aea02-dd85-46e8-8086-eb55d45086c9")
-		)
-		(pin "3"
-			(uuid "e2a39a5a-3483-45da-afa0-9584afb53a0c")
-		)
-		(pin "4"
-			(uuid "30af0857-5ccd-4e44-bd6a-68a8fb62e034")
-		)
-		(pin "6"
-			(uuid "a8e10022-d906-4235-b369-8bc2190f11c0")
+		(pin "7"
+			(uuid "230f7883-2d7a-43a8-81b0-b760faad6e90")
 		)
 		(pin "5"
-			(uuid "8cf01070-c2eb-4f47-9285-22636e18e96d")
+			(uuid "8d67fb44-4b8d-41a6-929f-99f7a6c2a66b")
 		)
 		(pin "8"
-			(uuid "392d72cb-18f0-43ba-8b7a-72cfeea77c7a")
+			(uuid "f6b2d5d4-4f75-40e1-ba43-95669c325adc")
 		)
-		(pin "7"
-			(uuid "7ed41c52-bf71-4634-847c-7130edb4471e")
+		(pin "2"
+			(uuid "9052e4a6-3870-4c06-a368-47cd719c6e88")
+		)
+		(pin "1"
+			(uuid "1e89dac1-c21d-4a66-a7c2-f6ff78398150")
+		)
+		(pin "6"
+			(uuid "7505c254-d395-465b-8e6c-d26049c9491d")
+		)
+		(pin "4"
+			(uuid "6099ec6e-510e-48d1-b815-75752c32ced0")
+		)
+		(pin "3"
+			(uuid "467a2578-352f-4b18-b61d-61463d57dc6b")
 		)
 		(instances
 			(project "control"
-				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501/ace0dddc-e7de-4238-9577-ce744b7cdb3f/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
-					(reference "U21")
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501/5d95f24e-69a0-4585-974a-64f0c2602c3c/fd3f1189-33c7-4694-b893-b6769cf32056"
+					(reference "U5")
 					(unit 1)
 				)
-				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/94383bfe-d869-4ac9-b660-9c199e344f31/9d3a0f9f-9dfc-4311-9915-9308a3fac81f/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
-					(reference "U6")
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/94383bfe-d869-4ac9-b660-9c199e344f31/9d3a0f9f-9dfc-4311-9915-9308a3fac81f/fd3f1189-33c7-4694-b893-b6769cf32056"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/682a7ccb-ae4e-4e27-aa22-99379a5a65e4/fd3f1189-33c7-4694-b893-b6769cf32056"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -976,18 +971,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "754a4f28-6a24-4cca-b9bb-c3f6aed90d75")
+			(uuid "5439da82-d46c-44c2-adc8-3c9da46aa37a")
 		)
 		(pin "2"
-			(uuid "9e7527ef-5f5b-4c67-86e4-af9664389742")
+			(uuid "6439db05-79f1-4a98-9e51-08fe443da332")
 		)
 		(instances
 			(project "control"
-				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501/ace0dddc-e7de-4238-9577-ce744b7cdb3f/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
-					(reference "C82")
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501/5d95f24e-69a0-4585-974a-64f0c2602c3c/fd3f1189-33c7-4694-b893-b6769cf32056"
+					(reference "C32")
 					(unit 1)
 				)
-				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/94383bfe-d869-4ac9-b660-9c199e344f31/9d3a0f9f-9dfc-4311-9915-9308a3fac81f/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/94383bfe-d869-4ac9-b660-9c199e344f31/9d3a0f9f-9dfc-4311-9915-9308a3fac81f/fd3f1189-33c7-4694-b893-b6769cf32056"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/682a7ccb-ae4e-4e27-aa22-99379a5a65e4/fd3f1189-33c7-4694-b893-b6769cf32056"
 					(reference "C32")
 					(unit 1)
 				)
@@ -1050,18 +1051,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "8471ab7c-1a1d-4664-9a0b-ae5bac73d1ce")
+			(uuid "4c48e306-5d6c-4a89-83a1-a6027c931aea")
 		)
 		(pin "2"
-			(uuid "d3434010-7b3b-4f86-a6a9-ccd6c0ff834b")
+			(uuid "c6268be5-287b-4961-9bec-54760945d707")
 		)
 		(instances
 			(project "control"
-				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501/ace0dddc-e7de-4238-9577-ce744b7cdb3f/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
-					(reference "C81")
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/29a81977-0a76-472b-8d88-45695e75b501/5d95f24e-69a0-4585-974a-64f0c2602c3c/fd3f1189-33c7-4694-b893-b6769cf32056"
+					(reference "C31")
 					(unit 1)
 				)
-				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/94383bfe-d869-4ac9-b660-9c199e344f31/9d3a0f9f-9dfc-4311-9915-9308a3fac81f/3f2d8199-33e9-456c-b5a1-16126a4e29ed"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829/94383bfe-d869-4ac9-b660-9c199e344f31/9d3a0f9f-9dfc-4311-9915-9308a3fac81f/fd3f1189-33c7-4694-b893-b6769cf32056"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/682a7ccb-ae4e-4e27-aa22-99379a5a65e4/fd3f1189-33c7-4694-b893-b6769cf32056"
 					(reference "C31")
 					(unit 1)
 				)

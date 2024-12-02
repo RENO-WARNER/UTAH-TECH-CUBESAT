@@ -681,17 +681,6 @@
 		)
 		(uuid "179df04b-a0cf-4d57-aecd-6fea66de4276")
 	)
-	(label "PE[0..15]"
-		(at 83.82 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19a78654-1c7d-4a6a-83f2-85affd9fd74b")
-	)
 	(label "I2C3.SCL"
 		(at 259.08 132.08 90)
 		(fields_autoplaced yes)
@@ -702,17 +691,6 @@
 			(justify left bottom)
 		)
 		(uuid "3774d64a-7689-4ba7-9611-e7ae912066bb")
-	)
-	(label "PA[0..15]"
-		(at 83.82 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4cd5f566-9260-4cdc-b582-c85014081cfc")
 	)
 	(label "CONTROL_2{BRAKE PWM FAULT SLEEP DRVOFF FGOUT}"
 		(at 163.83 62.23 180)
@@ -791,17 +769,6 @@
 		)
 		(uuid "8ac3e409-6dec-4846-84b4-ca78601a8650")
 	)
-	(label "CONTROL_4{BRAKE PWM FAULT SLEEP DRVOFF FGOUT}"
-		(at 198.12 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8c350eed-839c-4486-b4e5-6326a8346636")
-	)
 	(label "I2C3"
 		(at 78.74 151.13 180)
 		(fields_autoplaced yes)
@@ -835,17 +802,6 @@
 		)
 		(uuid "91b5d963-9c1a-498b-a8a5-9e9d0b3b206c")
 	)
-	(label "PD[0..15]"
-		(at 83.82 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98b27d6a-6fdd-47c9-b226-5e699ed85121")
-	)
 	(label "I2C3"
 		(at 163.83 120.65 180)
 		(fields_autoplaced yes)
@@ -857,28 +813,6 @@
 		)
 		(uuid "9bb63bdc-ddf6-457e-86a4-127630302586")
 	)
-	(label "PC[0..15]"
-		(at 83.82 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a95e2d11-5ab6-4fcc-9f74-c29bc9fc36c5")
-	)
-	(label "PB[0..15]"
-		(at 83.82 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae126685-7e65-4ec1-ba6a-c3de49038a29")
-	)
 	(label "I2C3"
 		(at 78.74 170.18 180)
 		(fields_autoplaced yes)
@@ -889,17 +823,6 @@
 			(justify right bottom)
 		)
 		(uuid "c2c18d5d-eb07-4def-8e07-e8e97cf428b6")
-	)
-	(label "PH[0..3]"
-		(at 83.82 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca76f5d6-f477-4c9b-9b22-69fdf231e727")
 	)
 	(label "I2C3"
 		(at 163.83 67.31 180)
@@ -969,7 +892,7 @@
 		)
 		(uuid "2bfb981b-c18a-47a6-be15-a3cdfd1f9908")
 	)
-	(hierarchical_label "CAN{H L}"
+	(hierarchical_label "{CAN}"
 		(shape bidirectional)
 		(at 34.29 87.63 180)
 		(fields_autoplaced yes)
@@ -1089,7 +1012,7 @@
 		)
 		(uuid "e11374cb-592a-4615-b398-695ce87be03d")
 	)
-	(hierarchical_label "I2C{SCL SDA}"
+	(hierarchical_label "{I2C}"
 		(shape bidirectional)
 		(at 34.29 90.17 180)
 		(fields_autoplaced yes)
@@ -1521,7 +1444,7 @@
 			)
 			(uuid "368b1250-e642-4ae0-af07-c9ec44bab5d3")
 		)
-		(pin "SPI" bidirectional
+		(pin "{SPI}" bidirectional
 			(at 166.37 118.11 180)
 			(effects
 				(font
@@ -1589,7 +1512,7 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C{SCL SDA}" bidirectional
+		(pin "{I2C}" bidirectional
 			(at 36.83 90.17 180)
 			(effects
 				(font
@@ -1619,7 +1542,7 @@
 			)
 			(uuid "bfa59f83-b0ca-42eb-b688-d50f8a297277")
 		)
-		(pin "CAN{H L}" input
+		(pin "{CAN}" input
 			(at 36.83 87.63 180)
 			(effects
 				(font
@@ -1628,56 +1551,6 @@
 				(justify left)
 			)
 			(uuid "6a16922e-889c-4d17-b0f1-ad2761b3b565")
-		)
-		(pin "PD[0..15]" bidirectional
-			(at 81.28 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5f49238e-85b9-45c4-966d-d4ed9b256809")
-		)
-		(pin "PB[0..15]" bidirectional
-			(at 81.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "025621e0-2e45-49ee-9599-185f8bc92b10")
-		)
-		(pin "PH[0..3]" bidirectional
-			(at 81.28 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2fa48da3-55ce-4cbf-b113-654c598b9a72")
-		)
-		(pin "PC[0..15]" bidirectional
-			(at 81.28 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a844d574-7cc7-4a6a-960d-339a7b5a8eba")
-		)
-		(pin "PA[0..15]" bidirectional
-			(at 81.28 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d87f3b97-6a30-4db1-849e-d7da0beef0d7")
 		)
 		(pin "V_LV" input
 			(at 36.83 99.06 180)
@@ -1699,7 +1572,47 @@
 			)
 			(uuid "42a4fe61-3925-4b98-96c6-e02cd49fff8a")
 		)
-		(pin "PE[0..15]" bidirectional
+		(pin "{PD}" bidirectional
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd996f16-df50-4703-b82b-f1e2797f1b6c")
+		)
+		(pin "{PB}" bidirectional
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "28edd303-1c76-4bce-a467-0f934060204e")
+		)
+		(pin "{PA}" bidirectional
+			(at 81.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de6153e3-b68a-49fb-9f54-45ea1a5a328b")
+		)
+		(pin "{PC}" bidirectional
+			(at 81.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7745b1cd-8680-4f10-af45-6ec82e38be4b")
+		)
+		(pin "{PE}" bidirectional
 			(at 81.28 96.52 0)
 			(effects
 				(font
@@ -1707,7 +1620,17 @@
 				)
 				(justify right)
 			)
-			(uuid "82844633-db59-47e5-b58b-9589f591593e")
+			(uuid "355d7989-1cc9-49b3-a0b6-1ae70146d2c1")
+		)
+		(pin "{PH}" bidirectional
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f467f74-957b-4a7a-803a-a7be52d39d85")
 		)
 		(instances
 			(project "control"
@@ -1767,7 +1690,7 @@
 			)
 			(uuid "0dd08261-7aa6-4ac0-8211-4b3618a24914")
 		)
-		(pin "I2C" bidirectional
+		(pin "{I2c}" bidirectional
 			(at 81.28 170.18 180)
 			(effects
 				(font
@@ -1865,7 +1788,7 @@
 			)
 			(uuid "3aa74a79-dadb-478c-b77c-89eaee9ea9da")
 		)
-		(pin "I2C" bidirectional
+		(pin "{I2C}" bidirectional
 			(at 81.28 151.13 180)
 			(effects
 				(font
@@ -1953,7 +1876,7 @@
 			)
 			(uuid "9a8dcb77-01d7-480f-8d9c-79dd2a0c6346")
 		)
-		(pin "SPI" bidirectional
+		(pin "{SPI}" bidirectional
 			(at 166.37 91.44 180)
 			(effects
 				(font
@@ -1963,7 +1886,7 @@
 			)
 			(uuid "39d2dc7c-c768-42f5-a89b-aa16cada3b47")
 		)
-		(pin "CONTROL" bidirectional
+		(pin "CONTROL_4{CONTROL}" bidirectional
 			(at 166.37 88.9 180)
 			(effects
 				(font

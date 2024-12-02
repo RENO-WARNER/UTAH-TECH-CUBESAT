@@ -1491,6 +1491,85 @@
 		)
 		(uuid "ffa36473-7abb-4fa8-80c0-8c0e4224c62f")
 	)
+	(rectangle
+		(start -7.62 149.86)
+		(end 177.8 236.22)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7a4ea960-bcaa-405d-92b1-e5408bb5361f)
+	)
+	(rectangle
+		(start 106.68 50.8)
+		(end 292.1 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ec3341ab-dffd-41b9-9b8b-1df4ce18511e)
+	)
+	(text "TEMP SENSOR"
+		(exclude_from_sim no)
+		(at 2.54 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1ab34c48-b9f2-4c2e-a9a5-1245e7b8bf17")
+	)
+	(text "PROTECTOR / BALANCER / MONITOR"
+		(exclude_from_sim no)
+		(at 109.22 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "afbb10c9-72e6-4136-b0ed-b5198adb303e")
+	)
+	(text "TEST POINTS TO SIMULATE BATTERY"
+		(exclude_from_sim no)
+		(at 170.18 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "afe6be6f-7d5f-49d1-9d85-6456a5acbe98")
+	)
+	(text "HEATER"
+		(exclude_from_sim no)
+		(at -5.08 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ebdc38fa-0679-4111-82df-d748a1d96057")
+	)
+	(text "TEST POINTS FOR BATTERY ALONG JUMPERS TO HANDLE BATTERIES\nTEST POINTS TO CHARGE BATTERIES EXTERNALLY?"
+		(exclude_from_sim no)
+		(at 170.18 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f29be3dd-5430-4846-b38a-5ab5c063ed2d")
+	)
 	(label "SCL"
 		(at 259.08 86.36 180)
 		(fields_autoplaced yes)

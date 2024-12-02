@@ -103,7 +103,7 @@
 		)
 	)
 	(bus_alias "CONTROL"
-		(members "BRAKE" "PWM" "FAULT" "SLEEP" "DRVOFF" "FGOUT}")
+		(members "BRAKE" "PWM" "FAULT" "SLEEP" "DRVOFF" "FGOUT")
 	)
 	(bus_alias "I2C"
 		(members "SCL" "SDA")
@@ -403,6 +403,16 @@
 		)
 		(uuid "9c1c6981-57bf-4d12-bf8e-69ce0ec6bc77")
 	)
+	(wire
+		(pts
+			(xy 172.72 107.95) (xy 170.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2705348-ee66-436c-b4f2-2879d0deefce")
+	)
 	(bus
 		(pts
 			(xy 76.2 193.04) (xy 76.2 194.31)
@@ -663,6 +673,73 @@
 			(justify right bottom)
 		)
 		(uuid "ff4d9783-3b57-4e3f-aa28-a48377904377")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10c8a62e-830f-4457-9603-122a6236ea7f")
+		(property "Reference" "#PWR06"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaa72d1f-ea8e-49cc-bb5a-9eee8f6ce433")
+		)
+		(instances
+			(project "control"
+				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1029,6 +1106,46 @@
 				(justify left top)
 			)
 		)
+		(pin "V_GND" input
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0c5ca45-6347-4ae9-89ae-569f09f6c845")
+		)
+		(pin "V_3.3" input
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4cc353d7-3666-44fe-a8a7-7f1e1d25bc78")
+		)
+		(pin "{I2C}" bidirectional
+			(at 115.57 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f8fdbd6-07cd-40e5-8ec8-770848679641")
+		)
+		(pin "{CAN}" bidirectional
+			(at 115.57 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3c467b3-fb98-4f76-a6de-51c52a193b32")
+		)
 		(instances
 			(project "control"
 				(path "/c4b3c8f9-82bd-4648-8d22-870bf16aa829"
@@ -1107,7 +1224,7 @@
 			)
 			(uuid "63a7a504-5416-4640-99ce-d9c28d008bc4")
 		)
-		(pin "CAN" bidirectional
+		(pin "{CAN}" bidirectional
 			(at 115.57 60.96 180)
 			(effects
 				(font
@@ -1117,7 +1234,7 @@
 			)
 			(uuid "af502090-bc9f-433d-a9ed-5a1988faf2a1")
 		)
-		(pin "I2C" bidirectional
+		(pin "{I2C}" bidirectional
 			(at 115.57 63.5 180)
 			(effects
 				(font
@@ -1175,7 +1292,7 @@
 			)
 			(uuid "d2952475-96db-4525-a5a3-e6b1e781ed34")
 		)
-		(pin "CAN" bidirectional
+		(pin "{CAN}" bidirectional
 			(at 40.64 93.98 0)
 			(effects
 				(font
@@ -1185,7 +1302,7 @@
 			)
 			(uuid "4f510cb4-72aa-4a43-8520-260d7ca2c665")
 		)
-		(pin "I2C" bidirectional
+		(pin "{I2C}" bidirectional
 			(at 40.64 96.52 0)
 			(effects
 				(font
@@ -1265,17 +1382,7 @@
 			)
 			(uuid "b1063111-fd2f-4a7f-a795-787d38fb028b")
 		)
-		(pin "CAN{H L}" bidirectional
-			(at 40.64 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "68ba68a4-9ba6-4a07-8713-32d877acc5b6")
-		)
-		(pin "USB{DP DM}" bidirectional
+		(pin "{USB}" bidirectional
 			(at 40.64 72.39 0)
 			(effects
 				(font

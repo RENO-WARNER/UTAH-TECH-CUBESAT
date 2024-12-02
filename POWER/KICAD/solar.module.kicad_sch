@@ -1,0 +1,125 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6ccb6545-040c-40d3-866a-ab4aa30db901")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 66.04 76.2)
+		(size 73.66 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b92c93b-7605-46d6-9928-7b161091704f")
+		(property "Sheetname" "MPPT"
+			(at 66.04 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mppt.kicad_sch"
+			(at 66.04 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/4ea2810e-4717-4e38-a293-78c5d721b886"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 74.93)
+		(size 73.66 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6837e5b5-d444-43fa-a505-5428fe2a3f00")
+		(property "Sheetname" "EFUSE ORING"
+			(at 147.32 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mppt.kicad_sch"
+			(at 147.32 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/6cc64a2d-93ee-420a-962c-7def1761cc5b"
+					(page "13")
+				)
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/4ea2810e-4717-4e38-a293-78c5d721b886"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -10.795 78.105)
+		(size 66.04 28.575)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a2bc830c-087c-4aeb-9032-e6842741e5e9")
+		(property "Sheetname" "MONITOR"
+			(at -10.795 77.3934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "monitor.kicad_sch"
+			(at -10.795 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/ef47adc1-536f-4520-9ebd-fa1d01e89711/58fd429d-e8bc-4dae-9d70-752a4565c9e8/4ea2810e-4717-4e38-a293-78c5d721b886"
+					(page "25")
+				)
+			)
+		)
+	)
+)

@@ -213,7 +213,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "58fd429d-e8bc-4dae-9d70-752a4565c9e8")
-		(property "Sheetname" "BATTERY_MODULE"
+		(property "Sheetname" "POWER_MODULE"
 			(at 201.93 95.8084 0)
 			(effects
 				(font
@@ -222,7 +222,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "battery_module.kicad_sch"
+		(property "Sheetfile" "power.module.kicad_sch"
 			(at 201.93 100.9146 0)
 			(effects
 				(font

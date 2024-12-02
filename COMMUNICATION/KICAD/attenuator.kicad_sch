@@ -345,7 +345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea567139-0033-47f9-9092-75e21b52bbdf")
-		(property "Reference" "U1"
+		(property "Reference" "U9"
 			(at 151.13 83.566 0)
 			(effects
 				(font
@@ -389,29 +389,29 @@
 			)
 		)
 		(pin "3"
-			(uuid "24ef3069-70ef-4b83-ada2-c65782a0f2d8")
+			(uuid "b99b29cc-cb57-4a4f-ab9e-0de0b3b4b959")
 		)
 		(pin "1"
-			(uuid "b60c61d1-af1d-4bff-87f4-bcf5f76cdc88")
+			(uuid "d9e826c9-08da-4771-9e8d-c7aa9b1ecac0")
 		)
 		(pin "2"
-			(uuid "daa22ac3-0760-4b7c-a51a-82f804bc9019")
+			(uuid "a0209ea0-fefd-46da-a492-c7c22439efa0")
 		)
 		(instances
 			(project "communication"
-				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/4eb0d389-8a08-4cbf-a5eb-8a7b63640ccd/831451b2-3007-47ac-a3e1-e45c9767ea10"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/4eb0d389-8a08-4cbf-a5eb-8a7b63640ccd/a021a516-f8a2-48a4-8b79-b531761ea9b5"
 					(reference "U1")
 					(unit 1)
 				)
-				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/4eb0d389-8a08-4cbf-a5eb-8a7b63640ccd/c11b217c-e18a-4a41-8758-05d70ecb46e2"
-					(reference "U3")
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/4eb0d389-8a08-4cbf-a5eb-8a7b63640ccd/b90e1395-1e98-4e3a-bf33-85d3c9f53eb2"
+					(reference "U9")
 					(unit 1)
 				)
-				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/e60adf2b-68aa-469a-b511-2688a73729bb/831451b2-3007-47ac-a3e1-e45c9767ea10"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/e60adf2b-68aa-469a-b511-2688a73729bb/a021a516-f8a2-48a4-8b79-b531761ea9b5"
 					(reference "U14")
 					(unit 1)
 				)
-				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/e60adf2b-68aa-469a-b511-2688a73729bb/c11b217c-e18a-4a41-8758-05d70ecb46e2"
+				(path "/5d09a5b0-5470-41ee-acbf-63da99fdcb81/e60adf2b-68aa-469a-b511-2688a73729bb/b90e1395-1e98-4e3a-bf33-85d3c9f53eb2"
 					(reference "U10")
 					(unit 1)
 				)
